@@ -14,10 +14,10 @@ This is the first release of the data.
 
 ## Main contributors
 
-Cristina Bosco - Università di Torino, Dipartimento di Informatica
-Alessandro Lenci - Università di Pisa, Dipartimento di Filologia, Letteratura, Linguistica
-Simonetta Montemagni - Istituto di Linguistica Computazionale A. Zampolli, CNR, Pisa
-Maria Simi - Università di Pisa, Dipartimento di Informatica
+* Cristina Bosco - Università di Torino, Dipartimento di Informatica
+* Alessandro Lenci - Università di Pisa, Dipartimento di Filologia, Letteratura, Linguistica
+* Simonetta Montemagni - Istituto di Linguistica Computazionale A. Zampolli, CNR, Pisa
+* Maria Simi - Università di Pisa, Dipartimento di Informatica
 
 ## Corpus composition
 

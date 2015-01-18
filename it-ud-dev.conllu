@@ -175,7 +175,7 @@
 9	creatività	creatività	NOUN	S	Gender=Fem|Number=Com	6	nmod	_	_
 10	femminile	femminile	ADJ	A	Gender=Com|Number=Sing	9	amod	_	_
 11	bisogna	bisogna	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
-12	ricorrere	ricorrere	VERB	V	VerbForm=Inf	11	ccomp	_	_
+12	ricorrere	ricorrere	VERB	V	VerbForm=Inf	11	xcomp	_	_
 13-14	alla	_	_	_	_	_	_	_	_
 13	a	a	ADP	E	_	15	case	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -193,7 +193,7 @@
 26	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	con	con	ADP	E	_	29	case	_	_
 28	l'	il	DET	RD	Definite=Def|Gender=Com|Number=Sing|PronType=Art	29	det	_	_
-29	esaltare	esaltare	VERB	V	VerbForm=Inf	26	ccomp	_	_
+29	esaltare	esaltare	VERB	V	VerbForm=Inf	26	xcomp	_	_
 30	involontariamente	involontariamente	ADV	B	_	29	advmod	_	_
 31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	genio	genio	NOUN	S	Gender=Masc|Number=Sing	29	dobj	_	_
@@ -399,7 +399,7 @@
 21	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	_
 22	a	a	ADP	E	_	23	case	_	_
 23-24	trovarli	_	_	_	_	_	_	_	_
-23	trovare	trovare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+23	trovare	trovare	VERB	V	VerbForm=Inf	21	xcomp	_	_
 24	li	li	PRON	PC	Gender=Masc|Number=Plur|Person=3	23	dobj	_	_
 25	in	in	ADP	E	_	27	case	_	_
 26	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	27	det	_	_
@@ -1080,7 +1080,7 @@
 33	oggi	oggi	ADV	B	_	34	nmod	_	_
 34	impegnato	impegnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	conj	_	_
 35	a	a	ADP	E	_	36	case	_	_
-36	trovare	trovare	VERB	V	VerbForm=Inf	34	ccomp	_	_
+36	trovare	trovare	VERB	V	VerbForm=Inf	34	xcomp	_	_
 37	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	36	dobj	_	_
 39	negoziale	negoziale	ADJ	A	Gender=Com|Number=Sing	38	amod	_	_
@@ -1792,7 +1792,7 @@
 9	non	non	ADV	BN	PronType=Neg	12	neg	_	_
 10	poter	potere	AUX	VM	VerbForm=Inf|VerbType=Mod	12	aux	_	_
 11	più	più	ADV	B	_	12	advmod	_	_
-12	fumare	fumare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+12	fumare	fumare	VERB	V	VerbForm=Inf	7	xcomp	_	_
 13	(	(	PUNCT	FB	_	17	punct	_	_
 14	in	in	ADP	E	_	15	case	_	_
 15	realtà	realtà	NOUN	S	Gender=Fem|Number=Com	17	nmod	_	_
@@ -1922,7 +1922,7 @@
 1	Si	si	PRON	PC	Gender=Com|Number=Com|Person=3	2	expl	_	_
 2	finirà	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	per	per	ADP	E	_	4	case	_	_
-4	scoprire	scoprire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	scoprire	scoprire	VERB	V	VerbForm=Inf	2	xcomp	_	_
 5	che	che	SCONJ	CS	_	28	mark	_	_
 6	,	,	PUNCT	FF	_	5	punct	_	_
 7	prima	prima	ADV	B	_	9	case	_	_
@@ -2179,7 +2179,7 @@
 2	ancora	ancora	ADV	B	_	3	advmod	_	_
 3	meno	meno	ADV	B	_	4	advmod	_	_
 4	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	immaginare	immaginare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+5	immaginare	immaginare	VERB	V	VerbForm=Inf	4	xcomp	_	_
 6	perché	perché	SCONJ	CS	_	12	mark	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	vostro	vostro	ADJ	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	_
@@ -2364,7 +2364,7 @@
 6	accontentata	accontentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	"	"	PUNCT	FB	_	6	punct	_	_
 8	di	di	ADP	E	_	9	case	_	_
-9	distanziare	distanziare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	distanziare	distanziare	VERB	V	VerbForm=Inf	6	xcomp	_	_
 10	di	di	ADP	E	_	11	case	_	_
 11	43''	43''	X	X	_	9	nmod	_	_
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -3570,12 +3570,12 @@
 7	.	.	PUNCT	FS	_	2	punct	_	_
 
 # isst_tanl sent_id  2966
-1	Ora	ora	ADV	B	_	5	nmod	_	_
-2	barba	barba	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+1	Ora	ora	ADV	B	_	6	nmod	_	_
+2	barba	barba	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	e	e	CONJ	CC	_	2	cc	_	_
 4	baffi	baffo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
-5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	banditi	bandire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	6	cop	_	_
+6	banditi	bandire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 7	,	,	PUNCT	FF	_	6	punct	_	_
 8	a	a	ADP	E	_	9	case	_	_
 9	dispetto	dispetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -3625,7 +3625,7 @@
 46	di	di	ADP	E	_	48	case	_	_
 47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	comando	comando	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
-49	.	.	PUNCT	FS	_	5	punct	_	_
+49	.	.	PUNCT	FS	_	6	punct	_	_
 
 # isst_tanl sent_id  2997
 1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
@@ -3781,7 +3781,7 @@
 18	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin|VerbType=Aux	19	aux	_	_
 19	promesso	promettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	di	di	ADP	E	_	21	case	_	_
-21	presentare	presentare	VERB	V	VerbForm=Inf	19	ccomp	_	_
+21	presentare	presentare	VERB	V	VerbForm=Inf	19	xcomp	_	_
 22	grandi	grande	ADJ	A	Gender=Com|Number=Plur	23	amod	_	_
 23	novità	novità	NOUN	S	Gender=Fem|Number=Com	21	dobj	_	_
 24	anche	anche	ADV	B	_	26	advmod	_	_
@@ -4730,7 +4730,7 @@
 9	"	"	PUNCT	FB	_	10	punct	_	_
 10	continuai	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 11	a	a	ADP	E	_	12	case	_	_
-12	lavorare	lavorare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	lavorare	lavorare	VERB	V	VerbForm=Inf	10	xcomp	_	_
 13	ma	ma	CONJ	CC	_	10	cc	_	_
 14	passai	passare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	conj	_	_
 15	a	a	ADP	E	_	16	case	_	_
@@ -4777,13 +4777,13 @@
 10-11	dell'	_	_	_	_	_	_	_	_
 10	di	di	ADP	E	_	9	mwe	_	_
 11	l'	il	DET	RD	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	_	_
-12	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+12	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
 13	,	,	PUNCT	FF	_	12	punct	_	_
-14	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
-15	convinto	convincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	_
+14	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|VerbType=Cop	15	cop	_	_
+15	convinto	convincere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 16	di	di	ADP	E	_	18	case	_	_
 17	dover	dovere	AUX	VM	VerbForm=Inf|VerbType=Mod	18	aux	_	_
-18	vivere	vivere	VERB	V	VerbForm=Inf	15	ccomp	_	_
+18	vivere	vivere	VERB	V	VerbForm=Inf	15	xcomp	_	_
 19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	vita	vita	NOUN	S	Gender=Fem|Number=Sing	18	dobj	_	_
 21	a	a	ADP	E	_	22	case	_	_
@@ -4817,7 +4817,7 @@
 16	fine	fine	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
 17	a	a	ADP	E	_	18	case	_	_
 18-19	correrne	_	_	_	_	_	_	_	_
-18	correre	correre	VERB	V	VerbForm=Inf	13	ccomp	_	_
+18	correre	correre	VERB	V	VerbForm=Inf	13	xcomp	_	_
 19	ne	ne	PRON	PC	Gender=Com|Number=Com	18	advmod	_	_
 20	anche	anche	ADV	B	_	21	advmod	_	_
 21	20	20	NUM	N	NumType=Card	18	dobj	_	_
@@ -4825,7 +4825,7 @@
 
 # isst_tanl sent_id  3890
 1	a	a	ADP	E	_	2	case	_	_
-2	parlare	parlare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+2	parlare	parlare	VERB	V	VerbForm=Inf	5	xcomp	_	_
 3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	5	cop	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	professor	professore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
@@ -5586,7 +5586,7 @@
 10	,	,	PUNCT	FF	_	3	punct	_	_
 11	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	a	a	ADP	E	_	13	case	_	_
-13	tutelare	tutelare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+13	tutelare	tutelare	VERB	V	VerbForm=Inf	11	xcomp	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	vicino	vicino	NOUN	S	Gender=Masc|Number=Sing	13	dobj	_	_
 16-17	dalla	_	_	_	_	_	_	_	_
@@ -6011,7 +6011,7 @@
 31	mirare	mirare	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
 32	solo	solo	ADV	B	_	34	advmod	_	_
 33	a	a	ADP	E	_	34	case	_	_
-34	far	fare	VERB	V	VerbForm=Inf	31	ccomp	_	_
+34	far	fare	VERB	V	VerbForm=Inf	31	xcomp	_	_
 35	accertare	accertare	VERB	V	VerbForm=Inf	34	ccomp	_	_
 36-37	dal	_	_	_	_	_	_	_	_
 36	da	da	ADP	E	_	38	case	_	_
@@ -8637,7 +8637,7 @@
 12	si	si	PRON	PC	Gender=Com|Number=Com|Person=3	13	expl	_	_
 13	prepara	preparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 14	ad	a	ADP	E	_	15	case	_	_
-15	assistere	assistere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	assistere	assistere	VERB	V	VerbForm=Inf	13	xcomp	_	_
 16	,	,	PUNCT	FF	_	15	punct	_	_
 17-18	nel	_	_	_	_	_	_	_	_
 17	in	in	ADP	E	_	19	case	_	_
@@ -8901,7 +8901,7 @@
 38	finora	finora	ADV	B	_	36	nmod	_	_
 39	,	,	PUNCT	FF	_	36	punct	_	_
 40	a	a	ADP	E	_	41	case	_	_
-41	ottenere	ottenere	VERB	V	VerbForm=Inf	36	ccomp	_	_
+41	ottenere	ottenere	VERB	V	VerbForm=Inf	36	xcomp	_	_
 42	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	41	dobj	_	_
 43	politici	politico	ADJ	A	Gender=Masc|Number=Plur	42	amod	_	_
 44	concreti	concreto	ADJ	A	Gender=Masc|Number=Plur	42	amod	_	_

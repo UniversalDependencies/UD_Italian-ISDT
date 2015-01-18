@@ -366,7 +366,7 @@
 11-12	essersi	_	_	_	_	_	_	_	_
 11	essere	essere	AUX	VA	VerbForm=Inf|VerbType=Aux	13	case	_	_
 12	si	si	PRON	PC	Gender=Com|Number=Com|Person=3	13	expl	_	_
-13	abbattuta	abbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+13	abbattuta	abbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	xcomp	_	_
 14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	sorta	sorta	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
 16	di	di	ADP	E	_	17	case	_	_
@@ -617,7 +617,7 @@
 25	mentre	mentre	SCONJ	CS	_	26	mark	_	_
 26	cercava	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	_
 27	di	di	ADP	E	_	28	case	_	_
-28	difendere	difendere	VERB	V	VerbForm=Inf	26	ccomp	_	_
+28	difendere	difendere	VERB	V	VerbForm=Inf	26	xcomp	_	_
 29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 30	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	28	dobj	_	_
 31-32	della	_	_	_	_	_	_	_	_
@@ -881,7 +881,7 @@
 3	Onu	Onu	PROPN	SP	_	0	root	_	_
 4	ad	a	ADP	E	_	6	case	_	_
 5	aver	avere	AUX	VA	VerbForm=Inf|VerbType=Aux	6	aux	_	_
-6	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+6	subito	subire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	trattamento	trattamento	NOUN	S	Gender=Masc|Number=Sing	6	dobj	_	_
 9	più	più	ADV	B	_	10	advmod	_	_
@@ -1563,7 +1563,7 @@
 12	per	per	ADP	E	_	13	aux	_	_
 13	arrivare	arrivare	VERB	V	VerbForm=Inf	10	acl	_	_
 14	a	a	ADP	E	_	15	case	_	_
-15	girare	girare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	girare	girare	VERB	V	VerbForm=Inf	13	xcomp	_	_
 16	,	,	PUNCT	FF	_	15	punct	_	_
 17	a	a	ADP	E	_	18	aux	_	_
 18	fare	fare	VERB	V	VerbForm=Inf	15	conj	_	_
@@ -2001,7 +2001,7 @@
 7	di	di	ADP	E	_	9	case	_	_
 8	non	non	ADV	BN	PronType=Neg	9	neg	_	_
 9-11	fidarsene	_	_	_	_	_	_	_	_
-9	fidare	fidare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+9	fidare	fidare	VERB	V	VerbForm=Inf	6	xcomp	_	_
 10	se-	se	PRON	PC	Gender=Com|Number=Com|Person=3	9	expl	_	_
 11	ne	ne	PRON	PC	Gender=Com|Number=Com	9	advmod	_	_
 12	appieno	appieno	ADV	B	_	9	advmod	_	_
@@ -2133,7 +2133,7 @@
 1	ora	ora	ADV	B	_	2	nmod	_	_
 2	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	di	di	ADP	E	_	4	case	_	_
-4	scoprire	scoprire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	scoprire	scoprire	VERB	V	VerbForm=Inf	2	xcomp	_	_
 5	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	6	dobj	_	_
 6	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 7	.	.	PUNCT	FS	_	2	punct	_	_
@@ -2222,7 +2222,7 @@
 # isst_tanl sent_id  2464
 1	Continuo	continuare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	E	_	3	case	_	_
-3	notare	notare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	notare	notare	VERB	V	VerbForm=Inf	1	xcomp	_	_
 4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	enfasi	enfasi	NOUN	S	Gender=Fem|Number=Com	3	dobj	_	_
 6	davvero	davvero	ADV	B	_	7	advmod	_	_
@@ -2422,7 +2422,7 @@
 3	Errera	Errera	PROPN	SP	_	2	name	_	_
 4	riuscirà	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	E	_	6	case	_	_
-6	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	sopravvivere	sopravvivere	VERB	V	VerbForm=Inf	4	xcomp	_	_
 7	,	,	PUNCT	FF	_	6	punct	_	_
 8	anche	anche	ADV	B	_	9	advmod	_	_
 9	se	se	SCONJ	CS	_	10	mark	_	_
@@ -2543,7 +2543,7 @@
 8	si	si	PRON	PC	Gender=Com|Number=Com|Person=3	9	expl	_	_
 9	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	di	di	ADP	E	_	11	case	_	_
-11	cadere	cadere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	cadere	cadere	VERB	V	VerbForm=Inf	9	xcomp	_	_
 12	perché	perché	SCONJ	CS	_	16	mark	_	_
 13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	autisti	autista	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
@@ -3048,7 +3048,7 @@
 1	Intanto	intanto	ADV	B	_	2	advmod	_	_
 2	cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	di	di	ADP	E	_	4	case	_	_
-4	visualizzare	visualizzare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	visualizzare	visualizzare	VERB	V	VerbForm=Inf	2	xcomp	_	_
 5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	colori	colore	NOUN	S	Gender=Masc|Number=Plur	4	dobj	_	_
 7	:	:	PUNCT	FC	_	2	punct	_	_
@@ -5876,7 +5876,7 @@
 11	,	,	PUNCT	FF	_	4	punct	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
-14	adotta	adottare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+14	adotta	adottare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
 15	,	,	PUNCT	FF	_	14	punct	_	_
 16	sotto	sotto	ADP	E	_	19	case	_	_
 17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -5890,12 +5890,12 @@
 25	di	di	ADP	E	_	26	case	_	_
 26	legge	legge	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
 27	,	,	PUNCT	FF	_	14	punct	_	_
-28	deve	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	32	aux	_	_
 29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
 31	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
 32-33	presentarli	_	_	_	_	_	_	_	_
-32	presentare	presentare	VERB	V	VerbForm=Inf	28	ccomp	_	_
+32	presentare	presentare	VERB	V	VerbForm=Inf	0	root	_	_
 33	li	li	PRON	PC	Gender=Masc|Number=Plur|Person=3	32	dobj	_	_
 34	per	per	ADP	E	_	36	case	_	_
 35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
@@ -5919,7 +5919,7 @@
 52	entro	entro	ADP	E	_	54	case	_	_
 53	cinque	cinque	NUM	N	NumType=Card	54	nummod	_	_
 54	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	51	nmod	_	_
-55	.	.	PUNCT	FS	_	28	punct	_	_
+55	.	.	PUNCT	FS	_	32	punct	_	_
 
 # tut sent_id  1585
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
@@ -7338,7 +7338,7 @@
 9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux	10	aux	_	_
 10	abituato	abituare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	a	a	ADP	E	_	12	case	_	_
-12	considerare	considerare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	considerare	considerare	VERB	V	VerbForm=Inf	10	xcomp	_	_
 13	chiusa	chiuso	ADJ	A	Gender=Fem|Number=Sing	12	xcomp	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	partita	partita	NOUN	S	Gender=Fem|Number=Sing	12	dobj	_	_
@@ -7557,7 +7557,7 @@
 7	che	che	SCONJ	CS	_	8	mark	_	_
 8	afferma	affermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 9	di	di	ADP	E	_	10	case	_	_
-10	avere	avere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	8	xcomp	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	record	record	NOUN	S	Gender=Masc|Number=Com	10	dobj	_	_
 13	mondiale	mondiale	ADJ	A	Gender=Com|Number=Sing	12	amod	_	_
@@ -8584,7 +8584,7 @@
 6	costretto	costringere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	ad	a	ADP	E	_	8	case	_	_
 8-9	arrendersi	_	_	_	_	_	_	_	_
-8	arrendere	arrendere	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	arrendere	arrendere	VERB	V	VerbForm=Inf	6	xcomp	_	_
 9	si	si	PRON	PC	Gender=Com|Number=Com|Person=3	8	expl	_	_
 10	quasi	quasi	ADV	B	_	12	advmod	_	_
 11	senza	senza	ADP	E	_	12	case	_	_
@@ -9754,7 +9754,7 @@
 3	membri	membro	NOUN	S	Gender=Masc|Number=Plur	2	compound	_	_
 4	provvedono	provvedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	E	_	6	case	_	_
-6	comunicare	comunicare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	comunicare	comunicare	VERB	V	VerbForm=Inf	4	xcomp	_	_
 7-8	alla	_	_	_	_	_	_	_	_
 7	a	a	ADP	E	_	9	case	_	_
 8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -11749,7 +11749,7 @@
 11	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
 12	,	,	PUNCT	FF	_	4	punct	_	_
 13	per	per	ADP	E	_	14	case	_	_
-14	rendere	rendere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+14	rendere	rendere	VERB	V	VerbForm=Inf	4	advmod	_	_
 15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	poco	poco	ADV	B	_	17	advmod	_	_
 17	migliore	migliore	ADJ	A	Degree=Comp|Gender=Com|Number=Sing	14	xcomp	_	_

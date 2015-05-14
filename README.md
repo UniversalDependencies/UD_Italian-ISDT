@@ -10,8 +10,6 @@ ISDT is a resource annotated according to the Stanford dependencies scheme (de M
 The details of the harmonization and conversion process leading to MIDT were discussed in (Bosco, Montemagni, Simi, 2012). The Stanford annotation scheme, obtained from an enriched version of MIDT,
 was adapted to the specificity of the Italian language. We refer to (Bosco, Montemagni, Simi, 2013 and 2014) for a discussion. 
 
-This is Version 1.1 of the data.
-
 ## Main contributors
 
 * Cristina Bosco - Università di Torino, Dipartimento di Informatica
@@ -41,6 +39,20 @@ The Corpus has been randomly splitted (by a script) as follows:
 * it-ud-dev.conllu: 13337 tokens (500 sentences)
 * it-ud-test.conllu: 13255 tokens (500 sentences)
 
+## Version 1.1 15.05.2015 Changelog
+
+This is Version 1.1 of the data, Changes from the previous version include.
+
+* Added Italian section of ParTUT (71645 tokens)
+* Checked SYM
+* Checked X
+* Added more negation adverbs
+* Eliminated Gender=Com and Number=Com
+* Eliminated Negation=Neg
+* Added language specific feature PronType=Clit
+* Changed 'case' into 'mark' for 'xcomp'
+* Fixed xcomp/ccomp distinction
+* Checked dependencies marked 'dep', and resolved most of them
 
 ## Acknowledgments
 

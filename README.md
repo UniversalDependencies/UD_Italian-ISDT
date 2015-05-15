@@ -39,9 +39,9 @@ The Corpus has been randomly splitted (by a script) as follows:
 * it-ud-dev.conllu: 13337 tokens (500 sentences)
 * it-ud-test.conllu: 13255 tokens (500 sentences)
 
-## Version 1.1 15.05.2015 Changelog
+## Changelog V1.1 May 15 2015
 
-This is Version 1.1 of the data, Changes from the previous version include.
+This is Version 1.1 of the data. Changes from the previous version include.
 
 * Added Italian section of ParTUT (71645 tokens)
 * Checked SYM

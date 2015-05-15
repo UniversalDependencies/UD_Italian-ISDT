@@ -1778,13 +1778,13 @@
 15	sfavorevolmente	sfavorevolmente	ADV	B	_	14	advmod	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	14	dobj	_	_
-18	che	che	PRON	PR	PronType=Rel	17	advmod	_	_
+18	che	che	SCONJ	CS	_	24	mark	_	_
 19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
 21	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 22	di	di	ADP	E	_	23	case	_	_
 23	poco	poco	ADV	B	_	24	advmod	_	_
-24	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	18	advcl	_	_
+24	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	17	ccomp	_	_
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	E	_	27	case	_	_
 26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -10493,7 +10493,7 @@
 1	Avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	che	che	SCONJ	CS	_	5	mark	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	nmod	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	tenesse	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_

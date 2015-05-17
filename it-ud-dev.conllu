@@ -1784,7 +1784,7 @@
 21	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 22	di	di	ADP	E	_	23	case	_	_
 23	poco	poco	ADV	B	_	24	advmod	_	_
-24	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	17	ccomp	_	_
+24	inferiore	inferiore	ADJ	A	Degree=Cmp|Number=Sing	17	acl	_	_
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	E	_	27	case	_	_
 26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -1897,7 +1897,7 @@
 14	.	.	PUNCT	FS	_	4	punct	_	_
 
 # isst_tanl sent_id  2078
-1	Se	se	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
+1	Se	se	PRON	PC	Person=3|PronType=Clit	3	nsubj	_	_
 2	ne	ne	PRON	PC	PronType=Clit	3	expl	_	_
 3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -2075,7 +2075,7 @@
 3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 4	che	che	PRON	PR	PronType=Rel	7	dobj	_	_
 5	ci	ci	PRON	PC	PronType=Clit	7	advmod	_	_
-6	si	si	PRON	PC	Person=3|PronType=Clit	7	expl	_	_
+6	si	si	PRON	PC	Person=3|PronType=Clit	7	nsubj	_	_
 7	attendeva	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 8	:	:	PUNCT	FC	_	3	punct	_	_
 
@@ -2305,7 +2305,7 @@
 21	,	,	PUNCT	FF	_	20	punct	_	_
 22	perché	perché	SCONJ	CS	_	25	mark	_	_
 23	poi	poi	ADV	B	_	25	advmod	_	_
-24	si	si	PRON	PC	Person=3|PronType=Clit	25	expl	_	_
+24	si	si	PRON	PC	Person=3|PronType=Clit	25	nsubj	_	_
 25	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	25	dobj	_	_
@@ -2762,7 +2762,7 @@
 28	metri	metro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
 29	quadri	quadro	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
 30	e	e	CONJ	CC	_	22	cc	_	_
-31	si	si	PRON	PC	Person=3|PronType=Clit	32	expl	_	_
+31	si	si	PRON	PC	Person=3|PronType=Clit	32	nsubj	_	_
 32	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 33	che	che	SCONJ	CS	_	34	mark	_	_
 34	viaggerà	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	ccomp	_	_
@@ -3063,7 +3063,7 @@
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	prodotto	prodotto	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
 7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	prefinito	prefinire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	prefinito	prefinire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 9	e	e	CONJ	CC	_	8	cc	_	_
 10	lucidato	lucidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
 11	,	,	PUNCT	FF	_	3	punct	_	_
@@ -3613,7 +3613,7 @@
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	3	dobj	_	_
-7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl	_	_
+7	si	si	PRON	PC	Person=3|PronType=Clit	8	nsubj	_	_
 8	registra	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	invece	invece	ADV	B	_	8	advmod	_	_
 10	,	,	PUNCT	FF	_	8	punct	_	_
@@ -4053,7 +4053,7 @@
 33	modo	modo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
 34	che	che	SCONJ	CS	_	36	mark	_	_
 35	attualmente	attualmente	ADV	B	_	36	advmod	_	_
-36	disporrebbe	disporre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
+36	disporrebbe	disporre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl	_	_
 37	di	di	ADP	E	_	40	case	_	_
 38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 39	cospicuo	cospicuo	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
@@ -8711,7 +8711,7 @@
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	indicazione	indicazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 5	che	che	SCONJ	CS	_	6	mark	_	_
-6	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+6	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	numero	numero	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
 9	minimo	minimo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
@@ -8831,7 +8831,7 @@
 27	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
 28	che	che	SCONJ	CS	_	30	mark	_	_
 29	si	si	PRON	PC	Person=3|PronType=Clit	30	expl	_	_
-30	tratti	trattare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+30	tratti	trattare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	_
 31	di	di	ADP	E	_	33	case	_	_
 32	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
@@ -10601,7 +10601,7 @@
 3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
 4	che	che	SCONJ	CS	_	6	mark	_	_
 5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	auxpass	_	_
-6	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+6	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 7	disponibile	disponibile	ADJ	A	Number=Sing	6	xcomp	_	_
 8	anche	anche	ADV	B	_	6	advmod	_	_
 9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_

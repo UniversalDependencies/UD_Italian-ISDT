@@ -32,7 +32,7 @@
 2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
 4	giudiziari	giudiziario	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
-5	si	si	PRON	PC	Person=3|PronType=Clit	6	expl	_	_
+5	si	si	PRON	PC	Person=3|PronType=Clit	6	nsubj	_	_
 6	tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ad	a	ADP	E	_	8	mark	_	_
 8	accreditare	accreditare	VERB	V	VerbForm=Inf	6	ccomp	_	_
@@ -397,7 +397,7 @@
 10	per	per	ADP	E	_	11	case	_	_
 11	sempre	sempre	ADV	B	_	7	advmod	_	_
 12	,	,	PUNCT	FF	_	7	punct	_	_
-13	si	si	PRON	PC	Person=3|PronType=Clit	14	expl	_	_
+13	si	si	PRON	PC	Person=3|PronType=Clit	14	nsubj	_	_
 14	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
 15	subito	subito	ADV	B	_	14	advmod	_	_
 16	dopo	dopo	ADP	E	_	17	case	_	_
@@ -751,7 +751,7 @@
 # isst_tanl sent_id  905
 1	Ma	ma	CONJ	CC	_	4	cc	_	_
 2	già	già	ADV	B	_	4	advmod	_	_
-3	si	si	PRON	PC	Person=3|PronType=Clit	4	expl	_	_
+3	si	si	PRON	PC	Person=3|PronType=Clit	4	nsubj	_	_
 4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	di	di	ADP	E	_	6	case	_	_
 6	epurazioni	epurazione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
@@ -918,7 +918,7 @@
 # isst_tanl sent_id  1168
 1	Per	per	ADP	E	_	2	case	_	_
 2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	11	nmod	_	_
-3	se	se	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+3	se	se	PRON	PC	Person=3|PronType=Clit	5	nsubj	_	_
 4	ne	ne	PRON	PC	PronType=Clit	5	advmod	_	_
 5	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 6	,	,	PUNCT	FF	_	2	punct	_	_
@@ -1387,7 +1387,7 @@
 15	.	.	PUNCT	FS	_	8	punct	_	_
 
 # isst_tanl sent_id  1699
-1	Si	si	PRON	PC	Person=3|PronType=Clit	2	expl	_	_
+1	Si	si	PRON	PC	Person=3|PronType=Clit	2	nsubj	_	_
 2	finirà	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	per	per	ADP	E	_	4	mark	_	_
 4	scoprire	scoprire	VERB	V	VerbForm=Inf	2	ccomp	_	_
@@ -2238,7 +2238,7 @@
 5	scendere	scendere	VERB	V	VerbForm=Inf	3	acl	_	_
 6	,	,	PUNCT	FF	_	3	punct	_	_
 7	spesso	spesso	ADV	B	_	9	advmod	_	_
-8	si	si	PRON	PC	Person=3|PronType=Clit	9	expl	_	_
+8	si	si	PRON	PC	Person=3|PronType=Clit	9	nsubj	_	_
 9	rischia	rischiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	di	di	ADP	E	_	11	mark	_	_
 11	cadere	cadere	VERB	V	VerbForm=Inf	9	xcomp	_	_
@@ -2678,14 +2678,14 @@
 
 # isst_tanl sent_id  3203
 1	Quando	quando	SCONJ	CS	_	3	mark	_	_
-2	si	si	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
+2	si	si	PRON	PC	Person=3|PronType=Clit	3	nsubj	_	_
 3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 4	di	di	ADP	E	_	5	case	_	_
 5	piastrelle	piastrella	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
 6	a	a	ADP	E	_	7	case	_	_
 7	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
 8	non	non	ADV	BN	PronType=Neg	12	neg	_	_
-9	si	si	PRON	PC	Person=3|PronType=Clit	12	expl	_	_
+9	si	si	PRON	PC	Person=3|PronType=Clit	12	nsubj	_	_
 10	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	non	non	ADV	BN	PronType=Neg	12	neg	_	_
 12	citare	citare	VERB	V	VerbForm=Inf	0	root	_	_
@@ -3369,7 +3369,7 @@
 3	,	,	PUNCT	FF	_	2	punct	_	_
 4	infatti	infatti	ADV	B	_	9	advmod	_	_
 5	,	,	PUNCT	FF	_	4	punct	_	_
-6	si	si	PRON	PC	Person=3|PronType=Clit	9	expl	_	_
+6	si	si	PRON	PC	Person=3|PronType=Clit	9	nsubj	_	_
 7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	benissimo	bene	ADV	B	Degree=Abs	9	advmod	_	_
 9	affittare	affittare	VERB	V	VerbForm=Inf	0	root	_	_
@@ -10954,7 +10954,7 @@
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	loro	loro	DET	AP	Poss=Yes|PronType=Prs	31	nsubj	_	_
 31	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	32	nsubj	_	_
-32	porti	portare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+32	porti	portare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	acl	_	_
 33	,	,	PUNCT	FF	_	32	punct	_	_
 34-35	nel	_	_	_	_	_	_	_	_
 34	in	in	ADP	E	_	36	case	_	_

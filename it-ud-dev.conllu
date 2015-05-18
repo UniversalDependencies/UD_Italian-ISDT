@@ -1897,7 +1897,7 @@
 14	.	.	PUNCT	FS	_	4	punct	_	_
 
 # isst_tanl sent_id  2078
-1	Se	se	PRON	PC	Person=3|PronType=Clit	3	nsubj	_	_
+1	Se	se	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
 2	ne	ne	PRON	PC	PronType=Clit	3	expl	_	_
 3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -2075,7 +2075,7 @@
 3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 4	che	che	PRON	PR	PronType=Rel	7	dobj	_	_
 5	ci	ci	PRON	PC	PronType=Clit	7	advmod	_	_
-6	si	si	PRON	PC	Person=3|PronType=Clit	7	nsubj	_	_
+6	si	si	PRON	PC	Person=3|PronType=Clit	7	expl	_	_
 7	attendeva	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 8	:	:	PUNCT	FC	_	3	punct	_	_
 
@@ -2305,7 +2305,7 @@
 21	,	,	PUNCT	FF	_	20	punct	_	_
 22	perché	perché	SCONJ	CS	_	25	mark	_	_
 23	poi	poi	ADV	B	_	25	advmod	_	_
-24	si	si	PRON	PC	Person=3|PronType=Clit	25	nsubj	_	_
+24	si	si	PRON	PC	Person=3|PronType=Clit	25	expl	_	_
 25	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	25	dobj	_	_
@@ -2762,7 +2762,7 @@
 28	metri	metro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
 29	quadri	quadro	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
 30	e	e	CONJ	CC	_	22	cc	_	_
-31	si	si	PRON	PC	Person=3|PronType=Clit	32	nsubj	_	_
+31	si	si	PRON	PC	Person=3|PronType=Clit	32	expl	_	_
 32	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 33	che	che	SCONJ	CS	_	34	mark	_	_
 34	viaggerà	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	ccomp	_	_
@@ -3613,7 +3613,7 @@
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	3	dobj	_	_
-7	si	si	PRON	PC	Person=3|PronType=Clit	8	nsubj	_	_
+7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl	_	_
 8	registra	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	invece	invece	ADV	B	_	8	advmod	_	_
 10	,	,	PUNCT	FF	_	8	punct	_	_
@@ -4692,7 +4692,7 @@
 5	art.	articolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 6	941	941	NUM	N	NumType=Card	5	nummod	_	_
 7	non	non	ADV	BN	PronType=Neg	9	neg	_	_
-8	si	si	PRON	PC	Person=3|PronType=Clit	9	nsubj	_	_
+8	si	si	PRON	PC	Person=3|PronType=Clit	9	expl	_	_
 9	applica	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10-11	nel	_	_	_	_	_	_	_	_
 10	in	in	ADP	E	_	12	case	_	_
@@ -5047,7 +5047,7 @@
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
 3	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	nsubj	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	applica	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	se	SCONJ	CS	_	10	mark	_	_
 7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
@@ -5074,7 +5074,7 @@
 10	.	.	PUNCT	FS	_	3	punct	_	_
 
 # tut sent_id  818
-1	Si	si	PRON	PC	Person=3|PronType=Clit	2	nsubj	_	_
+1	Si	si	PRON	PC	Person=3|PronType=Clit	2	expl	_	_
 2	comprendono	comprendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	inoltre	inoltre	ADV	B	_	2	advmod	_	_
 4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -5431,7 +5431,7 @@
 
 # tut sent_id  1036
 1	Parimenti	parimenti	ADV	B	_	3	advmod	_	_
-2	si	si	PRON	PC	Person=3|PronType=Clit	3	nsubj	_	_
+2	si	si	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
 3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	3	dobj	_	_
 5-6	alle	_	_	_	_	_	_	_	_
@@ -5605,7 +5605,7 @@
 7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
 9	,	,	PUNCT	FF	_	2	punct	_	_
-10	si	si	PRON	PC	Person=3|PronType=Clit	11	nsubj	_	_
+10	si	si	PRON	PC	Person=3|PronType=Clit	11	expl	_	_
 11	applicano	applicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	disposizioni	disposizione	NOUN	S	Gender=Fem|Number=Plur	11	dobj	_	_
@@ -5625,7 +5625,7 @@
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
 3	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	nsubj	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	applica	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	quando	quando	SCONJ	CS	_	16	mark	_	_
 7	,	,	PUNCT	FF	_	6	punct	_	_
@@ -5746,7 +5746,7 @@
 25	.	.	PUNCT	FS	_	21	punct	_	_
 
 # tut sent_id  1327
-1	Si	si	PRON	PC	Person=3|PronType=Clit	3	nsubj	_	_
+1	Si	si	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
 2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	procedere	procedere	VERB	V	VerbForm=Inf	0	root	_	_
 4	a	a	ADP	E	_	5	case	_	_
@@ -6454,7 +6454,7 @@
 26	su	su	ADP	E	_	28	case	_	_
 27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
 28	Adriatico	Adriatico	PROPN	SP	_	25	nmod	_	_
-29	si	si	PRON	PC	Person=3|PronType=Clit	30	nsubj	_	_
+29	si	si	PRON	PC	Person=3|PronType=Clit	30	expl	_	_
 30	toccano	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 31	tutte	tutto	DET	T	Gender=Fem|Number=Plur	33	det:predet	_	_
 32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
@@ -7852,7 +7852,7 @@
 1	Fra	fra	ADP	E	_	3	case	_	_
 2	quattro	quattro	NUM	N	NumType=Card	3	nummod	_	_
 3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	nsubj	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	aprirà	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Salone	salone	NOUN	S	Gender=Masc|Number=Sing	5	dobj	_	_
@@ -9834,7 +9834,7 @@
 6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	nativi	nativo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
 8	americani	americano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
-9	si	si	PRON	PC	Person=3|PronType=Clit	10	nsubj	_	_
+9	si	si	PRON	PC	Person=3|PronType=Clit	10	expl	_	_
 10	ricava	ricavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11-12	dalla	_	_	_	_	_	_	_	_
 11	da	da	ADP	E	_	13	case	_	_
@@ -10011,7 +10011,7 @@
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	nsubj	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	facendo	fare	VERB	V	VerbForm=Ger	2	acl:relcl	_	_
 7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	dobj	_	_
@@ -10493,7 +10493,7 @@
 1	Avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	che	che	SCONJ	CS	_	5	mark	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	nsubj	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	tenesse	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_
@@ -10767,7 +10767,7 @@
 4	di	di	ADP	E	_	6	case	_	_
 5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	emendamento	emendamento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
-7	si	si	PRON	PC	Person=3|PronType=Clit	8	nsubj	_	_
+7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl	_	_
 8	terrebbe	tenere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	conto	conto	NOUN	S	Gender=Masc|Number=Sing	8	dobj	_	_
 10-11	del	_	_	_	_	_	_	_	_
@@ -11638,7 +11638,7 @@
 18	di	di	ADP	E	_	19	case	_	_
 19	energia	energia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
 20	e	e	CONJ	CC	_	6	cc	_	_
-21	si	si	PRON	PC	Person=3|PronType=Clit	22	nsubj	_	_
+21	si	si	PRON	PC	Person=3|PronType=Clit	22	expl	_	_
 22	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 23	che	che	SCONJ	CS	_	25	mark	_	_
 24	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
@@ -12203,7 +12203,7 @@
 10	ma	ma	CONJ	CC	_	7	cc	_	_
 11	tradizionalmente	tradizionalmente	ADV	B	_	14	advmod	_	_
 12	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Clit	14	dobj	_	_
-13	si	si	PRON	PC	Person=3|PronType=Clit	14	nsubj	_	_
+13	si	si	PRON	PC	Person=3|PronType=Clit	14	expl	_	_
 14	colloca	collocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	23	23	NUM	N	NumType=Card	14	nummod	_	_

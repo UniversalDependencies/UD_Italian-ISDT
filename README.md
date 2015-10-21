@@ -95,3 +95,4 @@ Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
+Genre: legal news wiki

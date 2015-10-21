@@ -92,6 +92,6 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 
 
 Documentation status: partial
-Data source: automatic conversion + manual check
+Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0

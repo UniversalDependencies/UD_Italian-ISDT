@@ -7,6 +7,9 @@
   <size>
     <total><sentences>12330</sentences><tokens>258308</tokens><words>277209</words><fused>18875</fused></total>
   </size>
+  <lemmas unique="17852" /><!-- il, di, ,, ., a, essere, in, e, uno, che, da, per, ", avere, si -->
+  <forms unique="26448" /><!-- di, ,, il, la, ., a, in, e, l', i, le, che, è, da, per -->
+  <fusions unique="778" /><!-- del, della, al, dei, dell', nel, delle, alla, dal, all', nella, degli, ai, dalla, alle -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
     <tag name="ADJ">17809</tag><!-- primo, altro, stesso, nuovo, grande, pubblico, presente, ultimo, maggiore, italiano -->

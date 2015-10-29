@@ -41,7 +41,7 @@ The Corpus has been randomly splitted (by a script) as follows:
 
 ## Changelog V1.1 May 15 2015
 
-This is Version 1.1 of the data. Changes from the previous version include.
+Version 1.1 of the data. Changes from the previous version include.
 
 * Added Italian section of ParTUT (71645 tokens)
 * Checked SYM
@@ -53,6 +53,16 @@ This is Version 1.1 of the data. Changes from the previous version include.
 * Changed 'case' into 'mark' for 'xcomp'
 * Fixed xcomp/ccomp distinction
 * Checked dependencies marked 'dep', and resolved most of them
+
+## Changelog V1.2 November 1st 2015
+
+Version 1.2 of the data. Changes from the previous version include.
+
+* Added dependencies expl:impers as specialization of expl for impersonal clitic pronouns
+* Fixed case in form of articulated preposition, previously lost during splitting
+* More fixes to xcomp/ccomp distinction
+* Harmonization of case marking for infinitive verbs introduced by articles
+
 
 ## Acknowledgments
 

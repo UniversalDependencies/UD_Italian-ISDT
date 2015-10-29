@@ -52,7 +52,7 @@
 9	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	fatica	fatica	NOUN	S	Gender=Fem|Number=Sing	9	dobj	_	_
 11	ad	a	ADP	E	_	12	mark	_	_
-12	ammettere	ammettere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	ammettere	ammettere	VERB	V	VerbForm=Inf	10	acl	_	_
 13	che	che	SCONJ	CS	_	19	mark	_	_
 14	qualcun	qualcun	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
 15	altro	altro	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
@@ -242,7 +242,7 @@
 1	ROMA	Roma	PROPN	SP	_	18	nmod	_	_
 2	-	-	PUNCT	FF	_	1	punct	_	_
 3-4	Nello	_	_	_	_	_	_	_	_
-3	in	in	ADP	E	_	5	case	_	_
+3	In	in	ADP	E	_	5	case	_	_
 4	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Zaire	Zaire	PROPN	SP	_	18	nmod	_	_
 6	,	,	PUNCT	FF	_	5	punct	_	_
@@ -291,7 +291,7 @@
 48	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	_
 49	,	,	PUNCT	FF	_	48	punct	_	_
 50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	30	30	NUM	N	NumType=Card	48	nmod	_	_
+51	30	30	NUM	N	NumType=Card	48	nummod	_	_
 52	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	51	nmod	_	_
 53	1960	1960	NUM	N	NumType=Card	52	nummod	_	_
 54	,	,	PUNCT	FF	_	48	punct	_	_
@@ -581,7 +581,7 @@
 
 # isst_tanl sent_id  536
 1-2	Nelle	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	4	case	_	_
+1	In	in	ADP	E	_	4	case	_	_
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 3	ultime	ultimo	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
 4	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	12	nmod	_	_
@@ -1045,7 +1045,7 @@
 7	in	in	ADP	E	_	8	case	_	_
 8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
 9	a	a	ADP	E	_	10	mark	_	_
-10	raccogliere	raccogliere	VERB	V	VerbForm=Inf	6	xcomp	_	_
+10	raccogliere	raccogliere	VERB	V	VerbForm=Inf	8	acl	_	_
 11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	10	dobj	_	_
 13	personali	personale	ADJ	A	Number=Plur	12	amod	_	_
@@ -1124,11 +1124,11 @@
 10	Bogotà	Bogotà	PROPN	SP	_	8	nmod	_	_
 11	,	,	PUNCT	FF	_	10	punct	_	_
 12	dove	dove	ADV	B	_	28	advmod	_	_
-13	prima	prima	ADV	B	_	28	advmod	_	_
-14	ancora	ancora	ADV	B	_	13	advmod	_	_
-15	di	di	ADP	E	_	16	mark	_	_
+13	prima	prima	ADV	B	_	16	mark	_	_
+14	ancora	ancora	ADV	B	_	16	advmod	_	_
+15	di	di	ADP	E	_	13	mwe	_	_
 16-17	sottoporlo	_	_	_	_	_	_	_	_
-16	sottopor	sottoporre	VERB	V	VerbForm=Inf	13	acl	_	_
+16	sottopor	sottoporre	VERB	V	VerbForm=Inf	28	advcl	_	_
 17	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Clit	16	dobj	_	_
 18-19	all'	_	_	_	_	_	_	_	_
 18	a	a	ADP	E	_	20	case	_	_
@@ -1571,7 +1571,7 @@
 
 # isst_tanl sent_id  1609
 1-2	Dal	_	_	_	_	_	_	_	_
-1	da	da	ADP	E	_	3	case	_	_
+1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	'93	'93	NUM	N	NumType=Card	4	nummod	_	_
 4	dirige	dirigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1761,7 +1761,7 @@
 
 # isst_tanl sent_id  1973
 1-2	Al	_	_	_	_	_	_	_	_
-1	a	a	ADP	E	_	3	case	_	_
+1	A	a	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	casello	casello	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -1897,7 +1897,7 @@
 14	.	.	PUNCT	FS	_	4	punct	_	_
 
 # isst_tanl sent_id  2078
-1	Se	se	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
+1	Se	se	PRON	PC	Person=3|PronType=Clit	3	expl:impers	_	_
 2	ne	ne	PRON	PC	PronType=Clit	3	expl	_	_
 3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -1983,7 +1983,7 @@
 # isst_tanl sent_id  2127
 1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	po'	poco	ADV	B	_	4	advmod	_	_
-3	per	per	ADP	E	_	4	case	_	_
+3	per	per	ADP	E	_	4	mark	_	_
 4	dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
 5	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	4	dobj	_	_
 6	a	a	ADP	E	_	8	case	_	_
@@ -2075,7 +2075,7 @@
 3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 4	che	che	PRON	PR	PronType=Rel	7	dobj	_	_
 5	ci	ci	PRON	PC	PronType=Clit	7	advmod	_	_
-6	si	si	PRON	PC	Person=3|PronType=Clit	7	expl	_	_
+6	si	si	PRON	PC	Person=3|PronType=Clit	7	expl:impers	_	_
 7	attendeva	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 8	:	:	PUNCT	FC	_	3	punct	_	_
 
@@ -2305,7 +2305,7 @@
 21	,	,	PUNCT	FF	_	20	punct	_	_
 22	perché	perché	SCONJ	CS	_	25	mark	_	_
 23	poi	poi	ADV	B	_	25	advmod	_	_
-24	si	si	PRON	PC	Person=3|PronType=Clit	25	expl	_	_
+24	si	si	PRON	PC	Person=3|PronType=Clit	25	expl:impers	_	_
 25	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	25	dobj	_	_
@@ -2354,7 +2354,7 @@
 16	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
 17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
 18	(	(	PUNCT	FB	_	19	punct	_	_
-19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	appos	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	17	nmod	_	_
 20	"	"	PUNCT	FB	_	21	punct	_	_
 21	serio	serio	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
 22	"	"	PUNCT	FB	_	21	punct	_	_
@@ -2420,7 +2420,7 @@
 
 # isst_tanl sent_id  2610
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	pozzetto	pozzetto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
 4	anche	anche	ADV	B	_	6	advmod	_	_
@@ -2507,7 +2507,7 @@
 
 # isst_tanl sent_id  2718
 1-2	Sullo	_	_	_	_	_	_	_	_
-1	su	su	ADP	E	_	3	case	_	_
+1	Su	su	ADP	E	_	3	case	_	_
 2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sfondo	sfondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
 4	di	di	ADP	E	_	7	case	_	_
@@ -2551,7 +2551,7 @@
 10	Castiglioni	Castiglioni	PROPN	SP	_	9	nmod	_	_
 11	,	,	PUNCT	FF	_	9	punct	_	_
 12	anche	anche	ADV	B	_	13	advmod	_	_
-13	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	appos	_	_
+13	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
 14	ammazzati	ammazzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
 15	ieri	ieri	ADV	B	_	14	advmod	_	_
 16	,	,	PUNCT	FF	_	14	punct	_	_
@@ -2566,7 +2566,7 @@
 
 # isst_tanl sent_id  2826
 1-2	Ai	_	_	_	_	_	_	_	_
-1	a	a	ADP	E	_	3	case	_	_
+1	A	a	ADP	E	_	3	case	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	balconi	balcone	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
 4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
@@ -2606,7 +2606,7 @@
 12	in	in	ADP	E	_	13	case	_	_
 13	ferie	feria	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
 14	solo	solo	ADV	B	_	15	advmod	_	_
-15	una	una	NUM	N	NumType=Card	16	nummod	_	_
+15	una	uno	NUM	N	NumType=Card	16	nummod	_	_
 16	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
 17	su	su	ADP	E	_	18	case	_	_
 18	due	due	NUM	N	NumType=Card	16	nummod	_	_
@@ -2736,7 +2736,7 @@
 2	mostra	mostra	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
 3	,	,	PUNCT	FF	_	2	punct	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	cui	cui	DET	DR	PronType=Rel	6	det	_	_
+5	cui	cui	DET	DR	PronType=Rel	6	det:poss	_	_
 6	allestimento	allestimento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
 7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	richiesto	richiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
@@ -2762,7 +2762,7 @@
 28	metri	metro	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
 29	quadri	quadro	ADJ	A	Gender=Masc|Number=Plur	28	amod	_	_
 30	e	e	CONJ	CC	_	22	cc	_	_
-31	si	si	PRON	PC	Person=3|PronType=Clit	32	expl	_	_
+31	si	si	PRON	PC	Person=3|PronType=Clit	32	expl:impers	_	_
 32	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 33	che	che	SCONJ	CS	_	34	mark	_	_
 34	viaggerà	viaggiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	ccomp	_	_
@@ -3056,7 +3056,7 @@
 
 # isst_tanl sent_id  3170
 1-2	Dal	_	_	_	_	_	_	_	_
-1	da	da	ADP	E	_	3	case	_	_
+1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
 4	che	che	SCONJ	CS	_	8	mark	_	_
@@ -3128,7 +3128,7 @@
 11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 12	apposta	apposta	ADV	B	_	11	advmod	_	_
 13	per	per	ADP	E	_	14	mark	_	_
-14	recuperare	recuperare	VERB	V	VerbForm=Inf	12	acl	_	_
+14	recuperare	recuperare	VERB	V	VerbForm=Inf	12	ccomp	_	_
 15	energia	energia	NOUN	S	Gender=Fem|Number=Sing	14	dobj	_	_
 16	e	e	CONJ	CC	_	14	cc	_	_
 17	spezzare	spezzare	VERB	V	VerbForm=Inf	14	conj	_	_
@@ -3166,7 +3166,7 @@
 
 # isst_tanl sent_id  3333
 1-2	Sulle	_	_	_	_	_	_	_	_
-1	su	su	ADP	E	_	3	case	_	_
+1	Su	su	ADP	E	_	3	case	_	_
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	zone	zona	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
 4	da	da	ADP	E	_	5	mark	_	_
@@ -3362,7 +3362,7 @@
 16	non	non	ADV	BN	PronType=Neg	17	neg	_	_
 17	più	più	ADV	B	_	1	advmod	_	_
 18	di	di	ADP	E	_	20	case	_	_
-19	una	una	NUM	N	NumType=Card	20	nummod	_	_
+19	una	uno	NUM	N	NumType=Card	20	nummod	_	_
 20	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
 21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
@@ -3613,7 +3613,7 @@
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
 6	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	3	dobj	_	_
-7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl	_	_
+7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl:impers	_	_
 8	registra	registrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	invece	invece	ADV	B	_	8	advmod	_	_
 10	,	,	PUNCT	FF	_	8	punct	_	_
@@ -4574,7 +4574,7 @@
 27	domeniche	domenica	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
 28	successive	successivo	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
 29	e	e	CONJ	CC	_	23	cc	_	_
-30	da	da	ADP	E	_	31	case	_	_
+30	da	da	ADP	E	_	31	mark	_	_
 31	restare	restare	VERB	V	VerbForm=Inf	23	conj	_	_
 32	affissa	affiggere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	xcomp	_	_
 33	per	per	ADP	E	_	35	case	_	_
@@ -4692,7 +4692,7 @@
 5	art.	articolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 6	941	941	NUM	N	NumType=Card	5	nummod	_	_
 7	non	non	ADV	BN	PronType=Neg	9	neg	_	_
-8	si	si	PRON	PC	Person=3|PronType=Clit	9	expl	_	_
+8	si	si	PRON	PC	Person=3|PronType=Clit	9	expl:impers	_	_
 9	applica	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10-11	nel	_	_	_	_	_	_	_	_
 10	in	in	ADP	E	_	12	case	_	_
@@ -4731,7 +4731,7 @@
 
 # tut sent_id  552
 1-2	Del	_	_	_	_	_	_	_	_
-1	di	di	ADP	E	_	3	case	_	_
+1	Di	di	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	pari	pari	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
 4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -5047,7 +5047,7 @@
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
 3	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl:impers	_	_
 5	applica	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	se	se	SCONJ	CS	_	10	mark	_	_
 7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
@@ -5074,7 +5074,7 @@
 10	.	.	PUNCT	FS	_	3	punct	_	_
 
 # tut sent_id  818
-1	Si	si	PRON	PC	Person=3|PronType=Clit	2	expl	_	_
+1	Si	si	PRON	PC	Person=3|PronType=Clit	2	expl:impers	_	_
 2	comprendono	comprendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	inoltre	inoltre	ADV	B	_	2	advmod	_	_
 4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -5192,13 +5192,13 @@
 37-38	della	_	_	_	_	_	_	_	_
 37	di	di	ADP	E	_	40	case	_	_
 38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-39	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	nsubj	_	_
+39	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
 40	riparazione	riparazione	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
 41	.	.	PUNCT	FS	_	18	punct	_	_
 
 # tut sent_id  896
 1-2	Dell'	_	_	_	_	_	_	_	_
-1	di	di	ADP	E	_	3	case	_	_
+1	Di	di	ADP	E	_	3	case	_	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 4	e	e	CONJ	CC	_	3	cc	_	_
@@ -5254,7 +5254,7 @@
 40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	indennità	indennità	NOUN	S	Gender=Fem	39	dobj	_	_
 42	e	e	CONJ	CC	_	39	cc	_	_
-43	di	di	ADP	E	_	44	case	_	_
+43	di	di	ADP	E	_	44	mark	_	_
 44	fare	fare	VERB	V	VerbForm=Inf	39	conj	_	_
 45	e	e	CONJ	CC	_	44	cc	_	_
 46	mantenere	mantenere	VERB	V	VerbForm=Inf	44	conj	_	_
@@ -5338,7 +5338,7 @@
 
 # tut sent_id  967
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
 4	circa	circa	ADP	E	_	6	case	_	_
@@ -5431,7 +5431,7 @@
 
 # tut sent_id  1036
 1	Parimenti	parimenti	ADV	B	_	3	advmod	_	_
-2	si	si	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
+2	si	si	PRON	PC	Person=3|PronType=Clit	3	expl:impers	_	_
 3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	3	dobj	_	_
 5-6	alle	_	_	_	_	_	_	_	_
@@ -5463,7 +5463,7 @@
 
 # tut sent_id  1038
 1-2	Della	_	_	_	_	_	_	_	_
-1	di	di	ADP	E	_	3	case	_	_
+1	Di	di	ADP	E	_	3	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	servitù	servitù	NOUN	S	Gender=Fem	0	root	_	_
 4-5	degli	_	_	_	_	_	_	_	_
@@ -5605,7 +5605,7 @@
 7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
 9	,	,	PUNCT	FF	_	2	punct	_	_
-10	si	si	PRON	PC	Person=3|PronType=Clit	11	expl	_	_
+10	si	si	PRON	PC	Person=3|PronType=Clit	11	expl:impers	_	_
 11	applicano	applicare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	disposizioni	disposizione	NOUN	S	Gender=Fem|Number=Plur	11	dobj	_	_
@@ -5625,10 +5625,10 @@
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
 3	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl:impers	_	_
 5	applica	applicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	quando	quando	SCONJ	CS	_	16	mark	_	_
-7	,	,	PUNCT	FF	_	6	punct	_	_
+7	,	,	PUNCT	FF	_	16	punct	_	_
 8	essendo	essere	AUX	VA	VerbForm=Ger	9	auxpass	_	_
 9	dovuta	dovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -5746,7 +5746,7 @@
 25	.	.	PUNCT	FS	_	21	punct	_	_
 
 # tut sent_id  1327
-1	Si	si	PRON	PC	Person=3|PronType=Clit	3	expl	_	_
+1	Si	si	PRON	PC	Person=3|PronType=Clit	3	expl:impers	_	_
 2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	procedere	procedere	VERB	V	VerbForm=Inf	0	root	_	_
 4	a	a	ADP	E	_	5	case	_	_
@@ -6223,7 +6223,7 @@
 44	di	di	ADP	E	_	45	mark	_	_
 45	consentire	consentire	VERB	V	VerbForm=Inf	43	acl	_	_
 46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-47	loro	loro	DET	AP	Poss=Yes|PronType=Prs	48	nsubj	_	_
+47	loro	loro	DET	AP	Poss=Yes|PronType=Prs	48	det:poss	_	_
 48	immissione	immissione	NOUN	S	Gender=Fem|Number=Sing	45	dobj	_	_
 49-50	sul	_	_	_	_	_	_	_	_
 49	su	su	ADP	E	_	51	case	_	_
@@ -6232,7 +6232,7 @@
 52	interno	interno	ADJ	A	Gender=Masc|Number=Sing	51	amod	_	_
 53	e	e	CONJ	CC	_	48	cc	_	_
 54	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
-55	loro	loro	DET	AP	Poss=Yes|PronType=Prs	57	nsubj	_	_
+55	loro	loro	DET	AP	Poss=Yes|PronType=Prs	57	det:poss	_	_
 56	libera	libero	ADJ	A	Gender=Fem|Number=Sing	57	amod	_	_
 57	circolazione	circolazione	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	_
 58	.	.	PUNCT	FS	_	30	punct	_	_
@@ -6454,7 +6454,7 @@
 26	su	su	ADP	E	_	28	case	_	_
 27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
 28	Adriatico	Adriatico	PROPN	SP	_	25	nmod	_	_
-29	si	si	PRON	PC	Person=3|PronType=Clit	30	expl	_	_
+29	si	si	PRON	PC	Person=3|PronType=Clit	30	expl:impers	_	_
 30	toccano	toccare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 31	tutte	tutto	DET	T	Gender=Fem|Number=Plur	33	det:predet	_	_
 32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
@@ -6690,7 +6690,7 @@
 8-9	dei	_	_	_	_	_	_	_	_
 8	di	di	ADP	E	_	11	case	_	_
 9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	nsubj	_	_
+10	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
 11	attacchi	attacco	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
 12	?	?	PUNCT	FS	_	4	punct	_	_
 
@@ -6717,7 +6717,7 @@
 20	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	_
 21	fra	fra	ADP	E	_	22	case	_	_
 22	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	nmod	_	_
-23	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	appos	_	_
+23	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nmod	_	_
 24-25	della	_	_	_	_	_	_	_	_
 24	di	di	ADP	E	_	26	case	_	_
 25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -6907,7 +6907,7 @@
 19-20	alla	_	_	_	_	_	_	_	_
 19	a	a	ADP	E	_	18	mwe	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	dobj	_	_
+21	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	realizzazione	realizzazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
 23-24	dal	_	_	_	_	_	_	_	_
 23	da	da	ADP	E	_	25	case	_	_
@@ -7477,7 +7477,7 @@
 
 # tut sent_id  2812
 1-2	Dal	_	_	_	_	_	_	_	_
-1	da	da	ADP	E	_	3	case	_	_
+1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Bahrein	Bahrein	PROPN	SP	_	8	nmod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -7555,7 +7555,7 @@
 
 # tut sent_id  2912
 1-2	Dal	_	_	_	_	_	_	_	_
-1	da	da	ADP	E	_	3	case	_	_
+1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
 4	di	di	ADP	E	_	5	case	_	_
@@ -7783,7 +7783,7 @@
 
 # tut sent_id  3105
 1-2	Dal	_	_	_	_	_	_	_	_
-1	da	da	ADP	E	_	3	case	_	_
+1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
 4	di	di	ADP	E	_	5	case	_	_
@@ -7852,7 +7852,7 @@
 1	Fra	fra	ADP	E	_	3	case	_	_
 2	quattro	quattro	NUM	N	NumType=Card	3	nummod	_	_
 3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl:impers	_	_
 5	aprirà	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Salone	salone	NOUN	S	Gender=Masc|Number=Sing	5	dobj	_	_
@@ -7878,7 +7878,7 @@
 26-27	del	_	_	_	_	_	_	_	_
 26	di	di	ADP	E	_	30	case	_	_
 27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-28	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	nsubj	_	_
+28	loro	loro	DET	AP	Poss=Yes|PronType=Prs	30	det:poss	_	_
 29	massiccio	massiccio	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
 30	sbarco	sbarco	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
 31-32	nel	_	_	_	_	_	_	_	_
@@ -7892,7 +7892,7 @@
 37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
 39	,	,	PUNCT	FF	_	35	punct	_	_
-40	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	35	appos	_	_
+40	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	35	nmod	_	_
 41	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
 42	.	.	PUNCT	FS	_	5	punct	_	_
 
@@ -8108,7 +8108,7 @@
 
 # tut sent_id  3346
 1-2	Alla	_	_	_	_	_	_	_	_
-1	a	a	ADP	E	_	4	case	_	_
+1	A	a	ADP	E	_	4	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
 4	bottega	bottega	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -8277,7 +8277,7 @@
 
 # tut sent_id  3622
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1903	1903	NUM	N	NumType=Card	24	nummod	_	_
 4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8378,7 +8378,7 @@
 
 # tut sent_id  3626
 1-2	Nello	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	4	case	_	_
+1	In	in	ADP	E	_	4	case	_	_
 2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
 4	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -8526,7 +8526,7 @@
 38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	poligono	poligono	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
 40	anch'	anche	ADV	B	_	41	advmod	_	_
-41	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	appos	_	_
+41	esso	esso	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nmod	_	_
 42	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
 43	.	.	PUNCT	FS	_	12	punct	_	_
 
@@ -8954,7 +8954,7 @@
 37	,	,	PUNCT	FF	_	32	punct	_	_
 38	ivi	ivi	ADV	B	_	39	advmod	_	_
 39	comprese	compreso	ADJ	A	Gender=Fem|Number=Plur	40	amod	_	_
-40	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	32	appos	_	_
+40	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	32	nmod	_	_
 41	concernenti	concernere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	40	acl	_	_
 42	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	limitazione	limitazione	NOUN	S	Gender=Fem|Number=Sing	41	dobj	_	_
@@ -9387,7 +9387,7 @@
 6	?	?	PUNCT	FS	_	3	punct	_	_
 
 # quest sent_id  916
-1	Quanto	Quanto	PRON	PQ	Number=Sing|PronType=Int	3	dobj	_	_
+1	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	3	dobj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	speso	spendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -9785,7 +9785,7 @@
 19	?	?	PUNCT	FS	_	3	punct	_	_
 
 # quest sent_id  1894
-1	Quanto	Quanto	PRON	PQ	Number=Sing|PronType=Int	2	nmod	_	_
+1	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	2	nmod	_	_
 2	pesava	pesare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	Marilyn	Marilyn	PROPN	SP	_	2	nsubj	_	_
 4	Monroe	Monroe	PROPN	SP	_	3	name	_	_
@@ -9834,7 +9834,7 @@
 6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	nativi	nativo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
 8	americani	americano	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
-9	si	si	PRON	PC	Person=3|PronType=Clit	10	expl	_	_
+9	si	si	PRON	PC	Person=3|PronType=Clit	10	expl:impers	_	_
 10	ricava	ricavare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11-12	dalla	_	_	_	_	_	_	_	_
 11	da	da	ADP	E	_	13	case	_	_
@@ -10011,7 +10011,7 @@
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl:impers	_	_
 5	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	facendo	fare	VERB	V	VerbForm=Ger	2	acl:relcl	_	_
 7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	dobj	_	_
@@ -10041,7 +10041,7 @@
 
 # test sent_id  101
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	2003	2003	NUM	N	NumType=Card	6	nummod	_	_
 4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -10301,7 +10301,7 @@
 20	M.	M.	PROPN	SP	_	19	name	_	_
 21	.	.	PUNCT	FS	_	4	punct	_	_
 
-# CC sent_id  2
+# 1-CC sent_id  2
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	associazione	associazione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	Creative	Creative	PROPN	SP	_	2	nmod	_	_
@@ -10310,7 +10310,7 @@
 6	di	di	ADP	E	_	7	case	_	_
 7	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
 8	'	'	PUNCT	FB	_	9	punct	_	_
-9	Creative	Creative	PROPN	SP	_	7	nmod	_	_
+9	Creative	Creative	PROPN	SP	_	7	appos	_	_
 10	Commons	Commons	PROPN	SP	_	9	name	_	_
 11	'	'	PUNCT	FB	_	9	punct	_	_
 12	)	)	PUNCT	FB	_	7	punct	_	_
@@ -10328,7 +10328,7 @@
 24	legale	legale	ADJ	A	Number=Sing	23	amod	_	_
 25	.	.	PUNCT	FS	_	16	punct	_	_
 
-# CC sent_id  7
+# 1-CC sent_id  7
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	opera	opera	NOUN	S	Gender=Fem|Number=Sing	9	nsubjpass	_	_
 3	(	(	PUNCT	FB	_	6	punct	_	_
@@ -10370,16 +10370,16 @@
 36	)	)	PUNCT	FB	_	30	punct	_	_
 37	.	.	PUNCT	FS	_	9	punct	_	_
 
-# CC sent_id  34
+# 1-CC sent_id  34
 1	Compensi	compenso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 2	per	per	ADP	E	_	3	case	_	_
 3	versioni	versione	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
 4	cover	cover	NOUN	S	_	3	compound	_	_
 5	.	.	PUNCT	FS	_	1	punct	_	_
 
-# CC sent_id  39
+# 1-CC sent_id  39
 1-2	Al	_	_	_	_	_	_	_	_
-1	a	a	ADP	E	_	3	case	_	_
+1	A	a	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fine	fine	NOUN	S	Number=Sing	9	nmod	_	_
 4	di	di	ADP	E	_	5	mark	_	_
@@ -10442,7 +10442,7 @@
 57	)	)	PUNCT	FB	_	40	punct	_	_
 58	.	.	PUNCT	FS	_	9	punct	_	_
 
-# CC sent_id  74
+# 1-CC sent_id  74
 1	Nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	clausola	clausola	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	di	di	ADP	E	_	5	case	_	_
@@ -10468,7 +10468,7 @@
 22	grave	grave	ADJ	A	Number=Sing	21	amod	_	_
 23	.	.	PUNCT	FS	_	6	punct	_	_
 
-# Europarl sent_id  4
+# 2-Europarl sent_id  4
 1	Invece	invece	ADV	B	_	11	advmod	_	_
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -10489,11 +10489,11 @@
 18	terribili	terribile	ADJ	A	Number=Plur	16	amod	_	_
 19	.	.	PUNCT	FS	_	11	punct	_	_
 
-# Europarl sent_id  5
+# 2-Europarl sent_id  5
 1	Avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	che	che	SCONJ	CS	_	5	mark	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl:impers	_	_
 5	tenesse	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	discussione	discussione	NOUN	S	Gender=Fem|Number=Sing	5	dobj	_	_
@@ -10517,7 +10517,7 @@
 22	tornata	tornata	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
 23	.	.	PUNCT	FS	_	2	punct	_	_
 
-# Europarl sent_id  18
+# 2-Europarl sent_id  18
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	11	nsubjpass	_	_
 3	Cunha	Cunha	PROPN	SP	_	2	nmod	_	_
@@ -10595,7 +10595,7 @@
 67	relativa	relativo	ADJ	A	Gender=Fem|Number=Sing	66	amod	_	_
 68	.	.	PUNCT	FS	_	11	punct	_	_
 
-# Europarl sent_id  40
+# 2-Europarl sent_id  40
 1	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	in	in	ADP	E	_	3	case	_	_
 3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -10609,7 +10609,7 @@
 11	olandese	olandese	ADJ	A	Number=Sing	10	amod	_	_
 12	.	.	PUNCT	FS	_	1	punct	_	_
 
-# Europarl sent_id  57
+# 2-Europarl sent_id  57
 1	Onorevole	onorevole	ADJ	A	Number=Sing	2	amod	_	_
 2	collega	collega	NOUN	S	Number=Sing	6	vocative	_	_
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -10621,7 +10621,7 @@
 9	punto	punto	NOUN	S	Gender=Masc|Number=Sing	7	dobj	_	_
 10	.	.	PUNCT	FS	_	6	punct	_	_
 
-# Europarl sent_id  89
+# 2-Europarl sent_id  89
 1	Onorevole	onorevole	ADJ	A	Number=Sing	2	amod	_	_
 2	collega	collega	NOUN	S	Number=Sing	10	vocative	_	_
 3	Barón	Barón	PROPN	SP	_	2	nmod	_	_
@@ -10644,7 +10644,7 @@
 18	presidenti	presidente	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
 19	.	.	PUNCT	FS	_	10	punct	_	_
 
-# Europarl sent_id  114
+# 2-Europarl sent_id  114
 1	(	(	PUNCT	FB	_	2	punct	_	_
 2	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 3-4	dai	_	_	_	_	_	_	_	_
@@ -10664,7 +10664,7 @@
 14	)	)	PUNCT	FB	_	2	punct	_	_
 15	.	.	PUNCT	FS	_	2	punct	_	_
 
-# Europarl sent_id  116
+# 2-Europarl sent_id  116
 1	Quindi	quindi	ADV	B	_	4	advmod	_	_
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
@@ -10680,7 +10680,7 @@
 12	parlamento	parlamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
 13	.	.	PUNCT	FS	_	4	punct	_	_
 
-# Europarl sent_id  173
+# 2-Europarl sent_id  173
 1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	infine	infine	ADV	B	_	3	advmod	_	_
 3-4	soffermarmi	_	_	_	_	_	_	_	_
@@ -10692,7 +10692,7 @@
 8	punto	punto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
 9	.	.	PUNCT	FS	_	3	punct	_	_
 
-# Europarl sent_id  267
+# 2-Europarl sent_id  267
 1	Signor	signore	NOUN	S	Gender=Masc|Number=Sing	8	vocative	_	_
 2	presidente	presidente	NOUN	S	Number=Sing	1	compound	_	_
 3	,	,	PUNCT	FF	_	1	punct	_	_
@@ -10707,7 +10707,7 @@
 12	millennio	millennio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
 13	.	.	PUNCT	FS	_	8	punct	_	_
 
-# Europarl sent_id  269
+# 2-Europarl sent_id  269
 1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	commentare	commentare	VERB	V	VerbForm=Inf	0	root	_	_
 3	brevemente	brevemente	ADV	B	_	2	advmod	_	_
@@ -10741,7 +10741,7 @@
 26	pericolose	pericoloso	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
 27	.	.	PUNCT	FS	_	2	punct	_	_
 
-# Europarl sent_id  294
+# 2-Europarl sent_id  294
 1-2	al	_	_	_	_	_	_	_	_
 1	a	a	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -10749,7 +10749,7 @@
 4	Koch	Koch	PROPN	SP	_	3	nmod	_	_
 5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nsubj	_	_
+7	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
 8	ringraziamento	ringraziamento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
 9	per	per	ADP	E	_	11	case	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -10760,14 +10760,14 @@
 15	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
 16	.	.	PUNCT	FS	_	5	punct	_	_
 
-# Europarl sent_id  299
+# 2-Europarl sent_id  299
 1	Con	con	ADP	E	_	3	case	_	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	emendamento	emendamento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
-7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl	_	_
+7	si	si	PRON	PC	Person=3|PronType=Clit	8	expl:impers	_	_
 8	terrebbe	tenere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	conto	conto	NOUN	S	Gender=Masc|Number=Sing	8	dobj	_	_
 10-11	del	_	_	_	_	_	_	_	_
@@ -10790,7 +10790,7 @@
 24	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	22	xcomp	_	_
 25	.	.	PUNCT	FS	_	8	punct	_	_
 
-# Europarl sent_id  305
+# 2-Europarl sent_id  305
 1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
 3-4	alla	_	_	_	_	_	_	_	_
@@ -10847,7 +10847,7 @@
 49	semplici	semplice	ADJ	A	Number=Plur	45	amod	_	_
 50	.	.	PUNCT	FS	_	2	punct	_	_
 
-# Europarl sent_id  310
+# 2-Europarl sent_id  310
 1	Ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Clit	2	expl	_	_
 2	rammarichiamo	rammaricare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
@@ -10891,7 +10891,7 @@
 39	Europea	Europea	PROPN	SP	_	38	name	_	_
 40	.	.	PUNCT	FS	_	2	punct	_	_
 
-# Europarl sent_id  372
+# 2-Europarl sent_id  372
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	agricoltura	agricoltura	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	fornisce	fornire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10910,7 +10910,7 @@
 14	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
 15	.	.	PUNCT	FS	_	3	punct	_	_
 
-# Europarl sent_id  411
+# 2-Europarl sent_id  411
 1	Speriamo	sperare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	8	mark	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -10933,11 +10933,11 @@
 18	e	e	CONJ	CC	_	13	cc	_	_
 19	per	per	ADP	E	_	22	case	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	nsubj	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
 22	realizzazione	realizzazione	NOUN	S	Gender=Fem|Number=Sing	13	conj	_	_
 23	.	.	PUNCT	FS	_	1	punct	_	_
 
-# Europarl sent_id  419
+# 2-Europarl sent_id  419
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	efficacia	efficacia	NOUN	S	Gender=Fem|Number=Sing	18	nsubjpass	_	_
 3-4	dei	_	_	_	_	_	_	_	_
@@ -10977,7 +10977,7 @@
 32	amministrativa	amministrativo	ADJ	A	Gender=Fem|Number=Sing	31	amod	_	_
 33	.	.	PUNCT	FS	_	18	punct	_	_
 
-# Europarl sent_id  449
+# 2-Europarl sent_id  449
 1	Tale	tale	DET	DD	Number=Sing|PronType=Dem	2	det	_	_
 2	processo	processo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	continuerà	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -11026,7 +11026,7 @@
 41	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
 42	.	.	PUNCT	FS	_	3	punct	_	_
 
-# Europarl sent_id  483
+# 2-Europarl sent_id  483
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -11050,7 +11050,7 @@
 20	geografici	geografico	ADJ	A	Gender=Masc|Number=Plur	16	conj	_	_
 21	.	.	PUNCT	FS	_	4	punct	_	_
 
-# Europarl sent_id  493
+# 2-Europarl sent_id  493
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fondi	fondo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	strutturali	strutturale	ADJ	A	Number=Plur	2	amod	_	_
@@ -11063,7 +11063,7 @@
 10	processo	processo	NOUN	S	Gender=Masc|Number=Sing	8	dobj	_	_
 11	.	.	PUNCT	FS	_	5	punct	_	_
 
-# UDHR sent_id  5
+# 3-UDHR sent_id  5
 1	Considerato	considerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 2	che	che	SCONJ	CS	_	27	mark	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -11116,7 +11116,7 @@
 43	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	40	nmod	_	_
 44	;	;	PUNCT	FC	_	1	punct	_	_
 
-# UDHR sent_id  51
+# 3-UDHR sent_id  51
 1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
 2	individuo	individuo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11126,7 +11126,7 @@
 7	cittadinanza	cittadinanza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
 8	.	.	PUNCT	FS	_	3	punct	_	_
 
-# FB sent_id  6
+# 4-FB sent_id  6
 1	Inoltre	inoltre	ADV	B	_	13	advmod	_	_
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	se	se	SCONJ	CS	_	4	mark	_	_
@@ -11178,7 +11178,7 @@
 46	mobile	mobile	ADJ	A	Number=Sing	45	amod	_	_
 47	.	.	PUNCT	FS	_	13	punct	_	_
 
-# FB sent_id  27
+# 4-FB sent_id  27
 1	Per	per	ADP	E	_	2	mark	_	_
 2-3	registrarti	_	_	_	_	_	_	_	_
 2	registrar	registrare	VERB	V	VerbForm=Inf	9	advcl	_	_
@@ -11209,7 +11209,7 @@
 26	su	su	ADV	B	_	24	advmod	_	_
 27	.	.	PUNCT	FS	_	9	punct	_	_
 
-# FB sent_id  76
+# 4-FB sent_id  76
 1	Tasso	Tasso	PROPN	SP	_	0	root	_	_
 2	di	di	ADP	E	_	3	case	_	_
 3	conversione	conversione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -11231,7 +11231,7 @@
 16	Facebook	Facebook	PROPN	SP	_	14	nmod	_	_
 17	.	.	PUNCT	FS	_	1	punct	_	_
 
-# WIKIBalzac sent_id  4
+# 5-WIKIBalzac sent_id  4
 1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	rinomato	rinomato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
 3	per	per	ADP	E	_	6	case	_	_
@@ -11246,7 +11246,7 @@
 12	ambigui	ambiguo	ADJ	A	Gender=Masc|Number=Plur	6	acl:relcl	_	_
 13	.	.	PUNCT	FS	_	2	punct	_	_
 
-# WIKIBalzac sent_id  40
+# 5-WIKIBalzac sent_id  40
 1	Balzac	Balzac	PROPN	SP	_	2	nsubj	_	_
 2	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	difficoltà	difficoltà	NOUN	S	Gender=Fem	2	dobj	_	_
@@ -11267,7 +11267,7 @@
 15	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
 16	.	.	PUNCT	FS	_	2	punct	_	_
 
-# WIKIBalzac sent_id  105
+# 5-WIKIBalzac sent_id  105
 1	Verso	verso	ADP	E	_	3	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -11305,7 +11305,7 @@
 33	Francia	Francia	PROPN	SP	_	31	nmod	_	_
 34	.	.	PUNCT	FS	_	10	punct	_	_
 
-# WIKIBalzac sent_id  107
+# 5-WIKIBalzac sent_id  107
 1	Quando	quando	SCONJ	CS	_	3	mark	_	_
 2	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Clit	3	iobj	_	_
 3	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
@@ -11325,7 +11325,7 @@
 15	dichiarò	dichiarare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 16	:	:	PUNCT	FC	_	7	punct	_	_
 
-# WIKIBalzac sent_id  113
+# 5-WIKIBalzac sent_id  113
 1	Nonostante	nonostante	ADP	E	_	5	case	_	_
 2	Balzac	Balzac	PROPN	SP	_	5	nsubj	_	_
 3	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
@@ -11338,10 +11338,10 @@
 9	,	,	PUNCT	FF	_	5	punct	_	_
 10	Balzac	Balzac	PROPN	SP	_	11	nsubj	_	_
 11	rappresentò	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	dobj	_	_
-13	contro	contro	ADP	E	_	15	case	_	_
-14	-	-	PUNCT	FF	_	15	punct	_	_
-15	rivoluzionari	rivoluzionario	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	contro	contro	ADV	B	_	15	advmod	_	_
+14	-	-	PUNCT	FF	_	13	punct	_	_
+15	rivoluzionari	rivoluzionario	NOUN	S	Gender=Masc|Number=Plur	11	dobj	_	_
 16	in	in	ADP	E	_	17	case	_	_
 17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
 18	indulgente	indulgente	ADJ	A	Number=Sing	17	amod	_	_
@@ -11365,7 +11365,7 @@
 33	libro	libro	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
 34	.	.	PUNCT	FS	_	11	punct	_	_
 
-# WIKIBalzac sent_id  152
+# 5-WIKIBalzac sent_id  152
 1	Le	Le	PROPN	SP	_	14	nsubj	_	_
 2	Cousin	Cousin	PROPN	SP	_	1	name	_	_
 3	Pons	Pons	PROPN	SP	_	1	name	_	_
@@ -11393,7 +11393,7 @@
 25	)	)	PUNCT	FB	_	23	punct	_	_
 26	.	.	PUNCT	FS	_	14	punct	_	_
 
-# WIKIBalzac sent_id  183
+# 5-WIKIBalzac sent_id  183
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	loro	loro	DET	AP	Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	corrispondenza	corrispondenza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -11411,7 +11411,7 @@
 15	pazienza	pazienza	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
 16	;	;	PUNCT	FC	_	4	punct	_	_
 
-# WIKIBalzac sent_id  213
+# 5-WIKIBalzac sent_id  213
 1	Mentre	mentre	SCONJ	CS	_	2	mark	_	_
 2	ammirava	ammirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
 3	e	e	CONJ	CC	_	2	cc	_	_
@@ -11446,7 +11446,7 @@
 29	particolari	particolare	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
 30	.	.	PUNCT	FS	_	18	punct	_	_
 
-# WIKIBalzac sent_id  219
+# 5-WIKIBalzac sent_id  219
 1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	critici	critico	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11487,7 +11487,7 @@
 36	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
 37	.	.	PUNCT	FS	_	3	punct	_	_
 
-# WIKIBalzac sent_id  229
+# 5-WIKIBalzac sent_id  229
 1	"	"	PUNCT	FB	_	9	punct	_	_
 2-3	allo	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	5	case	_	_
@@ -11506,7 +11506,7 @@
 15	sociali	sociale	ADJ	A	Number=Plur	14	amod	_	_
 16	:	:	PUNCT	FC	_	9	punct	_	_
 
-# WIKIBalzac sent_id  258
+# 5-WIKIBalzac sent_id  258
 1	Come	come	ADP	E	_	2	case	_	_
 2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
 3-4	dell'	_	_	_	_	_	_	_	_
@@ -11542,7 +11542,7 @@
 30	"	"	PUNCT	FB	_	27	punct	_	_
 31	.	.	PUNCT	FS	_	21	punct	_	_
 
-# JRCAcquis sent_id  2
+# 6-JRCAcquis sent_id  2
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	parlamento	parlamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 3	europeo	europeo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
@@ -11617,7 +11617,7 @@
 67	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	acl:relcl	_	_
 68	:	:	PUNCT	FC	_	2	punct	_	_
 
-# JRCAcquis sent_id  12
+# 6-JRCAcquis sent_id  12
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	di	di	ADP	E	_	4	case	_	_
@@ -11638,7 +11638,7 @@
 18	di	di	ADP	E	_	19	case	_	_
 19	energia	energia	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
 20	e	e	CONJ	CC	_	6	cc	_	_
-21	si	si	PRON	PC	Person=3|PronType=Clit	22	expl	_	_
+21	si	si	PRON	PC	Person=3|PronType=Clit	22	expl:impers	_	_
 22	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 23	che	che	SCONJ	CS	_	25	mark	_	_
 24	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
@@ -11666,7 +11666,7 @@
 45	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
 46	.	.	PUNCT	FS	_	6	punct	_	_
 
-# JRCAcquis sent_id  60
+# 6-JRCAcquis sent_id  60
 1	(	(	PUNCT	FB	_	2	punct	_	_
 2	29	29	NUM	N	NumType=Card	4	nummod	_	_
 3	)	)	PUNCT	FB	_	2	punct	_	_
@@ -11693,7 +11693,7 @@
 21	comunitario	comunitario	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
 22	.	.	PUNCT	FS	_	4	punct	_	_
 
-# JRCAcquis sent_id  70
+# 6-JRCAcquis sent_id  70
 1	(	(	PUNCT	FB	_	2	punct	_	_
 2	33	33	NUM	N	NumType=Card	8	nummod	_	_
 3	)	)	PUNCT	FB	_	2	punct	_	_
@@ -12015,7 +12015,7 @@
 289	]	]	PUNCT	FB	_	288	punct	_	_
 290	.	.	PUNCT	FS	_	8	punct	_	_
 
-# JRCAcquis sent_id  124
+# 6-JRCAcquis sent_id  124
 1	-	-	PUNCT	FF	_	25	punct	_	_
 2	in	in	ADP	E	_	3	case	_	_
 3	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
@@ -12074,7 +12074,7 @@
 50	Pericle	Pericle	PROPN	SP	_	49	nmod	_	_
 51	.	.	PUNCT	FS	_	25	punct	_	_
 
-# JRCAcquis sent_id  148
+# 6-JRCAcquis sent_id  148
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	auxpass	_	_
 3	rilevata	rilevare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -12099,7 +12099,7 @@
 20	euro	euro	NOUN	S	Gender=Masc	17	nmod	_	_
 21	.	.	PUNCT	FS	_	3	punct	_	_
 
-# JRCAcquis sent_id  162
+# 6-JRCAcquis sent_id  162
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	numero	numero	NOUN	S	Gender=Masc|Number=Sing	18	nsubjpass	_	_
 3	limitato	limitato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
@@ -12138,9 +12138,9 @@
 33	gemellaggio	gemellaggio	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
 34	.	.	PUNCT	FS	_	18	punct	_	_
 
-# WIKIShake sent_id  6
+# 7-WIKIShake sent_id  6
 1-2	All'	_	_	_	_	_	_	_	_
-1	a	a	ADP	E	_	3	case	_	_
+1	A	a	ADP	E	_	3	case	_	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	età	età	NOUN	S	Gender=Fem	8	nmod	_	_
 4	di	di	ADP	E	_	6	case	_	_
@@ -12159,7 +12159,7 @@
 17	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	15	dobj	_	_
 18	:	:	PUNCT	FC	_	8	punct	_	_
 
-# WIKIShake sent_id  18
+# 7-WIKIShake sent_id  18
 1	Shakespeare	Shakespeare	PROPN	SP	_	4	nsubj	_	_
 2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -12190,7 +12190,7 @@
 26	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
 27	.	.	PUNCT	FS	_	4	punct	_	_
 
-# WIKIShake sent_id  24
+# 7-WIKIShake sent_id  24
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
 3	vera	vera	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -12203,7 +12203,7 @@
 10	ma	ma	CONJ	CC	_	7	cc	_	_
 11	tradizionalmente	tradizionalmente	ADV	B	_	14	advmod	_	_
 12	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Clit	14	dobj	_	_
-13	si	si	PRON	PC	Person=3|PronType=Clit	14	expl	_	_
+13	si	si	PRON	PC	Person=3|PronType=Clit	14	expl:impers	_	_
 14	colloca	collocare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	23	23	NUM	N	NumType=Card	14	nummod	_	_
@@ -12216,9 +12216,9 @@
 23	Giorgio	Giorgio	PROPN	SP	_	20	nmod	_	_
 24	.	.	PUNCT	FS	_	7	punct	_	_
 
-# WIKIShake sent_id  57
+# 7-WIKIShake sent_id  57
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1599	1599	NUM	N	NumType=Card	12	nummod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -12250,7 +12250,7 @@
 27	Tamigi	Tamigi	PROPN	SP	_	26	nmod	_	_
 28	.	.	PUNCT	FS	_	12	punct	_	_
 
-# WIKIShake sent_id  59
+# 7-WIKIShake sent_id  59
 1	Testimonianze	testimonianza	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
 2-3	degli	_	_	_	_	_	_	_	_
 2	di	di	ADP	E	_	4	case	_	_
@@ -12274,9 +12274,9 @@
 19	ricco	ricco	NOUN	S	Gender=Masc|Number=Sing	18	xcomp	_	_
 20	.	.	PUNCT	FS	_	12	punct	_	_
 
-# WIKIShake sent_id  73
+# 7-WIKIShake sent_id  73
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1604	1604	NUM	N	NumType=Card	6	nummod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -12309,7 +12309,7 @@
 29	eleganti	elegante	ADJ	A	Number=Plur	28	amod	_	_
 30	.	.	PUNCT	FS	_	6	punct	_	_
 
-# WIKIShake sent_id  74
+# 7-WIKIShake sent_id  74
 1	Qui	qui	ADV	B	_	2	advmod	_	_
 2	affittò	affittare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	camere	camera	NOUN	S	Gender=Fem|Number=Plur	2	dobj	_	_
@@ -12332,9 +12332,9 @@
 20	copricapi	copricapo	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
 21	.	.	PUNCT	FS	_	2	punct	_	_
 
-# WIKIShake sent_id  83
+# 7-WIKIShake sent_id  83
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1612	1612	NUM	N	NumType=Card	6	nummod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -12364,36 +12364,35 @@
 27	Mary	Mary	PROPN	SP	_	23	nmod	_	_
 28	.	.	PUNCT	FS	_	6	punct	_	_
 
-# WIKIShake sent_id  87
+# 7-WIKIShake sent_id  87
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	sue	suo	PRON	PP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	nsubj	_	_
+2	sue	suo	PRON	PP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	nmod	_	_
 3	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	5	amod	_	_
 4	tre	tre	NUM	N	NumType=Card	5	nummod	_	_
 5	opere	opera	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
 6	teatrali	teatrale	ADJ	A	Number=Plur	5	amod	_	_
 7	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-8	delle	del	DET	RI	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-9	delle	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	collaborazioni	collaborazione	NOUN	S	Gender=Fem|Number=Plur	5	acl	_	_
-11	,	,	PUNCT	FF	_	10	punct	_	_
-12	probabilmente	probabilmente	ADV	B	_	14	advmod	_	_
-13	con	con	ADP	E	_	14	case	_	_
-14	John	John	PROPN	SP	_	10	nmod	_	_
-15	Fletcher	Fletcher	PROPN	SP	_	14	name	_	_
-16	,	,	PUNCT	FF	_	14	punct	_	_
-17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
-18	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Clit	19	iobj	_	_
-19	successe	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
-20	come	come	ADP	E	_	21	case	_	_
-21	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
-22	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
-23	presso	presso	ADP	E	_	25	case	_	_
-24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-25	King's	King's	PROPN	SP	_	19	nmod	_	_
-26	Men	Men	PROPN	SP	_	25	name	_	_
-27	.	.	PUNCT	FS	_	5	punct	_	_
+8	delle	del	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	collaborazioni	collaborazione	NOUN	S	Gender=Fem|Number=Plur	5	acl	_	_
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	probabilmente	probabilmente	ADV	B	_	13	advmod	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	John	John	PROPN	SP	_	9	nmod	_	_
+14	Fletcher	Fletcher	PROPN	SP	_	13	name	_	_
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Clit	18	iobj	_	_
+18	successe	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+19	come	come	ADP	E	_	20	case	_	_
+20	poeta	poeta	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	drammatico	drammatico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+22	presso	presso	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	King's	King's	PROPN	SP	_	18	nmod	_	_
+25	Men	Men	PROPN	SP	_	24	name	_	_
+26	.	.	PUNCT	FS	_	5	punct	_	_
 
-# WIKIShake sent_id  128
+# 7-WIKIShake sent_id  128
 1	"	"	PUNCT	FB	_	10	punct	_	_
 2	essere	essere	VERB	V	VerbForm=Inf	10	csubj	_	_
 3	o	o	CONJ	CC	_	2	cc	_	_
@@ -12407,9 +12406,9 @@
 11	"	"	PUNCT	FB	_	10	punct	_	_
 12	.	.	PUNCT	FS	_	10	punct	_	_
 
-# WIKIShake sent_id  157
+# 7-WIKIShake sent_id  157
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	1613	1613	NUM	N	NumType=Card	8	nummod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
@@ -12434,7 +12433,7 @@
 23	"	"	PUNCT	FB	_	15	punct	_	_
 24	.	.	PUNCT	FS	_	8	punct	_	_
 
-# WIKIShake sent_id  160
+# 7-WIKIShake sent_id  160
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	conteneva	contenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -12447,7 +12446,7 @@
 10	inediti	inedito	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
 11	.	.	PUNCT	FS	_	3	punct	_	_
 
-# WIKIShake sent_id  169
+# 7-WIKIShake sent_id  169
 1	Li	li	PRON	PC	Gender=Masc|Number=Plur|Person=3|PronType=Clit	2	dobj	_	_
 2	dedicò	dedicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	a	a	ADP	E	_	4	case	_	_
@@ -12460,7 +12459,7 @@
 10	Southampton	Southampton	PROPN	SP	_	8	nmod	_	_
 11	.	.	PUNCT	FS	_	2	punct	_	_
 
-# WIKIShake sent_id  233
+# 7-WIKIShake sent_id  233
 1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	2	nsubj	_	_
 2	includono	includere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	due	due	NUM	N	NumType=Card	4	nummod	_	_
@@ -12475,7 +12474,7 @@
 12	Falstaff	Falstaff	PROPN	SP	_	10	conj	_	_
 13	,	,	PUNCT	FF	_	4	punct	_	_
 14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	cui	cui	DET	DR	PronType=Rel	16	det	_	_
+15	cui	cui	DET	DR	PronType=Rel	16	det:poss	_	_
 16	reputazione	reputazione	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
 17	critica	critico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
 18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -12489,9 +12488,9 @@
 25	originali	originale	ADJ	A	Number=Plur	24	amod	_	_
 26	.	.	PUNCT	FS	_	2	punct	_	_
 
-# WIKIShake sent_id  237
+# 7-WIKIShake sent_id  237
 1-2	Ai	_	_	_	_	_	_	_	_
-1	a	a	ADP	E	_	3	case	_	_
+1	A	a	ADP	E	_	3	case	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
 4	di	di	ADP	E	_	5	case	_	_
@@ -12518,7 +12517,7 @@
 25	,	,	PUNCT	FF	_	18	punct	_	_
 26	e	e	CONJ	CC	_	18	cc	_	_
 27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	nsubj	_	_
+28	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det:poss	_	_
 29	uso	uso	NOUN	S	Gender=Masc|Number=Sing	34	nsubj	_	_
 30-31	del	_	_	_	_	_	_	_	_
 30	di	di	ADP	E	_	32	case	_	_
@@ -12533,9 +12532,9 @@
 39	moderno	moderno	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
 40	.	.	PUNCT	FS	_	18	punct	_	_
 
-# WIKIShake sent_id  267
+# 7-WIKIShake sent_id  267
 1-2	Negli	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	3	case	_	_
+1	In	in	ADP	E	_	3	case	_	_
 2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
 4	50	50	NUM	N	NumType=Card	3	nummod	_	_
@@ -12566,7 +12565,7 @@
 28	Shakespeare	Shakespeare	PROPN	SP	_	21	nmod	_	_
 29	.	.	PUNCT	FS	_	12	punct	_	_
 
-# WIKIShake sent_id  281
+# 7-WIKIShake sent_id  281
 1	A	a	ADP	E	_	3	case	_	_
 2	diciotto	diciotto	NUM	N	NumType=Card	3	nummod	_	_
 3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
@@ -12581,9 +12580,9 @@
 12	incinta	incinto	ADJ	A	Gender=Fem|Number=Sing	7	acl:relcl	_	_
 13	.	.	PUNCT	FS	_	4	punct	_	_
 
-# WIKIShake sent_id  292
+# 7-WIKIShake sent_id  292
 1-2	Nel	_	_	_	_	_	_	_	_
-1	in	in	ADP	E	_	5	case	_	_
+1	In	in	ADP	E	_	5	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 3	tardo	tardo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
 4	diciannovesimo	diciannovesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
@@ -12622,14 +12621,14 @@
 35	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
 36	.	.	PUNCT	FS	_	9	punct	_	_
 
-# WIT3 sent_id  77
+# 8-WIT3 sent_id  77
 1	Ovviamente	ovviamente	ADV	B	_	3	advmod	_	_
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 5	.	.	PUNCT	FS	_	3	punct	_	_
 
-# PS sent_id  5
+# 9-PS sent_id  5
 1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	economisti	economista	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
 3	di	di	ADP	E	_	4	case	_	_
@@ -12669,7 +12668,7 @@
 35	Africa	Africa	PROPN	SP	_	28	nmod	_	_
 36	.	.	PUNCT	FS	_	15	punct	_	_
 
-# PS sent_id  26
+# 9-PS sent_id  26
 1	In	in	ADP	E	_	3	case	_	_
 2	terzo	terzo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
@@ -12684,7 +12683,7 @@
 12	imperfetti	imperfetto	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
 13	.	.	PUNCT	FS	_	11	punct	_	_
 
-# PS sent_id  34
+# 9-PS sent_id  34
 1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	ingenuo	ingenuo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
 3	da	da	ADP	E	_	4	case	_	_
@@ -12717,11 +12716,11 @@
 28	altrove	altrove	ADV	B	_	27	advmod	_	_
 29	.	.	PUNCT	FS	_	2	punct	_	_
 
-# PS sent_id  56
-1	Ma	ma	CONJ	CC	_	0	root	_	_
+# 9-PS sent_id  56
+1	Ma	a	CONJ	CC	_	4	cc	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
-4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	che	che	SCONJ	CS	_	17	mark	_	_
 6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	idee	idea	NOUN	S	Gender=Fem|Number=Plur	17	nsubj	_	_
@@ -12753,9 +12752,9 @@
 31	via	via	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	_
 32	di	di	ADP	E	_	33	case	_	_
 33	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
-34	.	.	PUNCT	FS	_	1	punct	_	_
+34	.	.	PUNCT	FS	_	4	punct	_	_
 
-# PS sent_id  82
+# 9-PS sent_id  82
 1	E'	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ora	ora	ADV	B	_	1	advmod	_	_
 3	che	che	SCONJ	CS	_	7	mark	_	_
@@ -12773,9 +12772,9 @@
 15	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	svolgere	svolgere	VERB	V	VerbForm=Inf	9	acl:relcl	_	_
 17-18	nel	_	_	_	_	_	_	_	_
-17	in	in	ADP	E	_	19	mark	_	_
+17	in	in	ADP	E	_	19	case	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	sostenere	sostenere	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	sostenere	sostenere	VERB	V	VerbForm=Inf	16	nmod	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	19	dobj	_	_
 22	e	e	CONJ	CC	_	19	cc	_	_
@@ -12788,7 +12787,7 @@
 28	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	_
 29	.	.	PUNCT	FS	_	1	punct	_	_
 
-# PS sent_id  100
+# 9-PS sent_id  100
 1	Andy	Andy	PROPN	SP	_	16	nsubj	_	_
 2	Haldane	Haldane	PROPN	SP	_	1	name	_	_
 3	,	,	PUNCT	FF	_	1	punct	_	_
@@ -12825,7 +12824,7 @@
 31	di	di	ADP	E	_	32	mark	_	_
 32	rinvigorire	rinvigorire	VERB	V	VerbForm=Inf	29	acl	_	_
 33	che	che	CONJ	CC	_	32	cc	_	_
-34	di	di	ADP	E	_	35	case	_	_
+34	di	di	ADP	E	_	35	mark	_	_
 35	limitare	limitare	VERB	V	VerbForm=Inf	32	conj	_	_
 36	ampie	ampio	ADJ	A	Gender=Fem|Number=Plur	37	amod	_	_
 37	parti	parte	NOUN	S	Gender=Fem|Number=Plur	35	dobj	_	_
@@ -12836,7 +12835,7 @@
 42	"	"	PUNCT	FB	_	29	punct	_	_
 43	.	.	PUNCT	FS	_	16	punct	_	_
 
-# PS sent_id  111
+# 9-PS sent_id  111
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	di	di	ADP	E	_	5	case	_	_
@@ -12859,7 +12858,7 @@
 19	controverse	controverso	ADJ	A	Gender=Fem|Number=Plur	8	conj	_	_
 20	.	.	PUNCT	FS	_	8	punct	_	_
 
-# PS sent_id  116
+# 9-PS sent_id  116
 1	Queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	società	società	NOUN	S	Gender=Fem	3	nsubj	_	_
 3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12880,8 +12879,8 @@
 18	alti	alto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
 19	.	.	PUNCT	FS	_	3	punct	_	_
 
-# PS sent_id  126
-1	Ma	ma	CONJ	CC	_	0	root	_	_
+# 9-PS sent_id  126
+1	Ma	ma	CONJ	CC	_	21	cc	_	_
 2	se	se	SCONJ	CS	_	5	mark	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	finanza	finanza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -12903,7 +12902,7 @@
 18	brillanti	brillante	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
 19	,	,	PUNCT	FF	_	5	punct	_	_
 20	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-21	restare	restare	VERB	V	VerbForm=Inf	1	conj	_	_
+21	restare	restare	VERB	V	VerbForm=Inf	0	root	_	_
 22	poco	poco	ADV	B	_	23	advmod	_	_
 23	manifatturiero	manifatturiero	ADJ	A	Gender=Masc|Number=Sing	21	dobj	_	_
 24	inglese	inglese	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
@@ -12921,9 +12920,9 @@
 35	tech	tech	NOUN	S	_	33	mwe	_	_
 36	di	di	ADP	E	_	37	case	_	_
 37	oggi	oggi	ADV	B	_	32	advmod	_	_
-38	.	.	PUNCT	FS	_	1	punct	_	_
+38	.	.	PUNCT	FS	_	21	punct	_	_
 
-# PS sent_id  137
+# 9-PS sent_id  137
 1	Secondo	secondo	ADP	E	_	2	case	_	_
 2	Heisenberg	Heisenberg	PROPN	SP	_	8	nmod	_	_
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -12940,7 +12939,7 @@
 13	onde	onda	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
 14	;	;	PUNCT	FC	_	8	punct	_	_
 
-# PS sent_id  210
+# 9-PS sent_id  210
 1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	America	America	PROPN	SP	_	4	nsubj	_	_
 3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -12985,7 +12984,7 @@
 37	capacità	capacità	NOUN	S	Gender=Fem	33	conj	_	_
 38	.	.	PUNCT	FS	_	4	punct	_	_
 
-# PS sent_id  240
+# 9-PS sent_id  240
 1	Come	come	ADV	B	_	3	advmod	_	_
 2	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	auxpass	_	_
 3	allocate	allocare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -13027,7 +13026,7 @@
 36	insostenibili	insostenibile	ADJ	A	Number=Plur	16	acl:relcl	_	_
 37	?	?	PUNCT	FS	_	3	punct	_	_
 
-# PS sent_id  252
+# 9-PS sent_id  252
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	globale	globale	ADJ	A	Number=Sing	2	amod	_	_
@@ -13056,8 +13055,8 @@
 22	governi	governo	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	_
 23	.	.	PUNCT	FS	_	7	punct	_	_
 
-# PS sent_id  292
-1	Ma	ma	CONJ	CC	_	0	root	_	_
+# 9-PS sent_id  292
+1	Ma	ma	CONJ	CC	_	15	cc	_	_
 2	quando	quando	SCONJ	CS	_	5	mark	_	_
 3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	innovazione	innovazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -13072,13 +13071,13 @@
 12	,	,	PUNCT	FF	_	5	punct	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	compito	compito	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
-15	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	decisamente	decisamente	ADV	B	_	18	advmod	_	_
 17	più	più	ADV	B	_	18	advmod	_	_
 18	arduo	arduo	ADJ	A	Gender=Masc|Number=Sing	15	xcomp	_	_
-19	.	.	PUNCT	FS	_	1	punct	_	_
+19	.	.	PUNCT	FS	_	15	punct	_	_
 
-# PS sent_id  356
+# 9-PS sent_id  356
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
@@ -13110,7 +13109,7 @@
 26	istruite	istruito	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
 27	.	.	PUNCT	FS	_	10	punct	_	_
 
-# PS sent_id  362
+# 9-PS sent_id  362
 1	Di	di	ADP	E	_	2	case	_	_
 2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -13177,7 +13176,7 @@
 61	retribuito	retribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	59	acl	_	_
 62	.	.	PUNCT	FS	_	20	punct	_	_
 
-# PS sent_id  437
+# 9-PS sent_id  437
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	FMI	FMI	PROPN	SP	_	4	nsubj	_	_
 3	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	4	dobj	_	_
@@ -13200,7 +13199,7 @@
 18	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
 19	.	.	PUNCT	FS	_	4	punct	_	_
 
-# PS sent_id  509
+# 9-PS sent_id  509
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
 3	mese	mese	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -13239,7 +13238,7 @@
 34	democrazia	democrazia	NOUN	S	Gender=Fem|Number=Sing	32	dobj	_	_
 35	.	.	PUNCT	FS	_	10	punct	_	_
 
-# PS sent_id  548
+# 9-PS sent_id  548
 1	In	in	ADP	E	_	2	case	_	_
 2	base	base	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
 3-4	alle	_	_	_	_	_	_	_	_
@@ -13270,7 +13269,7 @@
 26	mondiale	mondiale	ADJ	A	Number=Sing	25	amod	_	_
 27	.	.	PUNCT	FS	_	8	punct	_	_
 
-# PS sent_id  573
+# 9-PS sent_id  573
 1	Solo	solo	ADV	B	_	4	advmod	_	_
 2	attraverso	attraverso	ADP	E	_	4	case	_	_
 3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -13304,7 +13303,7 @@
 28	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
 29	.	.	PUNCT	FS	_	14	punct	_	_
 
-# PS sent_id  600
+# 9-PS sent_id  600
 1	Mancando	mancare	VERB	V	VerbForm=Ger	19	advcl	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Germania	Germania	PROPN	SP	_	1	nsubj	_	_

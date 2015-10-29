@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>12330</sentences><tokens>258308</tokens><words>277209</words><fused>18875</fused></total>
+  </size>
+  <lemmas unique="17852" /><!-- il, di, ,, ., a, essere, in, e, uno, che, da, per, ", avere, si -->
+  <forms unique="26448" /><!-- di, ,, il, la, ., a, in, e, l', i, le, che, è, da, per -->
+  <fusions unique="778" /><!-- del, della, al, dei, dell', nel, delle, alla, dal, all', nella, degli, ai, dalla, alle -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="17">
+    <tag name="ADJ">17809</tag><!-- primo, altro, stesso, nuovo, grande, pubblico, presente, ultimo, maggiore, italiano -->
+    <tag name="ADP">42753</tag><!-- di, a, in, da, per, con, su, come, tra, dopo -->
+    <tag name="ADV">10586</tag><!-- non, più, anche, dove, come, quando, solo, ancora, sempre, già -->
+    <tag name="AUX">7649</tag><!-- essere, avere, potere, dovere, venire, volere, stare, andare, sapere, fare -->
+    <tag name="CONJ">7576</tag><!-- e, o, ma, sia, né, ovvero, che, nonché, oppure, cioè -->
+    <tag name="DET">45028</tag><!-- il, uno, suo, questo, quale, tutto, ogni, loro, che, tale -->
+    <tag name="INTJ">60</tag><!-- sì, no, ah, grazie, ahimè, oh, vabbè, ahò, chissà, ciao -->
+    <tag name="NOUN">55031</tag><!-- anno, parte, diritto, fondo, presidente, opera, legge, stato, paese, caso -->
+    <tag name="NUM">4568</tag><!-- due, 1, tre, 2, 3, cinque, mila, quattro, 4, 20 -->
+    <tag name="PART">4</tag><!-- 's -->
+    <tag name="PRON">10956</tag><!-- si, che, lo, ci, chi, quello, cui, quale, ne, questo -->
+    <tag name="PROPN">13499</tag><!-- Shakespeare, Balzac, Italia, Stati, Europa, Pericle, San, Uniti, Roma, Albania -->
+    <tag name="PUNCT">31316</tag><!-- ,, ., ", ?, ), (, -, :, ;, [ -->
+    <tag name="SCONJ">2925</tag><!-- che, se, quando, come, perché, mentre, qualora, dopo, purché, sebbene -->
+    <tag name="SYM">252</tag><!-- /, %, &, =, +, -, http://europa.eu.int/comm/secretariat@general/sgb/state@aids, http://www.linkiesta.it/Locatelli-lombardia-Nicoli-regione, x -->
+    <tag name="VERB">27057</tag><!-- essere, avere, fare, vedere, dire, trovare, chiamare, dare, tenere, andare -->
+    <tag name="X">140</tag><!-- a, b, c, f, ad, damage, de, capite, done, electronic -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="36">
+    <feat name="Definite" value="Def" upos="DET">35146</feat><!-- il, la, l', i, le, gli, lo, l’, l\u2019, the -->
+    <feat name="Definite" value="Ind" upos="DET">4444</feat><!-- un, una, un', uno, dei, delle, della, degli, del, dell' -->
+    <feat name="Degree" value="Abs" upos="ADJ,ADV,DET,NOUN,PRON,PROPN">107</feat><!-- benissimo, pochissimi, altissimo, gravissimo, altissima, bellissimo, chiarissimo, durissima, giovanissimi, grandissima -->
+    <feat name="Degree" value="Cmp" upos="ADJ,NOUN">346</feat><!-- maggiore, maggior, inferiore, migliore, superiore, minore, maggiori, migliori, superiori, miglior -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,PRON,VERB">49145</feat><!-- la, le, una, sua, un', parte, questa, legge, stata, città -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">65552</feat><!-- il, i, un, gli, lo, stato, anni, questo, suo, fondo -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">526</feat><!-- sarebbe, potrebbe, avrebbe, dovrebbe, dovrebbero, potrebbero, sarebbero, vorrei, avrebbero, dovremmo -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">231</feat><!-- v., Nomina, Dimmi, Elenca, vedi, Dammi, clicca, ricorda, usa, cerca -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">17029</feat><!-- è, ha, sono, può, hanno, era, deve, possono, fu, aveva -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">1109</feat><!-- sia, siano, abbia, possa, fosse, venga, avesse, abbiano, debba, fossero -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">40710</feat><!-- i, le, gli, sono, hanno, anni, tutti, stati, altri, possono -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">104843</feat><!-- il, la, l', è, un, una, ha, lo, quale, stato -->
+    <feat name="NumType" value="Card" upos="NUM">4547</feat><!-- due, 1, tre, 2, 3, cinque, mila, quattro, 4, 20 -->
+    <feat name="NumType" value="Ord" upos="ADJ,PRON">891</feat><!-- primo, prima, secondo, terzo, primi, seconda, ultimi, prime, ultimo, ultima -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">1606</feat><!-- mi, ci, ho, noi, abbiamo, io, siamo, sono, me, credo -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">688</feat><!-- ti, vi, v., puoi, te, Nomina, tu, hai, devi, voi -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">21054</feat><!-- è, si, ha, sono, può, hanno, era, lo, sia, deve -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">1783</feat><!-- sua, suo, loro, suoi, sue, proprio, mio, nostra, nostro, propria -->
+    <feat name="PronType" value="Art" upos="DET">39590</feat><!-- il, la, l', i, le, un, una, gli, lo, un' -->
+    <feat name="PronType" value="Clit" upos="PRON">4480</feat><!-- si, ci, lo, ne, c', mi, la, gli, li, vi -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1808</feat><!-- questo, questa, quello, questi, tale, quella, ciò, queste, quelle, quelli -->
+    <feat name="PronType" value="Exc" upos="DET">6</feat><!-- che, Quale -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">2348</feat><!-- ogni, uno, tutto, alcuni, qualche, altri, tutti, molti, altro, qualsiasi -->
+    <feat name="PronType" value="Int" upos="DET,PRON">1845</feat><!-- quale, chi, che, qual, quanti, cosa, quanto, quante, cos', quali -->
+    <feat name="PronType" value="Neg" upos="ADV">1904</feat><!-- non, neppure, nemmeno, no, neanche, mica, nè, perniente -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">2478</feat><!-- sua, suo, loro, suoi, lui, sue, noi, io, proprio, lei -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">3009</feat><!-- che, cui, quale, chi, quanto, quali, chiunque, come, quanti, dove -->
+    <feat name="Reflex" value="Yes" upos="PRON">168</feat><!-- si -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">591</feat><!-- sarà, saranno, potrà, dovrà, verrà, avrà, dovranno, potranno, vedrà, farà -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">1671</feat><!-- era, aveva, erano, avevano, fosse, avesse, chiamava, fossero, faceva, poteva -->
+    <feat name="Tense" value="Past" upos="AUX,NOUN,VERB">10222</feat><!-- stato, stata, fu, stati, fatto, visto, venne, state, tenuto, avuto -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">15671</feat><!-- è, ha, sono, può, hanno, sia, deve, possono, viene, trova -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">18895</feat><!-- è, ha, sono, può, hanno, era, sia, deve, possono, fu -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">727</feat><!-- considerando, essendo, facendo, portando, cercando, tenendo, lasciando, seguendo, dando, parlando -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">5822</feat><!-- essere, far, fare, aver, vedere, avere, dire, dare, chiedere, pagare -->
+    <feat name="VerbForm" value="Part" upos="AUX,NOUN,VERB">9257</feat><!-- stato, stata, stati, fatto, visto, state, tenuto, avuto, detto, dato -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="38">
+    <dep name="acl">3626</dep>
+    <dep name="acl:relcl">2995</dep>
+    <dep name="advcl">3375</dep>
+    <dep name="advmod">8453</dep>
+    <dep name="amod">15062</dep>
+    <dep name="appos">869</dep>
+    <dep name="aux">5394</dep>
+    <dep name="auxpass">2262</dep>
+    <dep name="case">39529</dep>
+    <dep name="cc">7531</dep>
+    <dep name="ccomp">1371</dep>
+    <dep name="compound">782</dep>
+    <dep name="conj">9475</dep>
+    <dep name="cop">2810</dep>
+    <dep name="csubj">331</dep>
+    <dep name="csubjpass">24</dep>
+    <dep name="dep">9</dep>
+    <dep name="det">42881</dep>
+    <dep name="det:poss">1600</dep>
+    <dep name="det:predet">331</dep>
+    <dep name="discourse">61</dep>
+    <dep name="dobj">9604</dep>
+    <dep name="expl">2651</dep>
+    <dep name="foreign">57</dep>
+    <dep name="iobj">391</dep>
+    <dep name="mark">5792</dep>
+    <dep name="mwe">1043</dep>
+    <dep name="name">3312</dep>
+    <dep name="neg">1885</dep>
+    <dep name="nmod">39648</dep>
+    <dep name="nsubj">11755</dep>
+    <dep name="nsubjpass">1991</dep>
+    <dep name="nummod">3976</dep>
+    <dep name="parataxis">380</dep>
+    <dep name="punct">31417</dep>
+    <dep name="root">12330</dep>
+    <dep name="vocative">107</dep>
+    <dep name="xcomp">2099</dep>
+  </deps>
+</treebank>

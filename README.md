@@ -99,3 +99,10 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.
 
+
+
+Documentation status: partial
+Data source: semi-automatic
+Data available since: UD v1.0
+License: CC BY-NC-SA 3.0
+Genre: legal news wiki

@@ -2817,7 +2817,7 @@
 8	poco	poco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	dobj	_	_
 9	a	a	ADP	E	_	11	mark	_	_
 10	che	che	SCONJ	CS	_	9	mwe	_	_
-11	vedere	vedere	VERB	V	VerbForm=Inf	6	ccomp	_	_
+11	vedere	vedere	VERB	V	VerbForm=Inf	8	acl	_	_
 12-13	col	_	_	_	_	_	_	_	_
 12	con	con	ADP	E	_	14	case	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -5006,7 +5006,7 @@
 13	giurisdizione	giurisdizione	NOUN	S	Gender=Fem|Number=Sing	12	dobj	_	_
 14	per	per	ADP	E	_	16	case	_	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
 17-18	nei	_	_	_	_	_	_	_	_
 17	in	in	ADP	E	_	19	case	_	_
 18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -8991,7 +8991,7 @@
 4-5	alla	_	_	_	_	_	_	_	_
 4	a	a	ADP	E	_	6	case	_	_
 5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Riforma	Riforma	PROPN	SP	_	2	nmod	_	_
+6	Riforma	Riforma	PROPN	SP	_	3	nmod	_	_
 7	Protestante	Protestante	PROPN	SP	_	6	name	_	_
 8	?	?	PUNCT	FS	_	2	punct	_	_
 

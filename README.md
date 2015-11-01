@@ -59,10 +59,10 @@ Version 1.1 of the data. Changes from the previous version include.
 Version 1.2 of the data. Changes from the previous version include.
 
 * Added dependencies expl:impers as specialization of expl for impersonal clitic pronouns
-* Fixed case in form of articulated preposition, previously lost during splitting
+* Fixed case in articulated preposition, previously lost during splitting
 * More fixes to xcomp/ccomp distinction
 * Harmonization of case marking for infinitive verbs introduced by articles
-
+* Harmonization of Light Verb constructions
 
 ## Acknowledgments
 

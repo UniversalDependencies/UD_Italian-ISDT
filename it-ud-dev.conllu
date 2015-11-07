@@ -10116,38 +10116,6 @@
 27	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
 28	.	.	PUNCT	FS	_	14	punct	_	_
 
-# test sent_id  198
-1-2	dalla	_	_	_	_	_	_	_	_
-1	da	da	ADP	E	_	3	case	_	_
-2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	finanza	finanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
-4	vaticana	vaticano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
-5-6	al	_	_	_	_	_	_	_	_
-5	a	a	ADP	E	_	8	case	_	_
-6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
-8	assetto	assetto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
-9-10	della	_	_	_	_	_	_	_	_
-9	di	di	ADP	E	_	11	case	_	_
-10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Curia	Curia	PROPN	SP	_	8	nmod	_	_
-12	romana	romano	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
-13	fino	fino	ADV	B	_	16	case	_	_
-14-15	alla	_	_	_	_	_	_	_	_
-14	a	a	ADP	E	_	13	mwe	_	_
-15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	riorganizzazione	riorganizzazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
-17-18	dei	_	_	_	_	_	_	_	_
-17	di	di	ADP	E	_	19	case	_	_
-18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	media	media	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
-20-21	della	_	_	_	_	_	_	_	_
-20	di	di	ADP	E	_	22	case	_	_
-21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	Santa	Santa	PROPN	SP	_	19	nmod	_	_
-23	Sede	Sede	PROPN	SP	_	22	name	_	_
-24	.	.	PUNCT	FS	_	3	punct	_	_
-
 # test sent_id  207
 1	Roma	Roma	PROPN	SP	_	3	nsubj	_	_
 2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_

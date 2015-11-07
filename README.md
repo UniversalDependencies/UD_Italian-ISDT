@@ -63,6 +63,8 @@ Version 1.2 of the data. Changes from the previous version include.
 * More fixes to xcomp/ccomp distinction
 * Harmonization of case marking for infinitive verbs introduced by articles
 * Harmonization of Light Verb constructions
+* Eliminated duplicated sentences and overlappings train/dev and train/test
+* Added short sentences to train
 
 ## Acknowledgments
 

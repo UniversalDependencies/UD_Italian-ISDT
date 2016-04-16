@@ -10972,7 +10972,7 @@
 9	di	di	ADP	E	_	11	case	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	PPE	PPE	PROPN	SP	_	8	nmod	_	_
-12	-	-	PUNCT	FF	_	11	name	_	_
+12	-	-	PUNCT	FF	_	11	punct	_	_
 13	DE	DE	PROPN	SP	_	11	name	_	_
 14	)	)	PUNCT	FB	_	2	punct	_	_
 15	.	.	PUNCT	FS	_	2	punct	_	_

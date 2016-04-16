@@ -8115,7 +8115,7 @@
 # tut sent_id  3638
 # text:  Yamanote - sen è scritto ufficialmente senza kana " no " (の o ノ), rendendo la sua pronuncia ambigua.
 1	Yamanote	Yamanote	PROPN	SP	_	5	nsubjpass	_	_
-2	-	-	PUNCT	FF	_	1	name	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
 3	sen	sen	X	SW	_	1	foreign	_	_
 4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	auxpass	_	_
 5	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

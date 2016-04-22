@@ -512,7 +512,7 @@
 3	mai	mai	ADV	B	_	5	advmod	_	_
 4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	auxpass	_	_
 5	accertato	accertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	chi	chi	PRON	PQ	PronType=Int	5	nsubj	_	_
+6	chi	chi	PRON	PQ	PronType=Int	5	nsubjpass	_	_
 7	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
 8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
@@ -1030,7 +1030,7 @@
 24	se	se	SCONJ	CS	_	31	mark	_	_
 25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 26	opinion	opinion	NOUN	S	_	31	nsubjpass	_	_
-27	leader	leader	NOUN	S	_	26	mwe	_	_
+27	leader	leader	NOUN	S	_	26	compound	_	_
 28	in	in	ADP	E	_	29	case	_	_
 29	questione	questione	NOUN	S	Gender=Fem|Number=Sing	26	nmod	_	_
 30	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
@@ -1654,7 +1654,7 @@
 3	tempesta	tempesta	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
 4	vien	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fuori	fuori	ADV	B	_	4	advmod	_	_
-6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nmod	_	_
 7	da	da	ADP	E	_	10	case	_	_
 8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	attenta	attento	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
@@ -2156,7 +2156,7 @@
 1	Così	così	ADV	B	_	2	advmod	_	_
 2	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	first	first	NOUN	S	_	2	xcomp	_	_
-4	lady	lady	NOUN	S	_	3	mwe	_	_
+4	lady	lady	NOUN	S	_	3	compound	_	_
 5	.	.	PUNCT	FS	_	2	punct	_	_
 
 # isst_tanl sent_id  2298
@@ -2727,7 +2727,7 @@
 # isst_tanl sent_id  2903
 # text:  Slot machine abusive in un bar di piazza San Giovanni dove hanno fatto irruzione gli agenti del commissariato Esquilino.
 1	Slot	slot	NOUN	S	_	0	root	_	_
-2	machine	machine	NOUN	S	_	1	mwe	_	_
+2	machine	machine	NOUN	S	_	1	compound	_	_
 3	abusive	abusivo	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	_
 4	in	in	ADP	E	_	6	case	_	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -3807,7 +3807,7 @@
 18	a	a	ADP	E	_	20	case	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Macintosh	Macintosh	PROPN	SP	_	17	nmod	_	_
-21	II	II	ADJ	NO	Number=Sing|NumType=Ord	20	mwe	_	_
+21	II	II	ADJ	NO	Number=Sing|NumType=Ord	20	name	_	_
 22-23	della	_	_	_	_	_	_	_	_
 22	di	di	ADP	E	_	24	case	_	_
 23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -12150,8 +12150,8 @@
 
 # 7-WIKIShake sent_id  128
 # text:  " essere o non essere, questo è il problema ".
-1	"	"	PUNCT	FB	_	10	punct	_	_
-2	essere	essere	VERB	V	VerbForm=Inf	10	csubj	_	_
+1	"	"	PUNCT	FB	_	2	punct	_	_
+2	essere	essere	VERB	V	VerbForm=Inf	0	root	_	_
 3	o	o	CONJ	CC	_	2	cc	_	_
 4	non	non	ADV	BN	PronType=Neg	5	neg	_	_
 5	essere	essere	VERB	V	VerbForm=Inf	2	conj	_	_
@@ -12159,9 +12159,9 @@
 7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
 8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
-11	"	"	PUNCT	FB	_	10	punct	_	_
-12	.	.	PUNCT	FS	_	10	punct	_	_
+10	problema	problema	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+11	"	"	PUNCT	FB	_	2	punct	_	_
+12	.	.	PUNCT	FS	_	2	punct	_	_
 
 # 7-WIKIShake sent_id  157
 # text:  Nel 1613, Sir Henry Wotton scrisse che l'Enrico VIII " fu presentato con grande acclamazione fra fasti e cerimonie ".
@@ -12690,9 +12690,9 @@
 30	ancor	ancora	ADV	B	_	31	advmod	_	_
 31	meno	meno	ADV	B	_	32	advmod	_	_
 32	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	_
-33	hi	hi	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	_
-34	-	-	PUNCT	FF	_	33	punct	_	_
-35	tech	tech	NOUN	S	_	33	mwe	_	_
+33	hi	hi	NOUN	S	Gender=Masc|Number=Plur	32	compound	_	_
+34	-	-	PUNCT	FF	_	32	punct	_	_
+35	tech	tech	NOUN	S	_	34	mwe	_	_
 36	di	di	ADP	E	_	37	case	_	_
 37	oggi	oggi	ADV	B	_	32	advmod	_	_
 38	.	.	PUNCT	FS	_	21	punct	_	_
@@ -13034,8 +13034,8 @@
 7	ci	ci	PRON	PC	PronType=Clit	8	expl	_	_
 8	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	poi	poi	ADV	B	_	8	advmod	_	_
-10	200	200	NUM	N	NumType=Card	12	nummod	_	_
-11	mila	mila	NUM	N	NumType=Card	10	mwe	_	_
+10	200	200	NUM	N	NumType=Card	11	compound	_	_
+11	mila	mila	NUM	N	NumType=Card	12	nummod	_	_
 12	casi	caso	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
 13	di	di	ADP	E	_	14	case	_	_
 14	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_

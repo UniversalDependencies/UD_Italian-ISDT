@@ -247,7 +247,7 @@
 18	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 19	"	"	PUNCT	FB	_	20	punct	_	_
 20	top	top	ADJ	A	_	0	root	_	_
-21	secret	secret	NOUN	S	_	20	mwe	_	_
+21	secret	secret	NOUN	S	_	20	compound	_	_
 22	"	"	PUNCT	FB	_	20	punct	_	_
 23	,	,	PUNCT	FF	_	20	punct	_	_
 24	ma	ma	CONJ	CC	_	20	cc	_	_
@@ -8971,7 +8971,7 @@
 3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	auxpass	_	_
 4	girato	girare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	film	film	NOUN	S	Gender=Masc	4	nsubj	_	_
+6	film	film	NOUN	S	Gender=Masc	4	nsubjpass	_	_
 7	"	"	PUNCT	FB	_	8	punct	_	_
 8	Giochi	Giochi	PROPN	SP	_	6	nmod	_	_
 9	di	di	ADP	E	_	10	case	_	_
@@ -9554,7 +9554,7 @@
 3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	first	first	ADJ	A	_	7	amod	_	_
+6	first	first	NOUN	S	_	7	nmod	_	_
 7	lady	lady	NOUN	S	Gender=Fem	4	nsubj	_	_
 8	Hillary	Hillary	PROPN	SP	_	7	nmod	_	_
 9	Clinton	Clinton	PROPN	SP	_	8	name	_	_

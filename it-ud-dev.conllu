@@ -135,7 +135,7 @@
 3	Minetto	Minetto	PROPN	SP	_	2	dobj	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
-6	si	si	PRON	PC	Person=3|PronType=Clit	9	expl	_	_
+6	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	9	dobj	_	_
 7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	sempre	sempre	ADV	B	_	9	advmod	_	_
 9	proclamato	proclamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
@@ -7333,7 +7333,7 @@
 18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 19	ex	ex	ADJ	A	_	20	amod	_	_
 20	comunisti	comunista	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
-21	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	23	dobj	_	_
+21	si	si	PRON	PC	Person=3|PronType=Clit	23	expl	_	_
 22	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
 23	trovati	trovare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 24	intorno	intorno	ADV	B	_	27	case	_	_
@@ -11612,7 +11612,7 @@
 6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
 7	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
 8	Balzac	Balzac	PROPN	SP	_	10	nsubj	_	_
-9	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	10	dobj	_	_
+9	si	si	PRON	PC	Person=3|PronType=Clit	10	expl	_	_
 10	lasciò	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	attirare	attirare	VERB	V	VerbForm=Inf	10	ccomp	_	_
 12-13	dall'	_	_	_	_	_	_	_	_

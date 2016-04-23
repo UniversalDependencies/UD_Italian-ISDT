@@ -206,7 +206,7 @@
 25	a	a	ADP	E	_	26	mark	_	_
 26-27	mettersi	_	_	_	_	_	_	_	_
 26	metter	mettere	VERB	V	VerbForm=Inf	24	xcomp	_	_
-27	si	si	PRON	PC	Person=3|PronType=Clit	26	expl	_	_
+27	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	26	dobj	_	_
 28-29	alla	_	_	_	_	_	_	_	_
 28	a	a	ADP	E	_	31	case	_	_
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -11132,7 +11132,7 @@
 35	che	che	PRON	PR	PronType=Rel	39	xcomp	_	_
 36	purtroppo	purtroppo	ADV	B	_	39	advmod	_	_
 37	non	non	ADV	BN	PronType=Neg	39	neg	_	_
-38	si	si	PRON	PC	Person=3|PronType=Clit	39	iobj	_	_
+38	si	si	PRON	PC	Person=3|PronType=Clit	39	expl:impers	_	_
 39	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
 40	bene	bene	ADV	B	_	39	advmod	_	_
 41	.	.	PUNCT	FS	_	2	punct	_	_
@@ -11730,7 +11730,7 @@
 15	parole	parola	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
 16	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	15	compound	_	_
 17	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
-18	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	19	dobj	_	_
+18	si	si	PRON	PC	Person=3|PronType=Clit	19	expl	_	_
 19	rivolgeva	rivolgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
 20-21	agli	_	_	_	_	_	_	_	_
 20	a	a	ADP	E	_	22	case	_	_

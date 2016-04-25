@@ -1983,7 +1983,7 @@
 1-2	Al	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	35'	35'	NUM	X	NumType=Gen	5	nummod	_	_
+3	35'	35'	NUM	X	NumType=Gen	5	nmod	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	pareggio	pareggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 6	di	di	ADP	E	_	7	case	_	_
@@ -2398,7 +2398,7 @@
 3-4	al	_	_	_	_	_	_	_	_
 3	a	a	ADP	E	_	5	case	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	35	35	NUM	N	NumType=Card	2	nummod	_	_
+5	35	35	NUM	N	NumType=Card	2	nmod	_	_
 6	per	per	ADP	E	_	7	case	_	_
 7	cento	cento	NUM	N	NumType=Card	5	nummod	_	_
 8	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	_
@@ -2490,7 +2490,7 @@
 1-2	Dal	_	_	_	_	_	_	_	_
 1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1970	1970	NUM	N	NumType=Card	7	nummod	_	_
+3	1970	1970	NUM	N	NumType=Card	7	nmod	_	_
 4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 6	unico	unico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
@@ -3486,7 +3486,7 @@
 12-13	alla	_	_	_	_	_	_	_	_
 12	a	a	ADP	E	_	14	case	_	_
 13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	sette	sette	NUM	N	NumType=Card	19	nummod	_	_
+14	sette	sette	NUM	N	NumType=Card	19	nmod	_	_
 15	di	di	ADP	E	_	16	case	_	_
 16	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
 17	,	,	PUNCT	FF	_	14	punct	_	_
@@ -4014,7 +4014,7 @@
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	E	_	13	case	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	di	di	ADP	E	_	10	advmod	_	_
+13	di	di	ADP	E	_	10	nmod	_	_
 14	sopra	sopra	ADV	B	_	13	mwe	_	_
 15-16	del	_	_	_	_	_	_	_	_
 15	di	di	ADP	E	_	17	case	_	_
@@ -5466,8 +5466,8 @@
 8	Costituzione	costituzione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
 9	si	si	PRON	PC	Person=3|PronType=Clit	10	expl:impers	_	_
 10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	per	per	ADP	E	_	12	case	_	_
-12	convertito	convertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	convertito	convertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
 13	in	in	ADP	E	_	14	case	_	_
 14	legge	legge	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
 15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -5750,7 +5750,7 @@
 12-13	nel	_	_	_	_	_	_	_	_
 12	in	in	ADP	E	_	14	case	_	_
 13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	1915	1915	NUM	N	NumType=Card	21	nummod	_	_
+14	1915	1915	NUM	N	NumType=Card	21	nmod	_	_
 15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
 17	segreti	segreto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
@@ -5879,7 +5879,7 @@
 8-9	dello	_	_	_	_	_	_	_	_
 8	di	di	ADP	E	_	10	case	_	_
 9	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	0,4	0,4	NUM	N	NumType=Card	7	nummod	_	_
+10	0,4	0,4	NUM	N	NumType=Card	7	nmod	_	_
 11	per	per	ADP	E	_	12	case	_	_
 12	cento	cento	NUM	N	NumType=Card	10	nummod	_	_
 13	.	.	PUNCT	FS	_	5	punct	_	_
@@ -6732,7 +6732,7 @@
 10-11	del	_	_	_	_	_	_	_	_
 10	di	di	ADP	E	_	12	case	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	2	2	NUM	N	NumType=Card	9	nummod	_	_
+12	2	2	NUM	N	NumType=Card	9	nmod	_	_
 13	-	-	PUNCT	FF	_	12	punct	_	_
 14	1	1	NUM	N	NumType=Card	12	compound	_	_
 15	,	,	PUNCT	FF	_	7	punct	_	_
@@ -6836,7 +6836,7 @@
 1-2	Nell'	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	1	1	NUM	N	NumType=Card	5	nummod	_	_
+3	1	1	NUM	N	NumType=Card	5	nmod	_	_
 4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
 5	troveranno	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -7614,7 +7614,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1467	1467	NUM	N	NumType=Card	6	nummod	_	_
+3	1467	1467	NUM	N	NumType=Card	6	nmod	_	_
 4	a	a	ADP	E	_	5	case	_	_
 5	Perugia	Perugia	PROPN	SP	_	6	nmod	_	_
 6	eseguì	eseguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -7790,7 +7790,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1999	1999	NUM	N	NumType=Card	20	nummod	_	_
+3	1999	1999	NUM	N	NumType=Card	20	nmod	_	_
 4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	band	band	NOUN	S	Gender=Fem	20	nsubj	_	_
 6	non	non	ADV	BN	PronType=Neg	10	neg	_	_
@@ -7988,7 +7988,7 @@
 5-6	nel	_	_	_	_	_	_	_	_
 5	in	in	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	1711	1711	NUM	N	NumType=Card	2	nummod	_	_
+7	1711	1711	NUM	N	NumType=Card	2	nmod	_	_
 8	,	,	PUNCT	FF	_	2	punct	_	_
 9-10	nelle	_	_	_	_	_	_	_	_
 9	in	in	ADP	E	_	12	case	_	_
@@ -8043,7 +8043,7 @@
 11-12	del	_	_	_	_	_	_	_	_
 11	di	di	ADP	E	_	13	case	_	_
 12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	1905	1905	NUM	N	NumType=Card	10	nummod	_	_
+13	1905	1905	NUM	N	NumType=Card	10	nmod	_	_
 14	,	,	PUNCT	FF	_	10	punct	_	_
 15	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 16	a	a	ADP	E	_	18	case	_	_
@@ -8582,7 +8582,7 @@
 9-10	nel	_	_	_	_	_	_	_	_
 9	in	in	ADP	E	_	11	case	_	_
 10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	1994	1994	NUM	N	NumType=Card	1	nummod	_	_
+11	1994	1994	NUM	N	NumType=Card	1	nmod	_	_
 12	?	?	PUNCT	FS	_	1	punct	_	_
 
 # quest sent_id  321
@@ -8961,7 +8961,7 @@
 8-9	nel	_	_	_	_	_	_	_	_
 8	in	in	ADP	E	_	10	case	_	_
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	1990	1990	NUM	N	NumType=Card	3	nummod	_	_
+10	1990	1990	NUM	N	NumType=Card	3	nmod	_	_
 11	?	?	PUNCT	FS	_	3	punct	_	_
 
 # quest sent_id  943
@@ -9008,7 +9008,7 @@
 8-9	del	_	_	_	_	_	_	_	_
 8	di	di	ADP	E	_	10	case	_	_
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	1972	1972	NUM	N	NumType=Card	6	nummod	_	_
+10	1972	1972	NUM	N	NumType=Card	6	nmod	_	_
 11-12	nelle	_	_	_	_	_	_	_	_
 11	in	in	ADP	E	_	13	case	_	_
 12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
@@ -9087,7 +9087,7 @@
 6-7	nel	_	_	_	_	_	_	_	_
 6	in	in	ADP	E	_	8	case	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	1937	1937	NUM	N	NumType=Card	5	nummod	_	_
+8	1937	1937	NUM	N	NumType=Card	5	nmod	_	_
 9	in	in	ADP	E	_	11	case	_	_
 10	quale	quale	DET	DQ	Number=Sing|PronType=Int	11	det	_	_
 11	città	città	NOUN	S	Gender=Fem	5	nmod	_	_
@@ -9281,7 +9281,7 @@
 4-5	nel	_	_	_	_	_	_	_	_
 4	in	in	ADP	E	_	6	case	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	1963	1963	NUM	N	NumType=Card	3	nummod	_	_
+6	1963	1963	NUM	N	NumType=Card	3	nmod	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
 9	di	di	ADP	E	_	10	case	_	_
@@ -9352,7 +9352,7 @@
 5-6	nel	_	_	_	_	_	_	_	_
 5	in	in	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	1948	1948	NUM	N	NumType=Card	4	nummod	_	_
+7	1948	1948	NUM	N	NumType=Card	4	nmod	_	_
 8	?	?	PUNCT	FS	_	4	punct	_	_
 
 # quest sent_id  1541
@@ -9437,11 +9437,11 @@
 7-8	dal	_	_	_	_	_	_	_	_
 7	da	da	ADP	E	_	9	case	_	_
 8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	1965	1965	NUM	N	NumType=Card	6	nummod	_	_
+9	1965	1965	NUM	N	NumType=Card	6	nmod	_	_
 10-11	al	_	_	_	_	_	_	_	_
 10	a	a	ADP	E	_	12	case	_	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	1980	1980	NUM	N	NumType=Card	6	nummod	_	_
+12	1980	1980	NUM	N	NumType=Card	6	nmod	_	_
 13	?	?	PUNCT	FS	_	3	punct	_	_
 
 # quest sent_id  1673
@@ -10495,7 +10495,7 @@
 52	altro	altro	ADJ	A	Gender=Masc|Number=Sing	53	amod	_	_
 53	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	43	conj	_	_
 54	,	,	PUNCT	FF	_	27	punct	_	_
-55	essendo	essere	VERB	V	VerbForm=Ger	57	auxpass	_	_
+55	essendo	essere	AUX	VA	VerbForm=Ger	57	auxpass	_	_
 56	quindi	quindi	ADV	B	_	57	advmod	_	_
 57	escluse	escludere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	advcl	_	_
 58	,	,	PUNCT	FF	_	57	punct	_	_
@@ -11020,7 +11020,7 @@
 4	se	se	SCONJ	CS	_	6	mark	_	_
 5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
-7	vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	vorrei	volere	AUX	VA	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 8	innanzi	innanzi	ADP	E	_	9	case	_	_
 9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nmod	_	_
 10-11	congratularmi	_	_	_	_	_	_	_	_
@@ -11877,7 +11877,7 @@
 15-16	del	_	_	_	_	_	_	_	_
 15	di	di	ADP	E	_	17	case	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	1832	1832	NUM	N	NumType=Card	14	nummod	_	_
+17	1832	1832	NUM	N	NumType=Card	14	nmod	_	_
 18	su	su	ADP	E	_	21	case	_	_
 19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	giovane	giovane	ADJ	A	Number=Sing	21	amod	_	_
@@ -11962,7 +11962,7 @@
 12-13	alle	_	_	_	_	_	_	_	_
 12	a	a	ADP	E	_	14	case	_	_
 13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-14	cinque	cinque	NUM	N	NumType=Card	8	nummod	_	_
+14	cinque	cinque	NUM	N	NumType=Card	8	nmod	_	_
 15	o	o	CONJ	CC	_	14	cc	_	_
 16-17	alle	_	_	_	_	_	_	_	_
 16	a	a	ADP	E	_	18	case	_	_
@@ -11982,13 +11982,13 @@
 
 # 5-WIKIBalzac sent_id  168
 # text:  Nonostante Balzac fosse " talvolta un eremita e un girovago ", ha sempre provato a rimanere in contatto con la società che forniva materiale per il suo lavoro.
-1	Nonostante	nonostante	ADP	E	_	7	case	_	_
+1	Nonostante	nonostante	ADP	E	_	7	mark	_	_
 2	Balzac	Balzac	PROPN	SP	_	7	nsubj	_	_
 3	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 4	"	"	PUNCT	FB	_	7	punct	_	_
 5	talvolta	talvolta	ADV	B	_	7	advmod	_	_
 6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	eremita	eremita	NOUN	S	Number=Sing	15	advmod	_	_
+7	eremita	eremita	NOUN	S	Number=Sing	15	advcl	_	_
 8	e	e	CONJ	CC	_	7	cc	_	_
 9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	girovago	girovago	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
@@ -12213,7 +12213,7 @@
 37-38	dal	_	_	_	_	_	_	_	_
 37	da	da	ADP	E	_	39	case	_	_
 38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	1592	1592	NUM	N	NumType=Card	29	nummod	_	_
+39	1592	1592	NUM	N	NumType=Card	29	nmod	_	_
 40	.	.	PUNCT	FS	_	3	punct	_	_
 
 # 7-WIKIShake sent_id  100
@@ -12285,7 +12285,7 @@
 37-38	nel	_	_	_	_	_	_	_	_
 37	in	in	ADP	E	_	39	case	_	_
 38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	2008	2008	NUM	N	NumType=Card	28	nummod	_	_
+39	2008	2008	NUM	N	NumType=Card	28	nmod	_	_
 40	.	.	PUNCT	FS	_	13	punct	_	_
 
 # 7-WIKIShake sent_id  141
@@ -12953,7 +12953,7 @@
 13	,	,	PUNCT	FF	_	11	punct	_	_
 14	tuttavia	tuttavia	ADV	B	_	19	advmod	_	_
 15	essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubjpass	_	_
-16	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	auxpass	_	_
 17	relativamente	relativamente	ADV	B	_	18	advmod	_	_
 18	poco	poco	ADV	B	_	19	advmod	_	_
 19	rappresentati	rappresentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj	_	_

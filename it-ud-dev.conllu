@@ -763,7 +763,7 @@
 4-5	del	_	_	_	_	_	_	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	1990	1990	NUM	N	NumType=Card	3	nummod	_	_
+6	1990	1990	NUM	N	NumType=Card	3	nmod	_	_
 7	,	,	PUNCT	FF	_	1	punct	_	_
 8	e	e	CONJ	CC	_	1	cc	_	_
 9	si	si	PRON	PC	Person=3|PronType=Clit	10	expl	_	_
@@ -1639,7 +1639,7 @@
 1-2	Dal	_	_	_	_	_	_	_	_
 1	Da	da	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	'93	'93	NUM	N	NumType=Card	4	nummod	_	_
+3	'93	'93	NUM	N	NumType=Card	4	nmod	_	_
 4	dirige	dirigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Festival	Festival	PROPN	SP	_	4	dobj	_	_
@@ -2165,7 +2165,7 @@
 2	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
 3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 4	che	che	PRON	PR	PronType=Rel	7	dobj	_	_
-5	ci	ci	PRON	PC	PronType=Clit	7	advmod	_	_
+5	ci	ci	PRON	PC	PronType=Clit	7	expl	_	_
 6	si	si	PRON	PC	Person=3|PronType=Clit	7	expl:impers	_	_
 7	attendeva	attendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
 8	:	:	PUNCT	FC	_	3	punct	_	_
@@ -3984,7 +3984,7 @@
 18-19	nel	_	_	_	_	_	_	_	_
 18	in	in	ADP	E	_	20	case	_	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	1950	1950	NUM	N	NumType=Card	17	nummod	_	_
+20	1950	1950	NUM	N	NumType=Card	17	nmod	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	premio	premio	NOUN	S	Gender=Masc|Number=Sing	17	dobj	_	_
 23	Nobel	Nobel	PROPN	SP	_	22	nmod	_	_
@@ -4986,7 +4986,7 @@
 24-25	del	_	_	_	_	_	_	_	_
 24	di	di	ADP	E	_	26	case	_	_
 25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	'42	'42	NUM	N	NumType=Card	23	nummod	_	_
+26	'42	'42	NUM	N	NumType=Card	23	nmod	_	_
 27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	ritenuto	ritenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 29	di	di	ADP	E	_	30	mark	_	_
@@ -5107,7 +5107,7 @@
 8-9	del	_	_	_	_	_	_	_	_
 8	di	di	ADP	E	_	10	case	_	_
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	1865	1865	NUM	N	NumType=Card	7	nummod	_	_
+10	1865	1865	NUM	N	NumType=Card	7	nmod	_	_
 11	per	per	ADP	E	_	12	mark	_	_
 12	venire	venire	VERB	V	VerbForm=Inf	4	advcl	_	_
 13	incontro	incontro	ADV	B	_	16	case	_	_
@@ -6519,7 +6519,7 @@
 32-33	del	_	_	_	_	_	_	_	_
 32	di	di	ADP	E	_	34	case	_	_
 33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	17	17	NUM	N	NumType=Card	28	nummod	_	_
+34	17	17	NUM	N	NumType=Card	28	nmod	_	_
 35	Dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
 36	2001	2001	NUM	N	NumType=Card	35	nummod	_	_
 37	,	,	PUNCT	FF	_	28	punct	_	_
@@ -6705,7 +6705,7 @@
 4-5	del	_	_	_	_	_	_	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	13	13	NUM	N	NumType=Card	3	nummod	_	_
+6	13	13	NUM	N	NumType=Card	3	nmod	_	_
 7	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
 8	quando	quando	SCONJ	CS	_	12	mark	_	_
 9	da	da	ADP	E	_	10	case	_	_
@@ -8114,12 +8114,12 @@
 
 # tut sent_id  3175
 # text:  - Beato chi vi vede!
-1	-	-	PUNCT	FF	_	0	root	_	_
-2	Beato	beato	ADJ	A	Gender=Masc|Number=Sing	1	xcomp	_	_
-3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	1	nsubj	_	_
+1	-	-	PUNCT	FF	_	2	punct	_	_
+2	Beato	beato	ADJ	A	Gender=Masc|Number=Sing	3	nmod	_	_
+3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
 4	vi	vi	PRON	PC	Number=Plur|Person=2|PronType=Clit	5	dobj	_	_
-5	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
-6	!	!	PUNCT	FS	_	1	punct	_	_
+5	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	!	!	PUNCT	FS	_	5	punct	_	_
 
 # tut sent_id  3234
 # text:  Questo punto di vista è sostenuto, ad esempio, dalla grande varietà delle coordinazioni che sono permesse nel linguaggio.
@@ -8509,7 +8509,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1903	1903	NUM	N	NumType=Card	24	nummod	_	_
+3	1903	1903	NUM	N	NumType=Card	24	nmod	_	_
 4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	24	nsubjpass	_	_
 6	principale	principale	ADJ	A	Number=Sing	5	amod	_	_
@@ -8554,7 +8554,7 @@
 5-6	nel	_	_	_	_	_	_	_	_
 5	in	in	ADP	E	_	7	case	_	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	1925	1925	NUM	N	NumType=Card	4	nummod	_	_
+7	1925	1925	NUM	N	NumType=Card	4	nmod	_	_
 8	con	con	ADP	E	_	10	case	_	_
 9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	apertura	apertura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -8828,7 +8828,7 @@
 53-54	dal	_	_	_	_	_	_	_	_
 53	da	da	ADP	E	_	55	case	_	_
 54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-55	12	12	NUM	N	NumType=Card	52	nummod	_	_
+55	12	12	NUM	N	NumType=Card	52	nmod	_	_
 56	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
 57	1970	1970	NUM	N	NumType=Card	56	nummod	_	_
 58	con	con	ADP	E	_	60	case	_	_
@@ -9251,7 +9251,7 @@
 4	durante	durante	ADP	E	_	6	case	_	_
 5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	film	film	NOUN	S	Gender=Masc	9	nmod	_	_
-7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
 8	attualmente	attualmente	ADV	B	_	9	advmod	_	_
 9	permesse	permettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 10-11	dalla	_	_	_	_	_	_	_	_
@@ -10336,7 +10336,7 @@
 2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
 4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl:impers	_	_
-5	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	facendo	fare	VERB	V	VerbForm=Ger	2	acl:relcl	_	_
 7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	dobj	_	_
 8	presso	presso	ADP	E	_	10	case	_	_
@@ -10368,7 +10368,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	2003	2003	NUM	N	NumType=Card	6	nummod	_	_
+3	2003	2003	NUM	N	NumType=Card	6	nmod	_	_
 4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	auxpass	_	_
 6	nominato	nominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -10575,7 +10575,7 @@
 23-24	al	_	_	_	_	_	_	_	_
 23	a	a	ADP	E	_	25	case	_	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	118	118	NUM	N	NumType=Card	22	nummod	_	_
+25	118	118	NUM	N	NumType=Card	22	nmod	_	_
 26	.	.	PUNCT	FS	_	3	punct	_	_
 
 # test sent_id  299
@@ -11663,11 +11663,11 @@
 
 # 5-WIKIBalzac sent_id  113
 # text:  Nonostante Balzac fosse un sostenitore della corona, Balzac rappresentò i contro - rivoluzionari in modo indulgente - anche se sono al centro delle scene più brutali del libro.
-1	Nonostante	nonostante	ADP	E	_	5	case	_	_
+1	Nonostante	nonostante	ADP	E	_	5	mark	_	_
 2	Balzac	Balzac	PROPN	SP	_	5	nsubj	_	_
 3	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	sostenitore	sostenitore	NOUN	S	Gender=Masc|Number=Sing	11	advmod	_	_
+5	sostenitore	sostenitore	NOUN	S	Gender=Masc|Number=Sing	11	advcl	_	_
 6-7	della	_	_	_	_	_	_	_	_
 6	di	di	ADP	E	_	8	case	_	_
 7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -11971,7 +11971,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1599	1599	NUM	N	NumType=Card	12	nummod	_	_
+3	1599	1599	NUM	N	NumType=Card	12	nmod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	partenariato	partenariato	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -12031,7 +12031,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1604	1604	NUM	N	NumType=Card	6	nummod	_	_
+3	1604	1604	NUM	N	NumType=Card	6	nmod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	si	si	PRON	PC	Person=3|PronType=Clit	6	expl	_	_
 6	spostò	spostare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -12091,7 +12091,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1612	1612	NUM	N	NumType=Card	6	nummod	_	_
+3	1612	1612	NUM	N	NumType=Card	6	nmod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	auxpass	_	_
 6	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -12168,7 +12168,7 @@
 1-2	Nel	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	1613	1613	NUM	N	NumType=Card	8	nummod	_	_
+3	1613	1613	NUM	N	NumType=Card	8	nmod	_	_
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	Sir	Sir	PROPN	SP	_	8	nsubj	_	_
 6	Henry	Henry	PROPN	SP	_	5	name	_	_
@@ -12684,7 +12684,7 @@
 25-26	nel	_	_	_	_	_	_	_	_
 25	in	in	ADP	E	_	27	case	_	_
 26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	2050	2050	NUM	N	NumType=Card	23	nummod	_	_
+27	2050	2050	NUM	N	NumType=Card	23	nmod	_	_
 28	,	,	PUNCT	FF	_	23	punct	_	_
 29	e	e	CONJ	CC	_	23	cc	_	_
 30	ancor	ancora	ADV	B	_	31	advmod	_	_

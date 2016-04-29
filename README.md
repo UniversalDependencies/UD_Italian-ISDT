@@ -22,22 +22,22 @@ was adapted to the specificity of the Italian language. We refer to (Bosco, Mont
 <table>
 <tr style="background-color: #eee"><th>Original format</th><th>Source</th><th>Genre</th><th>Size in tokens</th><th>Size in sentences</th>
 </tr>
-<tr><td>TUT-CONLL</td><td>Evalita 2011 Dependency parsing</td><td>Legal texts, news articles, Wikipedia articles</td><td>116,986</td><td>3,842</td></tr>
-<tr><td>ISST-TANL</td><td>Evalita 2011 Domain adaptation task</td><td>Newspaper articles</td><td>93,721</td><td>4,135</td></tr>
-<tr><td>ISST-TANL</td><td>SPLeT 2012 </td><td>Legal texts: European directives</td><td>7,200</td><td>260</td></tr>
-<tr><td>MIDT</td><td>Several QA competitions</td><td>Questions</td><td>26,078</td><td>2,228</td></tr>
-<tr><td>MIDT</td><td>Evalita 2014 Dependency parsing:test data set (partial)</td><td>News articles</td><td>8,776</td><td>304</td></tr>
-<tr><td>TUT-CONLL</td><td>Parallel TUT (Italian part)</td><td>Various genres</td><td>63,899</td><td>2,129</td></tr>
-<tr><td></td><td></td><td>TOTAL</td><td><b>316,660</b></td><td><b>12,880</b></td></tr>
+<tr><td>TUT-CONLL</td><td>Evalita 2011 Dependency parsing</td><td>Legal texts, news articles, Wikipedia articles</td><td>124,682</td><td>3,842</td></tr>
+<tr><td>ISST-TANL</td><td>Evalita 2011 Domain adaptation task</td><td>Newspaper articles</td><td>101,987</td><td>4,135</td></tr>
+<tr><td>ISST-TANL</td><td>SPLeT 2012 </td><td>Legal texts: European directives</td><td>7,726</td><td>260</td></tr>
+<tr><td>MIDT</td><td>Several QA competitions</td><td>Questions</td><td>30,536</td><td>2,228</td></tr>
+<tr><td>MIDT</td><td>Evalita 2014 Dependency parsing:test data set (partial)</td><td>News articles</td><td>9,384</td><td>304</td></tr>
+<tr><td>TUT-CONLL</td><td>Parallel TUT (Italian part)</td><td>Various genres</td><td>76,354</td><td>2,310</td></tr>
+<tr><td></td><td></td><td>TOTAL</td><td><b>350,669</b></td><td><b>13,025</b></td></tr>
 </table>
 
 ## Corpus splitting
 
-The Corpus has been randomly splitted (by a script) as follows:
+After removing duplicate sentences, the Corpus has been randomly splitted (by a script) as follows:
 
-* it-ud-train.conllu: 294154 tokens (11330 sentences)
-* it-ud-dev.conllu: 13337 tokens (500 sentences)
-* it-ud-test.conllu: 13255 tokens (500 sentences)
+* it-ud-train.conllu: 301138 tokens (11699 sentences)
+* it-ud-dev.conllu: 13123 tokens (489 sentences)
+* it-ud-test.conllu: 13186 tokens (489 sentences)
 
 ## Changelog V1.1 May 15 2015
 
@@ -66,9 +66,21 @@ Version 1.2 of the data. Changes from the previous version include.
 * Eliminated duplicated sentences and overlappings train/dev and train/test
 * Added short sentences to train
 
+## Changelog V1.3 May 1st 2016
+
+Version 1.3 of the data. Changes from the previous version include.
+
+* Added feature value PronType=Ord for ordinal pronouns
+* Added feature value PronType=Predet for predeterminers
+* Added feature value NumType=Range
+* Added feature value NumType=Gen
+* Added sentence full text as comment
+* Added SpaceAfter=No, needed for recovering original text
+* Fixed errors found running content validation queries
+
 ## Acknowledgments
 
-We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.
+§vWe wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.
 
 ## References
 
@@ -102,10 +114,10 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.
 
 
-
 Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Genre: legal news wiki
 Contributors: Bosco, Cristina; Lenci, Alessandro; Montemagni, Simonetta; Simi, Maria
+

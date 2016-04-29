@@ -7,7 +7,7 @@
 5	.	.	PUNCT	FS	_	3	punct	_	_
 
 # isst_tanl sent_id  14
-# text: GOTEBORG È stata la giornata del doppio oro italiano ai Mondiali di atletica:
+# text: GOTEBORG - È stata la giornata del doppio oro italiano ai Mondiali di atletica:
 1	GOTEBORG	Goteborg	PROPN	SP	_	6	nmod	_	_
 2	-	-	PUNCT	FF	_	1	punct	_	_
 3	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -526,7 +526,7 @@
 7	.	.	PUNCT	FS	_	2	punct	_	_
 
 # isst_tanl sent_id  449
-# text: MILANO "Carissimi, ho ricevuto con grande piacere la vostra lettera e con altrettanto sento che state bene.
+# text: MILANO - "Carissimi, ho ricevuto con grande piacere la vostra lettera e con altrettanto sento che state bene.
 1	MILANO	Milano	PROPN	SP	_	7	nmod	_	_
 2	-	-	PUNCT	FF	_	1	punct	_	_
 3	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
@@ -3232,7 +3232,7 @@
 36	.	.	PUNCT	FS	_	14	punct	_	_
 
 # isst_tanl sent_id  3804
-# text: Le ore libere i viaggi.
+# text: Le ore libere - i viaggi.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
 3	libere	libero	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
@@ -3242,7 +3242,7 @@
 7	.	.	PUNCT	FS	_	2	punct	_	_
 
 # isst_tanl sent_id  3881
-# text: Ho cominciato con 3 4 chilometri al giorno e sono arrivato alla fine a correrne anche 20.
+# text: Ho cominciato con 3 - 4 chilometri al giorno e sono arrivato alla fine a correrne anche 20.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	con	con	ADP	E	_	7	case	_	_
@@ -5398,7 +5398,7 @@
 19	.	.	PUNCT	FS	_	5	punct	_	_
 
 # tut sent_id  1899
-# text: Alla Regione del Friuli Venezia Giulia, di cui all'art. 116, si applicano provvisoriamente le norme generali del Titolo V della parte seconda, ferma restando la tutela delle minoranze linguistiche in conformità con l'art. 6.
+# text: Alla Regione del Friuli - Venezia Giulia, di cui all'art. 116, si applicano provvisoriamente le norme generali del Titolo V della parte seconda, ferma restando la tutela delle minoranze linguistiche in conformità con l'art. 6.
 1-2	Alla	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -5635,7 +5635,7 @@
 35	.	.	PUNCT	FS	_	25	punct	_	_
 
 # tut sent_id  2049
-# text: Il programma deve essere prorogato di almeno 4 anni con lo stesso importo di riferimento finanziario (1 milione di EUR all'anno) e gli stessi interventi e destinatari.
+# text: - Il programma deve essere prorogato di almeno 4 anni con lo stesso importo di riferimento finanziario (1 milione di EUR all'anno) e gli stessi interventi e destinatari.
 1	-	-	PUNCT	FF	_	6	punct	_	_
 2	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	programma	programma	NOUN	S	Gender=Masc|Number=Sing	6	nsubjpass	_	_
@@ -6044,7 +6044,7 @@
 80	.	.	PUNCT	FS	_	53	punct	_	_
 
 # tut sent_id  2422
-# text: Gli emigrati versano il 3 % dello stipendio in un fondo speciale che va al Governo autoproclamato del Kosovo e anche a noi.
+# text: Gli emigrati versano il 3% dello stipendio in un fondo speciale che va al Governo autoproclamato del Kosovo e anche a noi.
 1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	emigrati	emigrato	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	versano	versare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6465,7 +6465,7 @@
 11	.	.	PUNCT	FS	_	9	punct	_	_
 
 # tut sent_id  2636
-# text: Tempi duri a Tirana per i partiti che dal maggio scorso contestano la larghissima vittoria elettorale del Centro destra disertando il Parlamento.
+# text: Tempi duri a Tirana per i partiti che dal maggio scorso contestano la larghissima vittoria elettorale del Centro - destra disertando il Parlamento.
 1	Tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 2	duri	duro	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
 3	a	a	ADP	E	_	4	case	_	_
@@ -6603,7 +6603,7 @@
 7	.	.	PUNCT	FS	_	4	punct	_	_
 
 # tut sent_id  2685
-# text: In 500 mila, un albanese su sette, hanno scommesso su questa pesca miracolosa con la promessa di rendimenti mensili sul capitale versato dal 30 % al 50 %, in un Paese in cui l'inflazione ufficiale è del 20 % l'anno e il reddito medio pro capite non supera i 700 dollari.
+# text: In 500 mila, un albanese su sette, hanno scommesso su questa pesca miracolosa con la promessa di rendimenti mensili sul capitale versato dal 30% al 50%, in un Paese in cui l'inflazione ufficiale è del 20% l'anno e il reddito medio pro capite non supera i 700 dollari.
 1	In	in	ADP	E	_	3	case	_	_
 2	500	500	NUM	N	NumType=Card	3	compound	_	_
 3	mila	mila	NUM	N	NumType=Card	11	nummod	_	_
@@ -6718,7 +6718,7 @@
 39	.	.	PUNCT	FS	_	30	punct	_	_
 
 # tut sent_id  2782
-# text: Ci ha messo freddezza nel realizzare il rigore del 2 1, tirandolo sulla sinistra del portiere Manninger, poi sulla destra, nella ripetizione imposta perché troppa gente era entrata in area.
+# text: Ci ha messo freddezza nel realizzare il rigore del 2 - 1, tirandolo sulla sinistra del portiere Manninger, poi sulla destra, nella ripetizione imposta perché troppa gente era entrata in area.
 1	Ci	ci	PRON	PC	PronType=Clit	3	advmod	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -6888,7 +6888,7 @@
 11	.	.	PUNCT	FS	_	8	punct	_	_
 
 # tut sent_id  2873
-# text: Il sindaco si è fatto promotore di una mini campagna stampa sulla pantera, dalla Rai regionale a Telestudio ai giornali.
+# text: Il sindaco si è fatto promotore di una mini campagna - stampa sulla pantera, dalla Rai regionale a Telestudio ai giornali.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sindaco	sindaco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	si	si	PRON	PC	Person=3|PronType=Clit|Reflex=Yes	5	dobj	_	_
@@ -8013,8 +8013,8 @@
 25	volere	volere	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
 26	di	di	ADP	E	_	27	case	_	_
 27	Livio	Livio	PROPN	SP	_	25	nmod	_	_
-28	de	de	PROPN	SP	_	27	name	_	_
-29	Carolis	Carolis	PROPN	SP	_	27	name	_	_
+28	de	de	ADP	E	_	29	case	_	_
+29	Carolis	Carolis	PROPN	SP	_	27	nmod	_	_
 30	,	,	PUNCT	FF	_	27	punct	_	_
 31	marchese	marchese	NOUN	S	Gender=Fem|Number=Plur	27	appos	_	_
 32	di	di	ADP	E	_	33	case	_	_
@@ -8113,7 +8113,7 @@
 50	.	.	PUNCT	FS	_	6	punct	_	_
 
 # tut sent_id  3638
-# text: Yamanote sen è scritto ufficialmente senza kana "no " (の o ノ), rendendo la sua pronuncia ambigua.
+# text: Yamanote - sen è scritto ufficialmente senza kana "no " (の o ノ), rendendo la sua pronuncia ambigua.
 1	Yamanote	Yamanote	PROPN	SP	_	5	nsubjpass	_	_
 2	-	-	PUNCT	FF	_	1	punct	_	_
 3	sen	sen	X	SW	_	1	foreign	_	_
@@ -8201,7 +8201,7 @@
 55	.	.	PUNCT	FS	_	25	punct	_	_
 
 # tut sent_id  3763
-# text: Le attività incluse nel primo progetto di elaborazione di immagini satellitari sono il Global Monitoring for Security and Sustenaibility (GMOSS), il System for Fire Detection (SFIDE), le Southern Hemisphere Additional Ozonesondes (SHADOZ) e il Central East Africa Satellite Monitoring (CEASMO).
+# text: Le attività incluse nel primo progetto di elaborazione di immagini satellitari sono il Global Monitoring for Security and Sustenaibility (GMOSS), il System for Fire Detection (SFIDE), le Southern Hemisphere Additional Ozonesondes (SHADOZ) e il Central - East Africa Satellite Monitoring (CEASMO).
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	attività	attività	NOUN	S	Gender=Fem	16	nsubj	_	_
 3	incluse	incluso	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
@@ -10301,7 +10301,7 @@
 46	.	.	PUNCT	FS	_	10	punct	_	_
 
 # test sent_id  261
-# text: Fiat acquisirà restante 41,46 % di Chrysler per 3,6 miliardi.
+# text: Fiat acquisirà restante 41,46% di Chrysler per 3,6 miliardi.
 1	Fiat	Fiat	PROPN	SP	_	2	nsubj	_	_
 2	acquisirà	acquisire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	restante	restante	ADJ	A	Number=Sing	5	amod	_	_
@@ -10373,7 +10373,7 @@
 19	.	.	PUNCT	FS	_	8	punct	_	_
 
 # 1-CC sent_id  1
-# text: Attribuzione condividi allo stesso modo 2.0 (Italia).
+# text: Attribuzione - condividi allo stesso modo 2.0 (Italia).
 1	Attribuzione	attribuzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 2	-	-	PUNCT	FF	_	1	punct	_	_
 3	condividi	condividere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
@@ -10630,7 +10630,7 @@
 13	.	.	PUNCT	FS	_	1	punct	_	_
 
 # 2-Europarl sent_id  79
-# text: Secondo me, questa seconda ipotesi significherebbe rinunciare alle nostre responsabilità di parlamento, oltre a introdurre una tesi originale, un metodo finora sconosciuto che consiste nel distribuire per iscritto ai gruppi politici il discorso programmatico della commissione una settimana prima e non il giorno prima, come era stato concordato.
+# text: Secondo me, questa seconda ipotesi significherebbe rinunciare alle nostre responsabilità di parlamento, oltre a introdurre una tesi originale, un metodo finora sconosciuto che consiste nel distribuire per iscritto ai gruppi politici il discorso programmatico della commissione una settimana prima - e non il giorno prima, come era stato concordato.
 1	Secondo	secondo	ADP	E	_	2	case	_	_
 2	me	me	PRON	PC	Number=Sing|Person=1|PronType=Clit	7	nmod	_	_
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -10727,7 +10727,7 @@
 26	.	.	PUNCT	FS	_	7	punct	_	_
 
 # 2-Europarl sent_id  98
-# text: Ciò significa che tutti i gruppi politici, ad eccezione dei non iscritti che però non costituiscono un gruppo politico, erano concordi e che un solo gruppo era del parere di procedere come proposto dal collega in questa sede.
+# text: Ciò significa che tutti i gruppi politici, ad eccezione dei non iscritti - che però non costituiscono un gruppo politico -, erano concordi e che un solo gruppo era del parere di procedere come proposto dal collega in questa sede.
 1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	che	che	SCONJ	CS	_	26	mark	_	_
@@ -11421,7 +11421,7 @@
 35	.	.	PUNCT	FS	_	2	punct	_	_
 
 # 2-Europarl sent_id  477
-# text: In pratica intendo dire che stiamo per entrare in un periodo di gestione della programmazione 2000 2006 che non dovrà essere un periodo di routine per un semplice motivo:
+# text: In pratica intendo dire che stiamo per entrare in un periodo di gestione della programmazione 2000 - 2006 che non dovrà essere un periodo di routine per un semplice motivo:
 1	In	in	ADP	E	_	2	case	_	_
 2	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
 3	intendo	intendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12125,7 +12125,7 @@
 33	.	.	PUNCT	FS	_	11	punct	_	_
 
 # 5-WIKIBalzac sent_id  287
-# text: " l'artista della Comédie Humaine ", egli scrisse, " è semi sommerso dallo storico.
+# text: " l'artista della Comédie Humaine ", egli scrisse, " è semi - sommerso dallo storico.
 1	"	"	PUNCT	FB	_	3	punct	_	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	artista	artista	NOUN	S	Number=Sing	17	nsubj	_	_
@@ -12718,7 +12718,7 @@
 13	.	.	PUNCT	FS	_	7	punct	_	_
 
 # 9-PS sent_id  320
-# text: È alquanto esplicativo che la maggior parte dei 47 partecipanti al simposio influenti figure del settore pubblico e privato di tutto il mondo non erano a conoscenza del grado in cui l'alimentazione di una madre influenza il benessere della sua prole.
+# text: È alquanto esplicativo che la maggior parte dei 47 partecipanti al simposio - influenti figure del settore pubblico e privato di tutto il mondo - non erano a conoscenza del grado in cui l'alimentazione di una madre influenza il benessere della sua prole.
 1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	alquanto	alquanto	ADV	B	_	3	advmod	_	_
 3	esplicativo	esplicativo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
@@ -12919,7 +12919,7 @@
 30	.	.	PUNCT	FS	_	13	punct	_	_
 
 # 9-PS sent_id  436
-# text: Niente di buono sarebbe mai accaduto e di certo non per merito loro.
+# text: Niente di buono sarebbe mai accaduto - e di certo non per merito loro.
 1	Niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
 2	di	di	ADP	E	_	3	case	_	_
 3	buono	buono	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -13030,7 +13030,7 @@
 13	.	.	PUNCT	FS	_	4	punct	_	_
 
 # 9-PS sent_id  510
-# text: Eppure, mentre gli ucraini lavorano per ricostruire il nostro paese dopo il governo predatorio di Viktor Yanukovych, affrontiamo una nuova minaccia, sotto forma di "offensiva di pace" un vecchio fondamento della diplomazia sovietica ideata per minare le decisioni dell'occidente.
+# text: Eppure, mentre gli ucraini lavorano per ricostruire il nostro paese dopo il governo predatorio di Viktor Yanukovych, affrontiamo una nuova minaccia, sotto - forma di "offensiva di pace" - un vecchio fondamento della diplomazia sovietica ideata per minare le decisioni dell'occidente.
 1	Eppure	eppure	CONJ	CC	_	20	cc	_	_
 2	,	,	PUNCT	FF	_	1	punct	_	_
 3	mentre	mentre	SCONJ	CS	_	6	mark	_	_

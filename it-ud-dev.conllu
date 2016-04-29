@@ -251,7 +251,7 @@
 43	.	.	PUNCT	FS	_	9	punct	_	_
 
 # isst_tanl sent_id  330
-# text: ROMA Nello Zaire, 34 anni fa (allora si chiamava Congo), furono trucidati 13 aviatori italiani a Kindu dov'erano stati inviati con aiuti e materiale su richiesta dell'Onu che aveva messo sotto controllo internazionale il Paese africano dopo aver ottenuto, il 30 giugno 1960, l'indipendenza dal Belgio.
+# text: ROMA - Nello Zaire, 34 anni fa (allora si chiamava Congo), furono trucidati 13 aviatori italiani a Kindu dov'erano stati inviati con aiuti e materiale su richiesta dell'Onu che aveva messo sotto controllo internazionale il Paese africano dopo aver ottenuto, il 30 giugno 1960, l'indipendenza dal Belgio.
 1	ROMA	Roma	PROPN	SP	_	18	nmod	_	_
 2	-	-	PUNCT	FF	_	1	punct	_	_
 3-4	Nello	_	_	_	_	_	_	_	_
@@ -317,7 +317,7 @@
 60	.	.	PUNCT	FS	_	18	punct	_	_
 
 # isst_tanl sent_id  338
-# text: DAR ES SALAAM (Tanzania) Sono stati ritrovati sani e salvi cinque americani due donne, due ragazze e un uomo, tutti appartenenti alla Chiesa Battista negli Stati Uniti che erano stati rapiti da una banda armata, mentre si trovavano in una riserva del grande parco nazionale di Mikuni, a 250 chilometri da Dar Es Salaam, nella Tanzania nord occidentale.
+# text: DAR ES SALAAM (Tanzania) - Sono stati ritrovati sani e salvi cinque americani - due donne, due ragazze e un uomo, tutti appartenenti alla Chiesa Battista negli Stati Uniti - che erano stati rapiti da una banda armata, mentre si trovavano in una riserva del grande parco nazionale di Mikuni, a 250 chilometri da Dar Es Salaam, nella Tanzania nord occidentale.
 1	DAR	Dar	PROPN	SP	_	10	nmod	_	_
 2	ES	Es	PROPN	SP	_	1	name	_	_
 3	SALAAM	Salaam	PROPN	SP	_	1	name	_	_
@@ -530,7 +530,7 @@
 21	:	:	PUNCT	FC	_	5	punct	_	_
 
 # isst_tanl sent_id  489
-# text: "Da parte mia ha quindi annunciato cercherò di portare in commissione qualche rappresentante della cultura iraniana, per far vedere che esiste un Islam che non è fanatismo".
+# text: "Da parte mia - ha quindi annunciato - cercherò di portare in commissione qualche rappresentante della cultura iraniana, per far vedere che esiste un Islam che non è fanatismo".
 1	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 2	Da	da	ADP	E	_	3	case	_	_
 3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -1047,7 +1047,7 @@
 41	.	.	PUNCT	FS	_	3	punct	_	_
 
 # isst_tanl sent_id  864
-# text: "Ma no, non è così replica Ante.
+# text: "Ma no, non è così - replica Ante -.
 1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	Ma	ma	CONJ	CC	_	7	cc	_	_
 3	no	no	INTJ	I	_	7	discourse	_	_
@@ -1398,7 +1398,7 @@
 40	.	.	PUNCT	FS	_	6	punct	_	_
 
 # isst_tanl sent_id  1350
-# text: Sono venuti in due su una macchina scura, forse una Golf racconta.
+# text: Sono venuti in due su una macchina scura, forse una Golf - racconta -.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 3	in	in	ADP	E	_	4	case	_	_
@@ -1665,7 +1665,7 @@
 14	:	:	PUNCT	FC	_	4	punct	_	_
 
 # isst_tanl sent_id  1660
-# text: Capri nella nebbia e Capri al tramonto sono dei sottili profili omaggio evidente alla moda del panorama delle verdeggianti piane tra Cetrella e la Migliara:
+# text: Capri nella nebbia e Capri al tramonto sono dei sottili profili - omaggio evidente alla moda del panorama - delle verdeggianti piane tra Cetrella e la Migliara:
 1	Capri	Capri	PROPN	SP	_	13	nsubj	_	_
 2-3	nella	_	_	_	_	_	_	_	_
 2	in	in	ADP	E	_	4	case	_	_
@@ -1961,7 +1961,7 @@
 45	.	.	PUNCT	FS	_	16	punct	_	_
 
 # isst_tanl sent_id  2056
-# text: "Queste sono faccende che non mi riguardano taglia corto Capello.
+# text: "Queste sono faccende che non mi riguardano - taglia corto Capello -.
 1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 2	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	4	nsubj	_	_
 3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2320,7 +2320,7 @@
 21	.	.	PUNCT	FS	_	3	punct	_	_
 
 # isst_tanl sent_id  2470
-# text: "Anche nella passata stagione dice Vialli siamo stati loro nemici, certi interventi sembrano fatti su misura contro di noi.
+# text: "Anche nella passata stagione - dice Vialli - siamo stati loro nemici, certi interventi sembrano fatti su misura contro di noi.
 1	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
 2	Anche	anche	ADV	B	_	6	advmod	_	_
 3-4	nella	_	_	_	_	_	_	_	_
@@ -7310,7 +7310,7 @@
 23	.	.	PUNCT	FS	_	4	punct	_	_
 
 # tut sent_id  2642
-# text: per quanto è dato sapere negli ultimi mesi il Centro destra al potere e gli ex comunisti si erano trovati intorno a un tavolo soltanto in zona neutra, dentro alla residenza dell'ambasciata italiana, dove un tempo aveva sede il museo Lenin Stalin.
+# text: per quanto è dato sapere negli ultimi mesi il Centro - destra al potere e gli ex comunisti si erano trovati intorno a un tavolo soltanto in zona neutra, dentro alla residenza dell'ambasciata italiana, dove un tempo aveva sede il museo Lenin - Stalin.
 1	per	per	ADP	E	_	2	case	_	_
 2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	23	nmod	_	_
 3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
@@ -7643,7 +7643,7 @@
 41	.	.	PUNCT	FS	_	6	punct	_	_
 
 # tut sent_id  2773
-# text: Nicolas Sarkozy ha ottenuto il 31,11 % dei voti al primo turno, seguito dalla socialista Segolene Royal che ha preso il 25,84 %.
+# text: Nicolas Sarkozy ha ottenuto il 31,11% dei voti al primo turno, seguito dalla socialista Segolene Royal che ha preso il 25,84%.
 1	Nicolas	Nicolas	PROPN	SP	_	4	nsubj	_	_
 2	Sarkozy	Sarkozy	PROPN	SP	_	1	name	_	_
 3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -7886,7 +7886,7 @@
 36	.	.	PUNCT	FS	_	3	punct	_	_
 
 # tut sent_id  2991
-# text: Con English in campo, i Denver Nuggets hanno fatto un sol boccone del Barcellona (137 103), rispettando il pronostico che li vede favoriti anche domani sera nella finalissima.
+# text: Con English in campo, i Denver Nuggets hanno fatto un sol boccone del Barcellona (137 - 103), rispettando il pronostico che li vede favoriti anche domani sera nella finalissima.
 1	Con	con	ADP	E	_	2	case	_	_
 2	English	English	PROPN	SP	_	10	nmod	_	_
 3	in	in	ADP	E	_	4	case	_	_
@@ -8113,7 +8113,7 @@
 42	.	.	PUNCT	FS	_	5	punct	_	_
 
 # tut sent_id  3175
-# text: Beato chi vi vede!
+# text: - Beato chi vi vede!
 1	-	-	PUNCT	FF	_	2	punct	_	_
 2	Beato	beato	ADJ	A	Gender=Masc|Number=Sing	3	nmod	_	PRED
 3	chi	chi	PRON	PR	Number=Sing|PronType=Rel	5	nsubj	_	_
@@ -8384,7 +8384,7 @@
 32	.	.	PUNCT	FS	_	19	punct	_	_
 
 # tut sent_id  3502
-# text: Un ricevitore trasmettitore (ricetrasmettitore) che genera un segnale in risposta ad una specifica interrogazione.
+# text: Un ricevitore - trasmettitore (ricetrasmettitore) che genera un segnale in risposta ad una specifica interrogazione.
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ricevitore	ricevitore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 3	-	-	PUNCT	FF	_	2	punct	_	_
@@ -8405,7 +8405,7 @@
 18	.	.	PUNCT	FS	_	2	punct	_	_
 
 # tut sent_id  3560
-# text: Lo smog risulta nocivo alla salute dell'uomo e degli animali superiori irritante per gli occhi e per le vie respiratorie e anche cancerogeno ma anche per le piante e per gli ecosistemi acquatici.
+# text: Lo smog risulta nocivo alla salute dell'uomo e degli animali superiori - irritante per gli occhi e per le vie respiratorie e anche cancerogeno - ma anche per le piante e per gli ecosistemi acquatici.
 1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	smog	smog	NOUN	S	Gender=Masc	3	nsubj	_	_
 3	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10957,7 +10957,7 @@
 19	.	.	PUNCT	FS	_	10	punct	_	_
 
 # 2-Europarl sent_id  114
-# text: (applausi dai banchi del gruppo del PPE DE).
+# text: (applausi dai banchi del gruppo del PPE - DE).
 1	(	(	PUNCT	FB	_	2	punct	_	_
 2	applausi	applauso	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 3-4	dai	_	_	_	_	_	_	_	_
@@ -11541,7 +11541,7 @@
 27	.	.	PUNCT	FS	_	9	punct	_	_
 
 # 4-FB sent_id  76
-# text: Tasso di conversione del 10 % dalle visite originate dalle inserzioni di Facebook.
+# text: Tasso di conversione del 10% dalle visite originate dalle inserzioni di Facebook.
 1	Tasso	Tasso	PROPN	SP	_	0	root	_	_
 2	di	di	ADP	E	_	3	case	_	_
 3	conversione	conversione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -11662,7 +11662,7 @@
 16	:	:	PUNCT	FC	_	7	punct	_	_
 
 # 5-WIKIBalzac sent_id  113
-# text: Nonostante Balzac fosse un sostenitore della corona, Balzac rappresentò i contro rivoluzionari in modo indulgente anche se sono al centro delle scene più brutali del libro.
+# text: Nonostante Balzac fosse un sostenitore della corona, Balzac rappresentò i contro - rivoluzionari in modo indulgente - anche se sono al centro delle scene più brutali del libro.
 1	Nonostante	nonostante	ADP	E	_	5	mark	_	_
 2	Balzac	Balzac	PROPN	SP	_	5	nsubj	_	_
 3	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
@@ -11787,7 +11787,7 @@
 30	.	.	PUNCT	FS	_	18	punct	_	_
 
 # 5-WIKIBalzac sent_id  219
-# text: Alcuni critici considerano la scrittura di Balzac un esemplare del naturalismo una forma più pessimistica e analitica del realismo, che cerca di spiegare il comportamento umano come intrinsecamente collegato con l'ambiente.
+# text: Alcuni critici considerano la scrittura di Balzac un esemplare del naturalismo - una forma più pessimistica e analitica del realismo, che cerca di spiegare il comportamento umano come intrinsecamente collegato con l'ambiente.
 1	Alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	critici	critico	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12295,7 +12295,7 @@
 40	.	.	PUNCT	FS	_	18	punct	_	_
 
 # 7-WIKIShake sent_id  267
-# text: Negli anni 50, un'ondata di nuovi approcci critici rimpiazzò il modernismo e spianò la strada agli studi "post moderni" su Shakespeare.
+# text: Negli anni 50, un'ondata di nuovi approcci critici rimpiazzò il modernismo e spianò la strada agli studi "post - moderni" su Shakespeare.
 1-2	Negli	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_
 2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -12654,7 +12654,7 @@
 19	.	.	PUNCT	FS	_	3	punct	_	_
 
 # 9-PS sent_id  126
-# text: Ma se la finanza continua a prendersi un numero sproporzionato dei laureati migliori e più brillanti, potrebbe restare poco manifatturiero inglese nel 2050, e ancor meno aziende hi tech di oggi.
+# text: Ma se la finanza continua a prendersi un numero sproporzionato dei laureati migliori e più brillanti, potrebbe restare poco manifatturiero inglese nel 2050, e ancor meno aziende hi - tech di oggi.
 1	Ma	ma	CONJ	CC	_	21	cc	_	_
 2	se	se	SCONJ	CS	_	5	mark	_	_
 3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -12891,7 +12891,7 @@
 27	.	.	PUNCT	FS	_	10	punct	_	_
 
 # 9-PS sent_id  362
-# text: Di fatto, il suo piano triennale per l'innovazione economica, annunciato nel mese di febbraio, punta a innalzare il tasso di occupazione femminile fino al 62 % entro il 2017, ad esempio mediante l'offerta di servizi per l'infanzia di buona qualità ma a prezzi accessibili e un allungamento del congedo parentale retribuito.
+# text: Di fatto, il suo piano triennale per l'innovazione economica, annunciato nel mese di febbraio, punta a innalzare il tasso di occupazione femminile fino al 62% entro il 2017, ad esempio mediante l'offerta di servizi per l'infanzia di buona qualità ma a prezzi accessibili e un allungamento del congedo parentale retribuito.
 1	Di	di	ADP	E	_	2	case	_	_
 2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
 3	,	,	PUNCT	FF	_	2	punct	_	_
@@ -12983,7 +12983,7 @@
 19	.	.	PUNCT	FS	_	4	punct	_	_
 
 # 9-PS sent_id  509
-# text: Il prossimo mese i cittadini dell'Ucraina saranno chiamati a scegliere liberamente un nuovo presidente la miglior strigliata possibile per la propaganda russa sulla nostra presunta incapacità di mantenere la democrazia.
+# text: Il prossimo mese i cittadini dell'Ucraina saranno chiamati a scegliere liberamente un nuovo presidente - la miglior strigliata possibile per la propaganda russa sulla nostra presunta incapacità di mantenere la democrazia.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
 3	mese	mese	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_

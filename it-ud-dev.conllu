@@ -10335,7 +10335,7 @@
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	nome	nome	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
-4	si	si	PRON	PC	Person=3|PronType=Clit	5	expl	_	_
+4	si	si	PRON	PC	Person=3|PronType=Clit	5	iobj	_	_
 5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	facendo	fare	VERB	V	VerbForm=Ger	2	acl:relcl	_	_
 7	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	dobj	_	_

@@ -87,6 +87,12 @@ Version 1.4 of the data. Changes from the previous version include.
 * Added dependency subtype expl:pass, used in passive constructions
 * Added a new collection of texts from 2Parole, a newspaper of simplified Italian texts (25995 tokens)
 
+## Changelog V2.0 February 2017
+
+Version 2.0 of the data. Changes from the previous version include.
+
+* Changes to comply with V2.
+
 ## Acknowledgments
 
 We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.

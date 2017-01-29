@@ -87,6 +87,12 @@ Version 1.4 of the data. Changes from the previous version include.
 * Added dependency subtype expl:pass, used in passive constructions
 * Added a new collection of texts from 2Parole, a newspaper of simplified Italian texts (25995 tokens)
 
+## Changelog V2.0 February 2017
+
+Version 2.0 of the data. Changes from the previous version include.
+
+* Changes to comply with V2.
+
 ## Acknowledgments
 
 We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.
@@ -123,7 +129,7 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.
 
 
-Documentation status: partial
+Documentation status: still v1.4
 Data source: semi-automatic
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0

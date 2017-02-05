@@ -317,10 +317,10 @@
 60	.	.	PUNCT	FS	_	18	punct	_	_
 
 # sent_id = isst_tanl-338
-# text = DAR ES SALAAM (Tanzania) - Sono stati ritrovati sani e salvi cinque americani - due donne, due ragazze e un uomo, tutti appartenenti alla Chiesa Battista negli Stati Uniti - che erano stati rapiti da una banda armata, mentre si trovavano in una riserva del grande parco nazionale di Mikuni, a 250 chilometri da Dar Es Salaam, nella Tanzania nord occidentale.
-1	DAR	Dar	PROPN	SP	_	10	obl	_	_
-2	ES	Es	PROPN	SP	_	1	flat:name	_	_
-3	SALAAM	Salaam	PROPN	SP	_	1	flat:name	_	_
+# text = Dar Es Salaam (Tanzania) - Sono stati ritrovati sani e salvi cinque americani - due donne, due ragazze e un uomo, tutti appartenenti alla Chiesa Battista negli Stati Uniti - che erano stati rapiti da una banda armata, mentre si trovavano in una riserva del grande parco nazionale di Mikuni, a 250 chilometri da Dar Es Salaam, nella Tanzania nord occidentale.
+1	Dar	Dar	PROPN	SP	_	10	obl	_	_
+2	Es	Es	PROPN	SP	_	1	flat:name	_	_
+3	Salaam	Salaam	PROPN	SP	_	1	flat:name	_	_
 4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 5	Tanzania	Tanzania	PROPN	SP	_	1	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	FB	_	5	punct	_	_
@@ -348,13 +348,13 @@
 28-29	alla	_	_	_	_	_	_	_	_
 28	a	a	ADP	E	_	30	case	_	_
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Chiesa	Chiesa	PROPN	SP	_	27	obl	_	_
-31	Battista	Battista	PROPN	SP	_	30	flat:name	_	_
+30	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+31	Battista	battista	ADJ	A	Number=Sing	30	amod	_	_
 32-33	negli	_	_	_	_	_	_	_	_
 32	in	in	ADP	E	_	34	case	_	_
 33	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
-34	Stati	Stati	PROPN	SP	_	30	nmod	_	_
-35	Uniti	Uniti	PROPN	SP	_	34	flat:name	_	_
+34	Stati	stato	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+35	Uniti	unito	ADJ	A	Gender=Masc|Number=Plur	34	amod	_	_
 36	-	-	PUNCT	FB	_	40	punct	_	_
 37	che	che	PRON	PR	PronType=Rel	40	nsubj:pass	_	_
 38	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	40	aux	_	_
@@ -500,9 +500,9 @@
 53	che	che	PRON	PR	PronType=Rel	56	nsubj	_	_
 54	volevano	volere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	56	aux	_	_
 55	soltanto	soltanto	ADV	B	_	56	advmod	_	_
-56-57	arricchirsi	_	_	_	_	_	_	_	_
+56-57	arricchirsi	_	_	_	_	_	_	_	SpaceAfter=No
 56	arricchir	arricchire	VERB	V	VerbForm=Inf	51	acl:relcl	_	_
-57	si	si	PRON	PC	Clit=Yes|Person=3|PronType=Prs	56	expl	_	SpaceAfter=No
+57	si	si	PRON	PC	Clit=Yes|Person=3|PronType=Prs	56	expl	_	_
 58	.	.	PUNCT	FS	_	10	punct	_	_
 
 # sent_id = isst_tanl-438
@@ -818,9 +818,9 @@
 11	bastare	bastare	VERB	V	VerbForm=Inf	6	parataxis	_	_
 12	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	ExtraSubj=Yes
 13	a	a	ADP	E	_	14	mark	_	_
-14-15	punirlo	_	_	_	_	_	_	_	_
+14-15	punirlo	_	_	_	_	_	_	_	SpaceAfter=No
 14	punir	punire	VERB	V	VerbForm=Inf	11	xcomp	_	_
-15	lo	lo	PRON	PC	Clit=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+15	lo	lo	PRON	PC	Clit=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 16	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = isst_tanl-640
@@ -1488,12 +1488,12 @@
 7	discusse	discutere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	_
 8	in	in	ADP	E	_	9	case	_	_
 9	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
-10	Affari	Affari	PROPN	SP	_	9	nmod	_	_
-11	Costituzionali	Costituzionali	PROPN	SP	_	10	flat:name	_	_
+10	Affari	affare	NOUN	S	Gender=Masc|Number=Plur	9	compound	_	_
+11	Costituzionali	costituzionale	ADJ	A	Number=Plur	10	amod	_	_
 12	e	e	CCONJ	CC	_	14	cc	_	_
 13	in	in	ADP	E	_	14	case	_	_
 14	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
-15	Giustizia	Giustizia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+15	Giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = isst_tanl-1482
@@ -1643,7 +1643,7 @@
 3	'93	'93	NUM	N	NumType=Card	4	obl	_	_
 4	dirige	dirigere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Festival	Festival	PROPN	SP	_	4	obj	_	_
+6	Festival	festival	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
 7	di	di	ADP	E	_	8	case	_	_
 8	Taormina	Taormina	PROPN	SP	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	4	punct	_	_
@@ -2062,9 +2062,9 @@
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	FF	_	9	punct	_	_
-14-15	inquinandolo	_	_	_	_	_	_	_	_
+14-15	inquinandolo	_	_	_	_	_	_	_	SpaceAfter=No
 14	inquinando	inquinare	VERB	V	VerbForm=Ger	9	advcl	_	_
-15	lo	lo	PRON	PC	Clit=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+15	lo	lo	PRON	PC	Clit=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 16	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = isst_tanl-2127
@@ -3640,9 +3640,9 @@
 13	discutere	discutere	VERB	V	VerbForm=Inf	12	csubj	_	SpaceAfter=No
 14	,	,	PUNCT	FF	_	12	punct	_	_
 15	che	che	SCONJ	CS	_	16	mark	_	_
-16-17	negarle	_	_	_	_	_	_	_	_
+16-17	negarle	_	_	_	_	_	_	_	SpaceAfter=No
 16	negar	negare	VERB	V	VerbForm=Inf	12	ccomp	_	_
-17	le	lo	PRON	PC	Clit=Yes|Gender=Fem|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+17	le	lo	PRON	PC	Clit=Yes|Gender=Fem|Person=3|PronType=Prs	16	obj	_	_
 18	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
 19	.	.	PUNCT	FS	_	12	punct	_	_
 
@@ -3662,9 +3662,9 @@
 4	a	a	ADP	E	_	6	case	_	_
 5	che	che	DET	DQ	PronType=Int	6	det	_	_
 6	santo	santo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
-7-8	votarsi	_	_	_	_	_	_	_	_
+7-8	votarsi	_	_	_	_	_	_	_	SpaceAfter=No
 7	votar	votare	VERB	V	VerbForm=Inf	3	xcomp	_	_
-8	si	si	PRON	PC	Clit=Yes|Person=3|PronType=Prs	7	expl	_	SpaceAfter=No
+8	si	si	PRON	PC	Clit=Yes|Person=3|PronType=Prs	7	expl	_	_
 9	,	,	PUNCT	FF	_	1	punct	_	_
 10	ricorre	ricorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11-12	al	_	_	_	_	_	_	_	_
@@ -7579,9 +7579,9 @@
 # text = Tende a stemperarsi, infine, lo scontro sui coefficienti di trasformazione:
 1	Tende	tendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	E	_	3	mark	_	_
-3-4	stemperarsi	_	_	_	_	_	_	_	_
+3-4	stemperarsi	_	_	_	_	_	_	_	SpaceAfter=No
 3	stemperar	stemperare	VERB	V	VerbForm=Inf	1	xcomp	_	_
-4	si	si	PRON	PC	Clit=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+4	si	si	PRON	PC	Clit=Yes|Person=3|PronType=Prs	3	expl	_	_
 5	,	,	PUNCT	FF	_	3	punct	_	_
 6	infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	FF	_	1	punct	_	_
@@ -8681,6 +8681,7 @@
 32	Tokyo	Tokyo	PROPN	SP	_	31	obj	_	SpaceAfter=No
 33	.	.	PUNCT	FS	_	8	punct	_	_
 
+# newdoc = Wiki_Progetto_San_Marco
 # sent_id = tut-3647
 # text = Il Progetto San Marco fu il programma di collaborazione bilaterale che vide impegnati Italia e Stati Uniti nella ricerca scientifica e nella sperimentazione nello spazio.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_

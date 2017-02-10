@@ -304,7 +304,7 @@
 48	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	SpaceAfter=No
 49	,	,	PUNCT	FF	_	48	punct	_	_
 50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	30	30	NUM	N	NumType=Card	48	obl	_	_
+51	30	30	NUM	N	NumType=Card	48	nummod	_	_
 52	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	51	flat	_	_
 53	1960	1960	NUM	N	NumType=Card	51	flat	_	SpaceAfter=No
 54	,	,	PUNCT	FF	_	48	punct	_	_
@@ -3047,7 +3047,7 @@
 19	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	_
 20	importanti	importante	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	FF	_	2	punct	_	_
-22	vi	vi	ADV	B	_	23	advmod	_	_
+22	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	_
 23	giunse	giungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 24	portando	portare	VERB	V	VerbForm=Ger	23	advcl	_	_
 25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -6520,7 +6520,7 @@
 32-33	del	_	_	_	_	_	_	_	_
 32	di	di	ADP	E	_	34	case	_	_
 33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	17	17	NUM	N	NumType=Card	28	obl	_	_
+34	17	17	NUM	N	NumType=Card	28	nmod	_	_
 35	Dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	34	flat	_	_
 36	2001	2001	NUM	N	NumType=Card	34	flat	_	SpaceAfter=No
 37	,	,	PUNCT	FF	_	28	punct	_	_
@@ -6706,7 +6706,7 @@
 4-5	del	_	_	_	_	_	_	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	13	13	NUM	N	NumType=Card	3	obl	_	_
+6	13	13	NUM	N	NumType=Card	3	nmod	_	_
 7	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
 8	quando	quando	SCONJ	CS	_	12	mark	_	_
 9	da	da	ADP	E	_	10	case	_	_
@@ -8269,14 +8269,14 @@
 14	convocare	convocare	VERB	V	VerbForm=Inf	11	xcomp	_	_
 15	per	per	ADP	E	_	17	case	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	13	13	NUM	N	NumType=Card	14	obl	_	_
+17	13	13	NUM	N	NumType=Card	14	nummod	_	_
 18	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	_
 19	in	in	ADP	E	_	21	case	_	_
 20	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
 21	convocazione	convocazione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
 22	ed	e	CCONJ	CC	_	24	cc	_	_
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	14	14	NUM	N	NumType=Card	14	obl	_	_
+24	14	14	NUM	N	NumType=Card	14	conj	_	_
 25	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	24	flat	_	_
 26	in	in	ADP	E	_	28	case	_	_
 27	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	28	amod	_	_

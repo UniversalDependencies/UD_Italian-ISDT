@@ -12,7 +12,7 @@
   <fusions unique="811" /><!-- del, della, al, dei, dell', nel, alla, delle, dal, all', nella, dalla, degli, ai, alle -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
-    <tag name="ADJ">33210</tag><!-- primo, altro, nuovo, stesso, italiano, grande, pubblico, ultimo, europeo, presente -->
+    <tag name="ADJ">33209</tag><!-- primo, altro, nuovo, stesso, italiano, grande, pubblico, ultimo, europeo, presente -->
     <tag name="ADP">78875</tag><!-- di, a, in, da, per, con, su, come, tra, dopo -->
     <tag name="ADV">19958</tag><!-- non, più, anche, dove, come, quando, solo, prima, sempre, ancora -->
     <tag name="AUX">16935</tag><!-- essere, avere, potere, dovere, venire, volere, stare, andare, fare, sapere -->
@@ -27,7 +27,7 @@
     <tag name="PUNCT">60164</tag><!-- ,, ., ", ?, ), (, :, -, ;, [ -->
     <tag name="SCONJ">5239</tag><!-- che, se, quando, perché, come, mentre, qualora, dopo, purché, finché -->
     <tag name="SYM">161</tag><!-- %, &, +, -, http://europa.eu.int/comm/secretariat@general/sgb/state@aids, http://www.linkiesta.it/Locatelli-lombardia-Nicoli-regione, x, www.amnesty.it, www.centrodonmilani.org, www.legadelcane.org -->
-    <tag name="VERB">48072</tag><!-- essere, avere, fare, vedere, dire, trovare, chiamare, andare, dare, tenere -->
+    <tag name="VERB">48073</tag><!-- essere, avere, fare, vedere, dire, trovare, chiamare, andare, dare, tenere -->
     <tag name="X">377</tag><!-- a, b, de, c, f, damage, home, ad, done, electronic -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -67,28 +67,28 @@
     <feat name="PronType" value="Tot" upos="DET">642</feat><!-- tutti, tutte, tutta, tutto, entrambi, entrambe, ambedue, tutt' -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">1073</feat><!-- sarà, saranno, dovrà, potrà, verrà, dovranno, potranno, avrà, vedrà, vedremo -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">3088</feat><!-- era, aveva, erano, avevano, fosse, chiamava, avesse, faceva, poteva, fossero -->
-    <feat name="Tense" value="Past" upos="AUX,NOUN,VERB">18961</feat><!-- stato, stata, fu, fatto, stati, visto, venne, tenuto, morì, detto -->
+    <feat name="Tense" value="Past" upos="AUX,NOUN,VERB">18962</feat><!-- stato, stata, fu, fatto, stati, visto, venne, tenuto, morì, detto -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">29988</feat><!-- è, ha, sono, hanno, può, deve, sia, possono, viene, trova -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">35824</feat><!-- è, ha, sono, hanno, può, era, deve, sia, possono, fu -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">1274</feat><!-- considerando, essendo, facendo, portando, cercando, tenendo, seguendo, lasciando, dando, pagando -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">10624</feat><!-- essere, far, fare, aver, vedere, avere, dire, dare, chiedere, pagare -->
-    <feat name="VerbForm" value="Part" upos="AUX,NOUN,VERB">17287</feat><!-- stato, stata, fatto, stati, visto, tenuto, detto, state, avuto, vinto -->
+    <feat name="VerbForm" value="Part" upos="AUX,NOUN,VERB">17288</feat><!-- stato, stata, fatto, stati, visto, tenuto, detto, state, avuto, vinto -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="44">
+  <deps unique="45">
     <dep name="acl">6314</dep>
     <dep name="acl:relcl">5477</dep>
-    <dep name="advcl">6421</dep>
-    <dep name="advmod">18355</dep>
+    <dep name="advcl">6386</dep>
+    <dep name="advmod">18349</dep>
     <dep name="amod">28045</dep>
     <dep name="appos">1665</dep>
     <dep name="aux">10355</dep>
     <dep name="aux:pass">4051</dep>
-    <dep name="case">73070</dep>
+    <dep name="case">73104</dep>
     <dep name="cc">13981</dep>
-    <dep name="ccomp">2417</dep>
+    <dep name="ccomp">2418</dep>
     <dep name="compound">1294</dep>
-    <dep name="conj">17381</dep>
+    <dep name="conj">17382</dep>
     <dep name="cop">5927</dep>
     <dep name="csubj">540</dep>
     <dep name="csubj:pass">2</dep>
@@ -97,24 +97,25 @@
     <dep name="det:poss">3060</dep>
     <dep name="det:predet">642</dep>
     <dep name="discourse">120</dep>
+    <dep name="dislocated">21</dep>
     <dep name="expl">3817</dep>
     <dep name="expl:impers">804</dep>
     <dep name="expl:pass">732</dep>
-    <dep name="fixed">1751</dep>
+    <dep name="fixed">1749</dep>
     <dep name="flat">989</dep>
     <dep name="flat:foreign">169</dep>
     <dep name="flat:name">5856</dep>
     <dep name="goeswith">2</dep>
     <dep name="iobj">1235</dep>
-    <dep name="mark">10636</dep>
-    <dep name="nmod">42069</dep>
+    <dep name="mark">10602</dep>
+    <dep name="nmod">42090</dep>
     <dep name="nsubj">21960</dep>
     <dep name="nsubj:pass">4305</dep>
     <dep name="nummod">6840</dep>
-    <dep name="obj">17232</dep>
-    <dep name="obl">29532</dep>
+    <dep name="obj">17210</dep>
+    <dep name="obl">29555</dep>
     <dep name="obl:agent">2128</dep>
-    <dep name="orphan">41</dep>
+    <dep name="orphan">39</dep>
     <dep name="parataxis">789</dep>
     <dep name="punct">60160</dep>
     <dep name="root">24940</dep>

@@ -3676,9 +3676,9 @@
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	frontiera	frontiera	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	FF	_	10	punct	_	_
-18	a	a	ADP	E	_	20	mark	_	_
+18	a	a	ADP	E	_	20	case	_	_
 19	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
-20	Far	Far	PROPN	SP	_	10	advcl	_	_
+20	Far	Far	PROPN	SP	_	10	obl	_	_
 21	West	West	PROPN	SP	_	20	flat:name	_	_
 22	che	che	PRON	PR	PronType=Rel	25	nsubj	_	Propagate=Yes
 23	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
@@ -4341,8 +4341,8 @@
 4-5	opporsi	_	_	_	_	_	_	_	_
 4	oppor	opporre	VERB	V	VerbForm=Inf	0	root	_	_
 5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
-6	a	a	ADP	E	_	7	mark	_	_
-7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	advcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	obl	_	_
 8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
 9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	munito	munito	ADJ	A	Gender=Masc|Number=Sing	7	acl:relcl	_	_

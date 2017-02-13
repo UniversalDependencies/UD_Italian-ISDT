@@ -10464,7 +10464,7 @@
 3	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	Propagate=Yes
 4	portata	portare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	avanti	avanti	ADV	B	_	4	advmod	_	_
-6-7	dalle	_	_	_	_	_	_	_	_
+6-7	dalle	_	_	_	_	_	_	_	Propagate=Yes
 6	da	da	ADP	E	_	8	case	_	_
 7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	Gendarmerie	Gendarmerie	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	_

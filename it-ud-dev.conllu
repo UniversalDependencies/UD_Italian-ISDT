@@ -304,7 +304,7 @@
 48	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	SpaceAfter=No
 49	,	,	PUNCT	FF	_	48	punct	_	_
 50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	30	30	NUM	N	NumType=Card	48	nummod	_	_
+51	30	30	NUM	N	NumType=Card	48	obl	_	_
 52	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	51	flat	_	_
 53	1960	1960	NUM	N	NumType=Card	51	flat	_	SpaceAfter=No
 54	,	,	PUNCT	FF	_	48	punct	_	_
@@ -8269,14 +8269,14 @@
 14	convocare	convocare	VERB	V	VerbForm=Inf	11	xcomp	_	_
 15	per	per	ADP	E	_	17	case	_	_
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	13	13	NUM	N	NumType=Card	14	nummod	_	_
+17	13	13	NUM	N	NumType=Card	14	obl	_	_
 18	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	17	flat	_	_
 19	in	in	ADP	E	_	21	case	_	_
 20	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
 21	convocazione	convocazione	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
 22	ed	e	CCONJ	CC	_	24	cc	_	_
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	14	14	NUM	N	NumType=Card	14	conj	_	_
+24	14	14	NUM	N	NumType=Card	14	obl	_	_
 25	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	24	flat	_	_
 26	in	in	ADP	E	_	28	case	_	_
 27	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	28	amod	_	_

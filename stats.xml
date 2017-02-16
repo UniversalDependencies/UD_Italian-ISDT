@@ -12,7 +12,7 @@
   <fusions unique="645" /><!-- del, della, al, dei, dell', nel, alla, delle, dal, all', nella, dalla, ai, alle, degli -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
-    <tag name="ADJ">13076</tag><!-- primo, altro, stesso, nuovo, grande, italiano, pubblico, ultimo, alto, necessario -->
+    <tag name="ADJ">13078</tag><!-- primo, altro, stesso, nuovo, grande, italiano, pubblico, ultimo, alto, necessario -->
     <tag name="ADP">31635</tag><!-- di, a, in, da, per, con, su, come, tra, dopo -->
     <tag name="ADV">8206</tag><!-- non, anche, più, dove, come, quando, solo, prima, ancora, sempre -->
     <tag name="AUX">8308</tag><!-- essere, avere, potere, dovere, venire, volere, stare, andare, sapere, fare -->
@@ -20,7 +20,7 @@
     <tag name="DET">33356</tag><!-- il, uno, suo, quale, questo, tutto, che, ogni, loro, quanto -->
     <tag name="INTJ">61</tag><!-- sì, no, ah, grazie, ahimè, oh, vabbè, ahò, amen, chissà -->
     <tag name="NOUN">41445</tag><!-- anno, articolo, fondo, legge, parte, diritto, presidente, proprietario, stato, caso -->
-    <tag name="NUM">3853</tag><!-- due, 1, 2, tre, 3, mila, cinque, 4, quattro, 5 -->
+    <tag name="NUM">3851</tag><!-- due, 1, 2, tre, 3, mila, cinque, 4, quattro, 5 -->
     <tag name="PART">9</tag><!-- 's -->
     <tag name="PRON">8479</tag><!-- si, che, lo, chi, ci, quello, quale, cui, ne, questo -->
     <tag name="PROPN">10379</tag><!-- Italia, San, Roma, Albania, Marco, Valona, Tirana, Milano, Stati, Uniti -->
@@ -46,8 +46,8 @@
     <feat name="Mood" value="Sub" upos="AUX,VERB">781</feat><!-- sia, siano, abbia, fosse, possa, avesse, abbiano, venga, fossero, veda -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,VERB">29928</feat><!-- i, le, gli, sono, hanno, anni, tutti, stati, altri, possono -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB,X">79260</feat><!-- il, la, l', è, un, una, ha, lo, quale, può -->
-    <feat name="NumType" value="Card" upos="NUM">3849</feat><!-- due, 1, 2, tre, 3, mila, cinque, 4, quattro, 5 -->
-    <feat name="NumType" value="Ord" upos="ADJ">717</feat><!-- primo, prima, secondo, terzo, primi, seconda, ii, prime, ultimo, i -->
+    <feat name="NumType" value="Card" upos="NUM">3847</feat><!-- due, 1, 2, tre, 3, mila, cinque, 4, quattro, 5 -->
+    <feat name="NumType" value="Ord" upos="ADJ">719</feat><!-- primo, prima, secondo, terzo, primi, seconda, ii, prime, ultimo, i -->
     <feat name="NumType" value="Range" upos="NUM">4</feat><!-- 3/4, 150/300, 2/3 -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">1063</feat><!-- mi, ci, ho, noi, abbiamo, io, sono, siamo, me, credo -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">429</feat><!-- ti, v., vi, Nomina, hai, voi, Dimmi, vedi, fai, sei -->
@@ -79,7 +79,7 @@
     <dep name="acl:relcl">2227</dep>
     <dep name="advcl">2523</dep>
     <dep name="advmod">7494</dep>
-    <dep name="amod">10996</dep>
+    <dep name="amod">10997</dep>
     <dep name="appos">738</dep>
     <dep name="aux">4178</dep>
     <dep name="aux:pass">1693</dep>
@@ -109,7 +109,7 @@
     <dep name="nmod">16853</dep>
     <dep name="nsubj">8928</dep>
     <dep name="nsubj:pass">1846</dep>
-    <dep name="nummod">2768</dep>
+    <dep name="nummod">2767</dep>
     <dep name="obj">6661</dep>
     <dep name="obl">12065</dep>
     <dep name="obl:agent">940</dep>

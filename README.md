@@ -135,4 +135,4 @@ Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Genre: legal news wiki
 Contributors: Bosco, Cristina; Lenci, Alessandro; Montemagni, Simonetta; Simi, Maria
-
+Contact: simi@di.unipi.it

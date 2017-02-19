@@ -22,14 +22,15 @@ was adapted to the specificity of the Italian language. We refer to (Bosco, Mont
 <table>
 <tr style="background-color: #eee"><th>Original format</th><th>Source</th><th>Genre</th><th>Size in tokens</th><th>Size in sentences</th>
 </tr>
-<tr><td>TUT-CONLL</td><td>Evalita 2011 Dependency parsing</td><td>Legal texts, news articles, Wikipedia articles</td><td>112,877</td><td>3,802</td></tr>
-<tr><td>ISST-TANL</td><td>Evalita 2011 Domain adaptation task</td><td>Newspaper articles</td><td>89,102</td><td>4,043</td></tr>
-<tr><td>ISST-TANL</td><td>SPLeT 2012 </td><td>Legal texts: European directives</td><td>6,893</td><td>259</td></tr>
-<tr><td>MIDT</td><td>Several QA competitions</td><td>Questions</td><td>23,391</td><td>2,162</td></tr>
-<tr><td>MIDT</td><td>Evalita 2014 Dependency parsing:test data set (partial)</td><td>News articles</td><td>8,375</td><td>300</td></tr>
-<tr><td>TUT-CONLL</td><td>Parallel TUT (Italian part)</td><td>Various genres</td><td>61,460</td><td>2,111</td></tr>
-<tr><td>UD</td><td>Due Parole</td><td>Simplified Italian news</td><td>23,718</td><td>1,138</td></tr>
-<tr><td></td><td></td><td>TOTAL</td><td><b>325,816</b></td><td><b>13,815</b></td></tr>
+<tr><td>TUT-CONLL</td><td>Evalita 2011 Dependency parsing</td><td>Legal texts, news articles, Wikipedia articles</td><td>101,309</td><td>3,842</td></tr>
+<tr><td>ISST-TANL</td><td>Evalita 2011 Domain adaptation task</td><td>Newspaper articles</td><td>80,967</td><td>4,135</td></tr>
+<tr><td>ISST-TANL</td><td>SPLeT 2012 </td><td>Legal texts: European directives</td><td>6,166</td><td>260</td></tr>
+<tr><td>MIDT</td><td>Several QA competitions</td><td>Questions</td><td>20,680</td><td>2,228</td></tr>
+<tr><td>MIDT</td><td>Evalita 2014 Dependency parsing:test data set (partial)</td><td>News articles</td><td>7,618</td><td>304</td></tr>
+<tr><td>TUT-CONLL</td><td>Parallel TUT (Italian part)</td><td>Various genres</td><td>55,942</td><td>2,131</td></tr
+<tr><td>UD</td><td>Due Parole</td><td>Simplified Italian news</td><td>19,992</td><td>1,138</td></tr>
+<tr><td>UD2</td><td>New data</td><td>Various sentences</td><td>2,504</td><td>150</td></tr>
+<tr><td></td><td></td><td>TOTAL</td><td><b>295,178</b></td><td><b>14,188</b></td></tr>
 </table>
 
 ## Corpus splitting
@@ -92,6 +93,7 @@ Version 1.4 of the data. Changes from the previous version include.
 Version 2.0 of the data. Changes from the previous version include.
 
 * Changes to comply with V2.
+* Splitting revised to comply with shared task.
 
 ## Acknowledgments
 
@@ -135,4 +137,4 @@ Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Genre: legal news wiki
 Contributors: Bosco, Cristina; Lenci, Alessandro; Montemagni, Simonetta; Simi, Maria
-
+Contact: simi@di.unipi.it

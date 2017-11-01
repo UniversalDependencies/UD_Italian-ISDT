@@ -95,6 +95,20 @@ Version 2.0 of the data. Changes from the previous version include.
 * Changes to comply with V2.
 * Splitting revised to comply with shared task.
 
+## Changelog V2.1 November 2017
+
+Corrected 505 errors of various types.
+The strategy was to identify "unplausible" constructions, by comparing with large corpora, and manually revise them. Most errors corrected are of the following type:
+
+* amod -> acl
+* xcomp -> amod
+* advcl -> obl
+* obl -> nmod
+
+In addition, locutions such as "al di là" received a consistent treatment.
+
+Thanks go to Chiara Alzetta for the good work.
+
 ## Acknowledgments
 
 We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.

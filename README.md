@@ -97,17 +97,26 @@ Version 2.0 of the data. Changes from the previous version include.
 
 ## Changelog V2.1 November 2017
 
-Corrected 505 errors of various types.
-The strategy was to identify "unplausible" constructions, by comparing with large corpora, and manually revise them. Most errors corrected are of the following type:
+Corrected 786 dependency errors distributed into 567 sentences.
+Candidate errors were automatically identified using an algorithm aimed
+at assessing the plausibility of dependency arcs and manually checked
+and corrected (whenever needed). For this release, corrections focused
+on the section of newspapers articles of the treebank. Most part of
+corrected errors fall in one of the following classes:
 
-* amod -> acl
-* xcomp -> amod
-* advcl -> obl
-* obl -> nmod
+* Auxiliary verbs erroneously treated as head of a dependency relation
+* Bare past participles functioning as adjectival modifiers of nouns erroneously annotated as clausal modifiers
+* Adjectives functioning as secondary predicates erroneously annotated as adjectival modifiers
+* Coordinating conjunctions erroneously headed by the first conjunct
+* Oblique nominal arguments erroneously annotated as nominal modifiers
+* Nonfinite verbs functioning as nominals erroneously annotated as oblique nominals
 
-In addition, locutions such as "al di là" received a consistent treatment.
+Consistency in the treatment of fixed multi-word expressions has been
+checked and improved.
 
-Thanks go to Chiara Alzetta for the good work.
+Thanks go to Chiara Alzetta for the good work in defining the error
+detection methodology and the manual revision / correction of
+automatically identified errors.
 
 ## Acknowledgments
 

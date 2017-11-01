@@ -39,7 +39,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ">347</feat><!-- maggiore, maggior, migliore, inferiore, superiore, minore, maggiori, migliori, superiori, miglior -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">184</feat><!-- Illusions, perdues, De, ad, home, la, Come, Damage, Les, Done -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">49441</feat><!-- la, le, una, sua, un', parte, questa, legge, persone, città -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,VERB,X">67782</feat><!-- il, i, un, gli, lo, stato, anni, questo, suo, presidente -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,VERB,X">67783</feat><!-- il, i, un, gli, lo, stato, anni, questo, suo, presidente -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">483</feat><!-- sarebbe, potrebbe, avrebbe, dovrebbe, dovrebbero, potrebbero, sarebbero, vorrei, avrebbero, dovremmo -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">235</feat><!-- v., Nomina, Dimmi, Elenca, vedi, Dammi, clicca, usa, vai, andate -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">17840</feat><!-- è, ha, sono, hanno, può, era, deve, possono, fu, aveva -->
@@ -75,9 +75,9 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
-    <dep name="acl">3195</dep>
+    <dep name="acl">3194</dep>
     <dep name="acl:relcl">2986</dep>
-    <dep name="advcl">3599</dep>
+    <dep name="advcl">3600</dep>
     <dep name="advmod">9990</dep>
     <dep name="amod">15512</dep>
     <dep name="appos">859</dep>
@@ -92,7 +92,7 @@
     <dep name="csubj">312</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">11</dep>
-    <dep name="det">43771</dep>
+    <dep name="det">43770</dep>
     <dep name="det:poss">1792</dep>
     <dep name="det:predet">379</dep>
     <dep name="discourse">60</dep>
@@ -110,7 +110,7 @@
     <dep name="nsubj">12044</dep>
     <dep name="nsubj:pass">2206</dep>
     <dep name="nummod">3394</dep>
-    <dep name="obj">9656</dep>
+    <dep name="obj">9657</dep>
     <dep name="obl">16224</dep>
     <dep name="obl:agent">1093</dep>
     <dep name="orphan">44</dep>

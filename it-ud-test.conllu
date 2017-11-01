@@ -3816,7 +3816,7 @@
 25	)	)	PUNCT	FB	_	16	punct	_	_
 26	capaci	capace	ADJ	A	Number=Plur	7	amod	_	_
 27	di	di	ADP	E	_	28	mark	_	_
-28	produrre	produrre	VERB	V	VerbForm=Inf	26	acl	_	_
+28	produrre	produrre	VERB	V	VerbForm=Inf	26	advcl	_	_
 29	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
 30	e	e	CCONJ	CC	_	31	cc	_	_
 31	documenti	documento	NOUN	S	Gender=Masc|Number=Plur	29	conj	_	_
@@ -5078,7 +5078,7 @@
 6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
 7	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	7	punct	_	_
-9	salvo	salvo	ADJ	A	Number=Sing	7	amod	_	_
+9	salvo	salvo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
 10	patto	patto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
 11	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	7	punct	_	_

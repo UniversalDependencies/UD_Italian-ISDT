@@ -1,23 +1,28 @@
-# Description
+# Summary
 
 The Italian corpus annotated according to the UD annotation scheme was obtained by conversion from ISDT (Italian Stanford Dependency Treebank), released for the dependency parsing shared task of Evalita-2014 (Bosco et al. 2014).
 
-ISDT is a resource annotated according to the Stanford dependencies scheme (de Marneffe et al. 2008, 2013a, 2013b, 2014), obtained through a semi-automatic conversion process starting from MIDT (the Merged Italian Dependency Treebank). MIDT in turn was obtained merging two existing Italian treebanks, differing both in corpus composition and adopted annotation schemes:
+# Introduction
 
+ISDT is a resource annotated according to the Stanford dependencies scheme (de Marneffe et al. 2008, 2013a, 2013b, 2014), obtained through a semi-automatic conversion process starting from MIDT (the Merged Italian Dependency Treebank). MIDT in turn was obtained merging two existing Italian treebanks, differing both in corpus composition and adopted annotation schemes:
 * TUT, the Turin University Treebank (Bosco et al. 2000)
 * ISST-TANL, first released as ISST-CoNLL for the CoNLL-2007 shared task (Montemagni, Simi 2007).
 
 The details of the harmonization and conversion process leading to MIDT were discussed in (Bosco, Montemagni, Simi, 2012). The Stanford annotation scheme, obtained from an enriched version of MIDT,
 was adapted to the specificity of the Italian language. We refer to (Bosco, Montemagni, Simi, 2013 and 2014) for a discussion.
 
-## Main contributors
+# Acknowledgments
+
+We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino. 
+
+# Main contributors
 
 * Cristina Bosco - Università di Torino, Dipartimento di Informatica
 * Alessandro Lenci - Università di Pisa, Dipartimento di Filologia, Letteratura, Linguistica
 * Simonetta Montemagni - Istituto di Linguistica Computazionale A. Zampolli, CNR, Pisa
 * Maria Simi - Università di Pisa, Dipartimento di Informatica
 
-## Corpus composition
+# Corpus composition
 
 <table>
 <tr style="background-color: #eee"><th>Original format</th><th>Source</th><th>Genre</th><th>Size in tokens</th><th>Size in sentences</th>
@@ -33,96 +38,70 @@ was adapted to the specificity of the Italian language. We refer to (Bosco, Mont
 <tr><td></td><td></td><td>TOTAL</td><td><b>295,178</b></td><td><b>14,188</b></td></tr>
 </table>
 
-## Corpus splitting
+Sentences ids clearly identify the source of the sentence. 
+The treebank consists of complete documents only for some more recently annotated parts;
+the rest is just randomly shuffled sentences.
+
+# Corpus splitting
 
 After removing duplicate sentences, the Corpus has been randomly split as follows:
 
-* it-ud-train.conllu: 301138 tokens (11699 sentences)
-* it-ud-dev.conllu: 13123 tokens (489 sentences)
-* it-ud-test.conllu: 13186 tokens (489 sentences)
+* it-ud-train.conllu: 252631 tokens (12838 sentences)
+* it-ud-dev.conllu: 11133 (564 sentences)
+* it-ud-test.conllu: 9680 tokens (482 sentences)
 
-## Changelog V1.1 May 15 2015
+# Changelog
 
-Version 1.1 of the data. Changes from the previous version include.
+* 2017-11-01 v2.1
+  * Corrected 786 dependency errors distributed into 567 sentences:
+    * Auxiliary verbs erroneously treated as head of a dependency relation
+    * Bare past participles functioning as adjectival modifiers of nouns erroneously annotated as clausal modifiers
+    * Adjectives functioning as secondary predicates erroneously annotated as adjectival modifiers
+    * Coordinating conjunctions erroneously headed by the first conjunct
+    * Oblique nominal arguments erroneously annotated as nominal modifiers
+    * Nonfinite verbs functioning as nominals erroneously annotated as oblique nominals
+  * Consistency in the treatment of fixed multi-word expressions has been checked and improved.
 
-* Added Italian section of ParTUT (71645 tokens)
-* Checked SYM
-* Checked X
-* Added more negation adverbs
-* Eliminated Gender=Com and Number=Com
-* Eliminated Negation=Neg
-* Added language specific feature PronType=Clit
-* Changed 'case' into 'mark' for 'xcomp'
-* Fixed xcomp/ccomp distinction
-* Checked dependencies marked 'dep', and resolved most of them
+* 2017-02-15 v2.0
+  * Changes to comply with V2.
+  * Splitting revised to comply with shared task.
 
-## Changelog V1.2 November 1st 2015
+* 2016-11-01 v1.4
+  * Complete revision of the treatment of clitic pronouns
+  * Added dependency subtype expl:pass, used in passive constructions
+  * Added a new collection of texts from 2Parole, a newspaper of simplified Italian texts (25995 tokens)
 
-Version 1.2 of the data. Changes from the previous version include.
+* 2016-05-01 v1.3
+  * Added feature value PronType=Ord for ordinal pronouns
+  * Added feature value PronType=Predet for predeterminers
+  * Added feature value NumType=Range
+  * Added feature value NumType=Gen
+  * Added sentence full text as comment
+  * Added SpaceAfter=No, needed for recovering original text
+  * Fixed errors found running content validation queries
 
-* Added dependencies expl:impers as specialization of expl for impersonal clitic pronouns
-* Fixed case in articulated preposition, previously lost during splitting
-* More fixes to xcomp/ccomp distinction
-* Harmonization of case marking for infinitive verbs introduced by articles
-* Harmonization of Light Verb constructions
-* Eliminated duplicated sentences and overlappings train/dev and train/test
-* Added short sentences to train
+* 2015-11-01 v1.2
+  * Added dependencies expl:impers as specialization of expl for impersonal clitic pronouns
+  * Fixed case in articulated preposition, previously lost during splitting
+  * More fixes to xcomp/ccomp distinction
+  * Harmonization of case marking for infinitive verbs introduced by articles
+  * Harmonization of Light Verb constructions
+  * Eliminated duplicated sentences and overlappings train/dev and train/test
+  * Added short sentences to train
 
-## Changelog V1.3 May 1st 2016
+* 2015-05-15 v1.1
+  * Added Italian section of ParTUT (71645 tokens)
+  * Checked SYM
+  * Checked X
+  * Added more negation adverbs
+  * Eliminated Gender=Com and Number=Com
+  * Eliminated Negation=Neg
+  * Added language specific feature PronType=Clit
+  * Changed 'case' into 'mark' for 'xcomp'
+  * Fixed xcomp/ccomp distinction
+  * Checked dependencies marked 'dep', and resolved most of them
 
-Version 1.3 of the data. Changes from the previous version include.
-
-* Added feature value PronType=Ord for ordinal pronouns
-* Added feature value PronType=Predet for predeterminers
-* Added feature value NumType=Range
-* Added feature value NumType=Gen
-* Added sentence full text as comment
-* Added SpaceAfter=No, needed for recovering original text
-* Fixed errors found running content validation queries
-
-## Changelog V1.4 Novembre 1st 2016
-
-Version 1.4 of the data. Changes from the previous version include.
-
-* Complete revision of the treatment of clitic pronouns
-* Added dependency subtype expl:pass, used in passive constructions
-* Added a new collection of texts from 2Parole, a newspaper of simplified Italian texts (25995 tokens)
-
-## Changelog V2.0 February 2017
-
-Version 2.0 of the data. Changes from the previous version include.
-
-* Changes to comply with V2.
-* Splitting revised to comply with shared task.
-
-## Changelog V2.1 November 2017
-
-Corrected 786 dependency errors distributed into 567 sentences.
-Candidate errors were automatically identified using an algorithm aimed
-at assessing the plausibility of dependency arcs and manually checked
-and corrected (whenever needed). For this release, corrections focused
-on the section of newspapers articles of the treebank. Most part of
-corrected errors fall in one of the following classes:
-
-* Auxiliary verbs erroneously treated as head of a dependency relation
-* Bare past participles functioning as adjectival modifiers of nouns erroneously annotated as clausal modifiers
-* Adjectives functioning as secondary predicates erroneously annotated as adjectival modifiers
-* Coordinating conjunctions erroneously headed by the first conjunct
-* Oblique nominal arguments erroneously annotated as nominal modifiers
-* Nonfinite verbs functioning as nominals erroneously annotated as oblique nominals
-
-Consistency in the treatment of fixed multi-word expressions has been
-checked and improved.
-
-Thanks go to Chiara Alzetta for the good work in defining the error
-detection methodology and the manual revision / correction of
-automatically identified errors.
-
-## Acknowledgments
-
-We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.
-
-## References
+# References
 
 * Cristina Bosco, Vincenzo Lombardo, Leonardo Lesmo, Daniela Vassallo. 2000.
   [Building a treebank for italian: a data-driven annotation schema](http://www.di.unito.it/~bosco/publicat/lrec00.zip). In *Proceedings of LREC 2000*, Athens, Greece.
@@ -153,11 +132,16 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.
 
-
-Documentation status: complete
-Data source: semi-automatic
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
+Includes text: yes
 Genre: legal news wiki
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Bosco, Cristina; Lenci, Alessandro; Montemagni, Simonetta; Simi, Maria
+Contributing: elsewhere
 Contact: simi@di.unipi.it

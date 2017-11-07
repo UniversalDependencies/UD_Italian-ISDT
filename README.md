@@ -4,16 +4,17 @@ The Italian corpus annotated according to the UD annotation scheme was obtained 
 
 # Introduction
 
-ISDT is a resource annotated according to the Stanford dependencies scheme (de Marneffe et al. 2008, 2013a, 2013b, 2014), obtained through a semi-automatic conversion process starting from MIDT (the Merged Italian Dependency Treebank). MIDT in turn was obtained merging two existing Italian treebanks, differing both in corpus composition and adopted annotation schemes:
-* TUT, the Turin University Treebank (Bosco et al. 2000)
-* ISST-TANL, first released as ISST-CoNLL for the CoNLL-2007 shared task (Montemagni, Simi 2007).
+ISDT is a resource annotated according to the Stanford dependencies scheme (de Marneffe et al. 2008, 2013a, 2013b, 2014), obtained through a semi-automatic conversion process starting from MIDT (the Merged Italian Dependency Treebank). MIDT, in turn, is the result of a previous effort in the direction of improving interoperability of data sets available for Italian by harmonizing and merging two existing dependency–based resources, differing both in corpus composition and adopted annotation schemes, namely:
 
-The details of the harmonization and conversion process leading to MIDT were discussed in (Bosco, Montemagni, Simi, 2012). The Stanford annotation scheme, obtained from an enriched version of MIDT,
-was adapted to the specificity of the Italian language. We refer to (Bosco, Montemagni, Simi, 2013 and 2014) for a discussion.
+* TUT, the Turin University Treebank (Bosco et al. 2000);
+* ISST-TANL, first released as ISST-CoNLL for the CoNLL-2007 shared task (Montemagni, Simi 2007), which was developed as a joint effort by the Istituto di Linguistica Computazionale (ILC–CNR) and the University of Pisa and originating from the Italian Syntactic–Semantic Treebank (ISST, Montemagni et al. 2003).
+
+The details of the harmonization and conversion process leading to MIDT are discussed in (Bosco, Montemagni, Simi, 2012). The Stanford annotation scheme, obtained from an enriched version of MIDT, was adapted to the specificity of the Italian language. We refer to (Bosco, Montemagni, Simi, 2013 and 2014) for a discussion.
 
 # Acknowledgments
 
-We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino. 
+We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino. Thanks go to Chiara Alzetta and Giulia Venturi for the good work in defining the error detection methodology and the manual revision / correction of automatically identified errors in Version 2.1.
+
 
 # Main contributors
 
@@ -38,13 +39,11 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 <tr><td></td><td></td><td>TOTAL</td><td><b>295,178</b></td><td><b>14,188</b></td></tr>
 </table>
 
-Sentences ids clearly identify the source of the sentence. 
-The treebank consists of complete documents only for some more recently annotated parts;
-the rest is just randomly shuffled sentences.
+Sentences ids explicitly mark the source of the sentence. 
 
 # Corpus splitting
 
-After removing duplicate sentences, the Corpus has been randomly split as follows:
+The Corpus has been randomly split as follows:
 
 * it-ud-train.conllu: 252631 tokens (12838 sentences)
 * it-ud-dev.conllu: 11133 (564 sentences)
@@ -128,6 +127,10 @@ After removing duplicate sentences, the Corpus has been randomly split as follow
   [Universal Stanford Dependencies: A cross-linguistic typology](http://nlp.stanford.edu/pubs/USD_LREC14_paper_camera_ready.pdf).
   In *Proceedings of LREC 2014*.
 
+* Simonetta Montemagni, Francesco Barsotti, Marco Battista, Nicoletta Calzolari, Ornella Corazzari, Alessandro Lenci, Antonio Zampolli, Francesca Fanciulli, Maria Massetani, Remo Raffaelli, Roberto Basili, Maria Teresa Pazienza, Dario Saracino, Fabio Zanzotto, Nadia Mana, Fabio Pianesi,
+and Rodolfo Delmonte. 2003. Building the Italian Syntactic-Semantic Treebank. In A. Abeillé (Ed.), Building and Using syntactically annotated corpora.
+Kluwer, Dordrecht.
+    
 * Simonetta Montemagni, Maria Simi. 2007. [The Italian dependency annotated corpus developed for the CoNLL–2007 shared task](http://medialab.di.unipi.it/isst/). Technical report, ILC–CNR.
 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.

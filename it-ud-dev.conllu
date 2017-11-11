@@ -546,7 +546,7 @@
 13	in	in	ADP	E	_	14	case	_	_
 14	commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
 15	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	16	det	_	_
-16	rappresentante	rappresentante	NOUN	S	Number=Sing	14	obj	_	_
+16	rappresentante	rappresentante	NOUN	S	Number=Sing	12	obj	_	_
 17-18	della	_	_	_	_	_	_	_	_
 17	di	di	ADP	E	_	19	case	_	_
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -651,7 +651,7 @@
 6	serbi	serbo	NOUN	S	Gender=Masc|Number=Plur	1	obl:agent	_	SpaceAfter=No
 7	,	,	PUNCT	FF	_	1	punct	_	_
 8	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
-9	solo	solo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+9	solo	solo	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	_
 10-11	dai	_	_	_	_	_	_	_	_
 10	da	da	ADP	E	_	12	case	_	_
 11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -1389,12 +1389,12 @@
 30	accuse	accusa	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
 31	rispettivamente	rispettivamente	ADV	B	_	30	advmod	_	_
 32	di	di	ADP	E	_	34	case	_	_
-33	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl	_	_
+33	tentato	tentato	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
 34	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
 35	e	e	CCONJ	CC	_	36	cc	_	_
 36	concorso	concorso	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	_
 37	in	in	ADP	E	_	39	case	_	_
-38	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	acl	_	_
+38	tentato	tentato	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
 39	omicidio	omicidio	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	FS	_	6	punct	_	_
 
@@ -2192,7 +2192,7 @@
 9	,	,	PUNCT	FF	_	11	punct	_	_
 10	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 11	copre	coprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-12	veloce	veloce	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+12	veloce	veloce	ADJ	A	Number=Sing	11	xcomp	_	SpaceAfter=No
 13	:	:	PUNCT	FC	_	2	punct	_	_
 
 # sent_id = isst_tanl-2340
@@ -2986,7 +2986,7 @@
 16	complete	completo	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
 17	di	di	ADP	E	_	18	case	_	_
 18	poggiapiedi	poggiapiedi	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
-19	imbottito	imbottire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	SpaceAfter=No
+19	imbottito	imbottito	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	10	punct	_	_
 21	con	con	ADP	E	_	23	case	_	_
 22	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
@@ -3207,7 +3207,7 @@
 15	anche	anche	ADV	B	_	16	advmod	_	_
 16	pose	posa	NOUN	S	Gender=Fem|Number=Plur	14	nsubj:pass	_	_
 17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
-18	controllate	controllare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+18	controllate	controllato	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
 19	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	FF	_	16	punct	_	_
 21	ovvero	ovvero	CCONJ	CC	_	22	cc	_	_
@@ -3516,7 +3516,7 @@
 27	con	con	ADP	E	_	29	case	_	_
 28	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	scrubbing	scrubbing	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
-30	esfoliante	esfoliare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	29	acl	_	_
+30	esfoliante	esfoliante	ADJ	A	Number=Sing	29	amod	_	_
 31	come	come	ADP	E	_	32	case	_	_
 32	Grain	Grain	PROPN	SP	_	29	nmod	_	_
 33	Fin	Fin	PROPN	SP	_	32	flat:name	_	_
@@ -3527,7 +3527,7 @@
 37	a	a	ADP	E	_	39	case	_	_
 38	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
 39	polimeri	polimero	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
-40	addolcenti	addolcire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	39	acl	_	SpaceAfter=No
+40	addolcenti	addolcente	ADJ	A	Number=Plur	39	amod	_	SpaceAfter=No
 41	,	,	PUNCT	FF	_	48	punct	_	_
 42	e	e	CCONJ	CC	_	48	cc	_	_
 43	se	se	SCONJ	CS	_	44	mark	_	_
@@ -3551,7 +3551,7 @@
 4	ben	bene	ADV	B	_	5	advmod	_	_
 5	dilatati	dilatare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	1	punct	_	_
-7	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+7	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	1	xcomp	_	_
 8	a	a	ADP	E	_	9	mark	_	_
 9-10	riempirsi	_	_	_	_	_	_	_	_
 9	riempir	riempire	VERB	V	VerbForm=Inf	7	advcl	_	_
@@ -3836,11 +3836,11 @@
 45-46	alla	_	_	_	_	_	_	_	_
 45	a	a	ADP	E	_	47	case	_	_
 46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	portata	portata	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+47	portata	portata	NOUN	S	Gender=Fem|Number=Sing	4	advcl	_	_
 48	di	di	ADP	E	_	51	case	_	_
 49	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	51	det:predet	_	_
 50	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
-51	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	47	nmod	_	SpaceAfter=No
+51	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	47	obl	_	SpaceAfter=No
 52	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = isst_tanl-3829
@@ -4063,7 +4063,7 @@
 26	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
 27	celebrato	celebrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
 28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-29	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+29	raggiunto	raggiunto	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
 30	miliardo	miliardo	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
 31	.	.	PUNCT	FS	_	10	punct	_	_
 
@@ -4225,7 +4225,7 @@
 39	cospicuo	cospicuo	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
 40	patrimonio	patrimonio	NOUN	S	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
 41	,	,	PUNCT	FF	_	40	punct	_	_
-42	ma	ma	CCONJ	CC	_	36	cc	_	SpaceAfter=No
+42	ma	ma	CCONJ	CC	_	52	cc	_	SpaceAfter=No
 43	,	,	PUNCT	FF	_	47	punct	_	_
 44	per	per	ADP	E	_	47	orphan	_	_
 45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
@@ -4235,7 +4235,7 @@
 49	di	di	ADP	E	_	52	case	_	_
 50	assai	assai	ADV	B	_	51	advmod	_	_
 51	dubbia	dubbio	ADJ	A	Gender=Fem|Number=Sing	52	amod	_	_
-52	provenienza	provenienza	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+52	provenienza	provenienza	NOUN	S	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
 53	.	.	PUNCT	FS	_	7	punct	_	_
 
 # sent_id = tut-7
@@ -4811,7 +4811,7 @@
 13	di	di	ADP	E	_	15	case	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
-16	occupato	occupare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+16	occupato	occupato	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
 17	se	se	SCONJ	CS	_	26	mark	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	proprietario	proprietario	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
@@ -4936,7 +4936,7 @@
 9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
 11	già	già	ADV	B	_	12	advmod	_	_
-12	esistente	esistere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	10	acl	_	SpaceAfter=No
+12	esistente	esistente	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
 13	,	,	PUNCT	FF	_	5	punct	_	_
 14	separatamente	separatamente	ADV	B	_	5	advmod	_	_
 15-16	dalla	_	_	_	_	_	_	_	_
@@ -4960,7 +4960,7 @@
 
 # sent_id = tut-555
 # text = Ispirato a chiare finalità economiche e sociali (una più razionale ed efficace utilizzazione delle aree urbane fabbricabili), il legislatore del '42 ha ritenuto di dare, per la prima volta, una disciplina organica dell'istituto in esame.
-1	Ispirato	ispirato	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+1	Ispirato	ispirare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
 2	a	a	ADP	E	_	4	case	_	_
 3	chiare	chiaro	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
 4	finalità	finalità	NOUN	S	Gender=Fem	1	obl	_	_
@@ -5079,7 +5079,7 @@
 7	importa	importare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	FF	_	7	punct	_	_
 9	salvo	salvo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
-10	patto	patto	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+10	patto	patto	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
 11	contrario	contrario	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	FF	_	7	punct	_	_
 13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -5154,7 +5154,7 @@
 21-22	dall'	_	_	_	_	_	_	_	SpaceAfter=No
 21	da	da	ADP	E	_	24	case	_	_
 22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
-23	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
+23	avvenuto	avvenuto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
 24	perimento	perimento	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
 25	(	(	PUNCT	FB	_	26	punct	_	SpaceAfter=No
 26	2964	2964	NUM	N	NumType=Card	16	nummod	_	_
@@ -5197,7 +5197,7 @@
 16	,	,	PUNCT	FF	_	12	punct	_	_
 17	fermi	fermo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
 18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+19	limiti	limite	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
 20	stabiliti	stabilire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
 21	in	in	ADP	E	_	23	case	_	_
 22	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
@@ -5295,7 +5295,7 @@
 13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
 15	naturali	naturale	ADJ	A	Number=Plur	14	amod	_	_
-16	riconosciuti	riconoscere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	riconosciuti	riconosciuto	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
 17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 18	250	250	NUM	N	NumType=Card	14	nummod	_	_
 19	e	e	CCONJ	CC	_	20	cc	_	_
@@ -5370,7 +5370,7 @@
 8	di	di	ADP	E	_	10	case	_	_
 9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
-11	servente	servire	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	10	acl	_	_
+11	servente	servente	ADJ	A	Number=Sing	10	amod	_	_
 12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	Propagate=Yes
 13	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
 14	piantagioni	piantagione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
@@ -5380,7 +5380,7 @@
 18	trasportare	trasportare	VERB	V	VerbForm=Inf	16	conj	_	_
 19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	materie	materia	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
-21	ammucchiate	ammucchiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	acl	_	SpaceAfter=No
+21	ammucchiate	ammucchiato	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	FF	_	13	punct	_	_
 23	purché	purché	SCONJ	CS	_	25	mark	_	_
 24	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	25	nsubj	_	_
@@ -5546,7 +5546,7 @@
 22	a	a	ADP	E	_	24	case	_	_
 23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	danno	danno	NOUN	S	Gender=Masc|Number=Sing	17	conj	_	_
-25	sofferto	soffrire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	SpaceAfter=No
+25	sofferto	sofferto	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = tut-967
@@ -5581,7 +5581,7 @@
 25	di	di	ADP	E	_	27	case	_	_
 26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
-28	dominante	dominare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	27	acl	_	_
+28	dominante	dominante	ADJ	A	Number=Sing	27	amod	_	_
 29-30	col	_	_	_	_	_	_	_	_
 29	con	con	ADP	E	_	32	case	_	_
 30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -5591,7 +5591,7 @@
 33	di	di	ADP	E	_	35	case	_	_
 34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
-36	servente	servire	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	35	acl	_	SpaceAfter=No
+36	servente	servente	ADJ	A	Number=Sing	35	amod	_	SpaceAfter=No
 37	.	.	PUNCT	FS	_	16	punct	_	_
 
 # sent_id = tut-991
@@ -5619,14 +5619,14 @@
 20	di	di	ADP	E	_	22	case	_	_
 21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
-23	dominante	dominare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	22	acl	_	_
+23	dominante	dominante	ADJ	A	Number=Sing	22	amod	_	_
 24	con	con	ADP	E	_	25	case	_	_
 25	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	17	obl	_	_
 26-27	del	_	_	_	_	_	_	_	_
 26	di	di	ADP	E	_	28	case	_	_
 27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
-29	servente	servire	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	28	acl	_	SpaceAfter=No
+29	servente	servente	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	FS	_	4	punct	_	_
 
 # sent_id = tut-1017
@@ -5654,7 +5654,7 @@
 5-6	alle	_	_	_	_	_	_	_	_
 5	a	a	ADP	E	_	8	case	_	_
 6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-7	dovute	dovere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+7	dovute	dovuto	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
 8	indennità	indennità	NOUN	S	Gender=Fem	4	nmod	_	_
 9	in	in	ADP	E	_	10	case	_	_
 10	conseguenza	conseguenza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -5777,7 +5777,7 @@
 # text = Salva diversa volontà delle parti, il debitore che nell'adempimento dell'obbligazione si vale dell'opera di terzi, risponde anche dei fatti dolosi o colposi di costoro.
 1	Salva	salvo	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
 2	diversa	diverso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
-3	volontà	volontà	NOUN	S	Gender=Fem	1	nsubj	_	_
+3	volontà	volontà	NOUN	S	Gender=Fem	1	obl	_	_
 4-5	delle	_	_	_	_	_	_	_	_
 4	di	di	ADP	E	_	6	case	_	_
 5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -5941,7 +5941,7 @@
 12	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
 13	internazionale	internazionale	ADJ	A	Number=Sing	12	amod	_	_
 14	generalmente	generalmente	ADV	B	_	15	advmod	_	_
-15	riconosciute	riconoscere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
+15	riconosciute	riconosciuto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = tut-1305
@@ -6455,7 +6455,7 @@
 36-37	delle	_	_	_	_	_	_	_	_
 36	di	di	ADP	E	_	39	case	_	_
 37	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
-38	associate	associare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	39	acl	_	_
+38	associate	associato	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
 39	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	33	conj	_	SpaceAfter=No
 40	,	,	PUNCT	FF	_	30	punct	_	_
 41-42	al	_	_	_	_	_	_	_	_
@@ -6496,7 +6496,7 @@
 11	Stati	stato	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
 12	membri	membro	NOUN	S	Gender=Masc|Number=Plur	11	compound	_	_
 13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
-14	partecipanti	partecipare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	11	acl	_	_
+14	partecipanti	partecipante	ADJ	A	Number=Plur	11	amod	_	_
 15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	applicazione	applicazione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
 17-18	della	_	_	_	_	_	_	_	_
@@ -6787,7 +6787,7 @@
 49	via	via	ADV	B	_	48	advmod	_	_
 50	135	135	NUM	N	NumType=Card	51	nummod	_	_
 51	barche	barca	NOUN	S	Gender=Fem|Number=Plur	48	obj	_	_
-52	sequestrate	sequestrare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	51	acl	_	SpaceAfter=No
+52	sequestrate	sequestrato	ADJ	A	Gender=Fem|Number=Plur	51	amod	_	SpaceAfter=No
 53	.	.	PUNCT	FS	_	35	punct	_	_
 
 # sent_id = tut-2258
@@ -7166,7 +7166,7 @@
 6	raggiunto	raggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	posizioni	posizione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
-9	prefissate	prefissare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
+9	prefissate	prefissato	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	6	punct	_	_
 11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	elicotteri	elicottero	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	Propagate=Yes
@@ -7553,7 +7553,7 @@
 13	di	di	ADP	E	_	15	case	_	_
 14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	produzioni	produzione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
-16	eccedenti	eccedere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	15	acl	_	_
+16	eccedenti	eccedente	ADJ	A	Number=Plur	15	amod	_	_
 17-18	nel	_	_	_	_	_	_	_	_
 17	in	in	ADP	E	_	19	case	_	_
 18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -7835,8 +7835,8 @@
 4	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Propagate=Yes|SpaceAfter=No
 6	,	,	PUNCT	FF	_	7	punct	_	_
-7	non	non	ADV	BN	PronType=Neg	3	conj	_	_
-8	Walesa	Walesa	PROPN	SP	_	7	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	Walesa	Walesa	PROPN	SP	_	5	conj	_	_
 9	e	e	CCONJ	CC	_	11	cc	_	_
 10	presto	presto	ADV	B	_	11	advmod	_	_
 11	vedrò	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	conj	_	_
@@ -11834,9 +11834,9 @@
 37	.	.	PUNCT	FS	_	3	punct	_	_
 
 # sent_id = 5_WIKIBalzac-229
-# text = " allo stesso tempo, i personaggi rappresentano una serie particolare di tipi sociali:
-1	"	"	PUNCT	FB	_	9	punct	_	_
-2-3	allo	_	_	_	_	_	_	_	_
+# text = "Allo stesso tempo, i personaggi rappresentano una serie particolare di tipi sociali:
+1	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2-3	Allo	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	5	case	_	_
 3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
@@ -11854,7 +11854,7 @@
 16	:	:	PUNCT	FC	_	9	punct	_	_
 
 # sent_id = 5_WIKIBalzac-258
-# text = Come parte dell'evoluzione del diciannovesimo secolo del romanzo come " forma letteraria democratica ", Balzac scrisse che " i libri sono scritti per tutti ".
+# text = Come parte dell'evoluzione del diciannovesimo secolo del romanzo come "forma letteraria democratica", Balzac scrisse che "i libri sono scritti per tutti".
 1	Come	come	ADP	E	_	2	case	_	_
 2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
 3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
@@ -11871,22 +11871,22 @@
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	romanzo	romanzo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
 13	come	come	ADP	E	_	15	case	_	_
-14	"	"	PUNCT	FB	_	15	punct	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 15	forma	forma	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
 16	letteraria	letterario	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
-17	democratica	democratico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	democratica	democratico	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 18	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
 19	,	,	PUNCT	FF	_	2	punct	_	_
 20	Balzac	Balzac	PROPN	SP	_	21	nsubj	_	_
 21	scrisse	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 22	che	che	SCONJ	CS	_	27	mark	_	_
-23	"	"	PUNCT	FB	_	27	punct	_	_
+23	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
 24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	libri	libro	NOUN	S	Gender=Masc|Number=Plur	27	nsubj:pass	_	_
 26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
 27	scritti	scrivere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	ccomp	_	_
 28	per	per	ADP	E	_	29	case	_	_
-29	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	27	obl	_	_
+29	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	27	obl	_	SpaceAfter=No
 30	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
 31	.	.	PUNCT	FS	_	21	punct	_	_
 
@@ -13285,7 +13285,7 @@
 4	in	in	ADP	E	_	6	case	_	_
 5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	terre	terra	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
-7	emerse	emergere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+7	emerse	emerso	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
 8	di	di	ADP	E	_	11	case	_	_
 9	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	11	det:predet	_	_
 10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -13507,7 +13507,7 @@
 12	su	su	ADP	E	_	14	case	_	_
 13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
-15	marcescenti	marcire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	14	acl	_	_
+15	marcescenti	marcescente	ADJ	A	Number=Plur	14	amod	_	_
 16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 17	essenziale	essenziale	ADJ	A	Number=Sing	5	acl	_	_
 18	per	per	ADP	E	_	20	case	_	_
@@ -13664,13 +13664,13 @@
 # sent_id = 10_new-34
 # text = Ma questi sono essenzialmente stomaco e polmoni esternalizzati.
 1	Ma	ma	CCONJ	CC	_	5	cc	_	_
-2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
 3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	essenzialmente	essenzialmente	ADV	B	_	3	advmod	_	_
+4	essenzialmente	essenzialmente	ADV	B	_	5	advmod	_	_
 5	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 6	e	e	CCONJ	CC	_	7	cc	_	_
 7	polmoni	polmone	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
-8	esternalizzati	esternalizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
+8	esternalizzati	esternalizzato	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	5	punct	_	_
 
 # sent_id = 10_new-35
@@ -13970,13 +13970,13 @@
 
 # sent_id = 10_new-52
 # text = Quindi i funghi ed il micelio sequestrano la Co2 sotto forma di ossalati di calcio.
-1	Quindi	quindi	CCONJ	CC	_	0	root	_	_
+1	Quindi	quindi	CCONJ	CC	_	7	cc	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
 4	ed	e	CCONJ	CC	_	6	cc	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	micelio	micelio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
-7	sequestrano	sequestrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	sequestrano	sequestrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Co2	Co2	PROPN	SP	_	7	obj	_	_
 10	sotto	sotto	ADV	B	_	11	case	_	_
@@ -14322,9 +14322,9 @@
 15	con	con	ADP	E	_	17	case	_	_
 16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	forza	forza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
-18	tale	tale	DET	DD	Number=Sing|PronType=Dem	14	det	_	_
+18	tale	tale	DET	DD	Number=Sing|PronType=Dem	17	det	_	_
 19	da	da	ADP	E	_	20	mark	_	_
-20	bucare	bucare	VERB	V	VerbForm=Inf	18	advcl	_	_
+20	bucare	bucare	VERB	V	VerbForm=Inf	14	advcl	_	_
 21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	asfalto	asfalto	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
 23	.	.	PUNCT	FS	_	9	punct	_	_

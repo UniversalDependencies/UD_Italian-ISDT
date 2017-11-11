@@ -10,7 +10,7 @@
   <lemmas unique="18567" /><!-- il, di, ,, ., essere, a, in, e, uno, che, da, avere, per, ", si -->
   <forms unique="27385" /><!-- di, ,, il, ., la, a, in, e, l', i, le, che, è, da, per -->
   <fusions unique="809" /><!-- del, della, dei, al, nel, dell', delle, alla, dal, all', nella, degli, dalla, ai, alle -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">19118</tag><!-- primo, altro, nuovo, stesso, italiano, grande, pubblico, ultimo, maggiore, europeo -->
     <tag name="ADP">44565</tag><!-- di, a, in, da, per, con, su, come, tra, dopo -->
@@ -30,7 +30,7 @@
     <tag name="VERB">25161</tag><!-- avere, fare, essere, vedere, trovare, dire, chiamare, andare, dare, tenere -->
     <tag name="X">251</tag><!-- a, b, Illusions, de, perdues, c, f, home, Bombo, Ecce -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="40">
     <feat name="Clitic" value="Yes" upos="PRON">4631</feat><!-- si, ci, lo, ne, mi, c', la, li, gli, le -->
     <feat name="Definite" value="Def" upos="DET,PRON">37289</feat><!-- il, la, i, l', le, gli, lo, l’, the, les -->

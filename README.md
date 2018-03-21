@@ -51,6 +51,10 @@ The Corpus has been randomly split as follows:
 
 # Changelog
 
+* 2018-04-01 v2.2
+  * Corrected additional 1290 errors along the lines of the methodology applied in release 2.1
+  * Added to train a new section of 2Parole, a newspaper of simplified Italian texts (283 sentences, 6496 tokens)
+  
 * 2017-11-01 v2.1
   * Corrected 786 dependency errors distributed into 567 sentences:
     * Auxiliary verbs erroneously treated as head of a dependency relation

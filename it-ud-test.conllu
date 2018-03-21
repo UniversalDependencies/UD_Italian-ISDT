@@ -212,7 +212,7 @@
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
 31	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
-32	"	"	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
 33	.	.	PUNCT	FS	_	8	punct	_	_
 
 # sent_id = isst_tanl-246
@@ -296,7 +296,7 @@
 3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
 4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
 5	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	FF	_	5	punct	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
 7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
 8	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -312,7 +312,7 @@
 18	,	,	PUNCT	FF	_	8	punct	_	_
 19	in	in	ADP	E	_	20	case	_	_
 20	Trentino	Trentino	PROPN	SP	_	14	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	FF	_	5	punct	_	_
+21	,	,	PUNCT	FF	_	20	punct	_	_
 22	voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
 23-24	portarlo	_	_	_	_	_	_	_	_
 23	portar	portare	VERB	V	VerbForm=Inf	0	root	_	_
@@ -1148,10 +1148,10 @@
 8	tipo	tipo	NOUN	S	_	7	compound	_	_
 9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 10	Bella	bella	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
-11	,	,	PUNCT	FF	_	10	punct	_	_
-12	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
-13	,	,	PUNCT	FF	_	12	punct	_	_
-14	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	bella	bello	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	bella	bello	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 15	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	6	punct	_	_
 
@@ -2173,7 +2173,7 @@
 23	più	più	ADV	B	_	22	advmod	_	_
 24	di	di	ADP	E	_	25	case	_	_
 25	dieci	dieci	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
-26	,	,	PUNCT	FF	_	9	punct	_	_
+26	,	,	PUNCT	FF	_	19	punct	_	_
 27	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 29	a	a	ADP	E	_	30	mark	_	_
@@ -3019,7 +3019,7 @@
 # sent_id = isst_tanl-3618
 # text = Adesso, comunque, che finalmente sembra essersi decisa a parlare, è scoppiato il finimondo.
 1	Adesso	adesso	ADV	B	_	7	mark	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	7	punct	_	_
+2	,	,	PUNCT	FF	_	3	punct	_	_
 3	comunque	comunque	ADV	B	_	7	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	_
 5	che	che	SCONJ	CS	_	1	fixed	_	_
@@ -3137,7 +3137,7 @@
 3	personal	personal	ADJ	A	_	4	amod	_	_
 4	computer	computer	NOUN	S	_	15	obl	_	_
 5	e	e	CCONJ	CC	_	6	cc	_	_
-6	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+6	programmi	programma	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
 7	di	di	ADP	E	_	8	case	_	_
 8	composizione	composizione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	FF	_	4	punct	_	_
@@ -3453,7 +3453,7 @@
 21	antica	antico	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
 22	clinica	clinica	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 23	,	,	PUNCT	FF	_	18	punct	_	_
-24	proprio	proprio	ADV	B	_	30	advmod	_	_
+24	proprio	proprio	ADV	B	_	26	advmod	_	_
 25	di	di	ADP	E	_	26	case	_	_
 26	fronte	fronte	NOUN	S	Number=Sing	18	obl	_	_
 27-28	all'	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5216,7 +5216,7 @@
 26	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
 27	legittimi	legittimo	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
 28	e	e	CCONJ	CC	_	41	cc	_	SpaceAfter=No
-29	,	,	PUNCT	FF	_	16	punct	_	_
+29	,	,	PUNCT	FF	_	32	punct	_	_
 30	in	in	ADP	E	_	32	case	_	_
 31	particolari	particolare	ADJ	A	Number=Plur	32	amod	_	_
 32	materie	materia	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
@@ -5225,7 +5225,7 @@
 34	da	da	ADP	E	_	36	case	_	_
 35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	legge	legge	NOUN	S	Gender=Fem|Number=Sing	33	obl:agent	_	SpaceAfter=No
-37	,	,	PUNCT	FF	_	16	punct	_	_
+37	,	,	PUNCT	FF	_	32	punct	_	_
 38	anche	anche	ADV	B	_	41	advmod	_	_
 39-40	dei	_	_	_	_	_	_	_	_
 39	di	di	ADP	E	_	41	case	_	_
@@ -6446,7 +6446,7 @@
 33	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
 34	domani	domani	ADV	B	_	32	advmod	_	_
 35	a	a	ADP	E	_	36	case	_	_
-36	Bruxelles	Bruxelles	PROPN	SP	_	33	nmod	_	SpaceAfter=No
+36	Bruxelles	Bruxelles	PROPN	SP	_	32	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	FS	_	6	punct	_	_
 
 # sent_id = tut-2627
@@ -8187,7 +8187,7 @@
 41	Shuttle	shuttle	NOUN	S	Number=Sing	39	nmod	_	_
 42	e	e	CCONJ	CC	_	44	cc	_	_
 43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	34	conj	_	_
+44	riduzione	riduzione	NOUN	S	Gender=Fem|Number=Sing	35	conj	_	_
 45	d'	di	ADP	E	_	46	case	_	SpaceAfter=No
 46	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
 47	per	per	ADP	E	_	49	case	_	_
@@ -10263,14 +10263,14 @@
 12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	notte	notte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
 14	e	e	CCONJ	CC	_	24	cc	_	SpaceAfter=No
-15	,	,	PUNCT	FF	_	10	punct	_	_
+15	,	,	PUNCT	FF	_	19	punct	_	_
 16	oltre	oltre	ADV	B	_	19	case	_	_
 17-18	ai	_	_	_	_	_	_	_	_
 17	a	a	ADP	E	_	16	fixed	_	_
 18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	cani	cane	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
 20	molecolari	molecolare	ADJ	A	Number=Plur	19	amod	_	SpaceAfter=No
-21	,	,	PUNCT	FF	_	24	punct	_	_
+21	,	,	PUNCT	FF	_	19	punct	_	_
 22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	aux:pass	_	_
 24	utilizzati	utilizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_

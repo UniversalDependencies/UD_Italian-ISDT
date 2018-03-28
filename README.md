@@ -1,23 +1,29 @@
-# Description
+# Summary
 
 The Italian corpus annotated according to the UD annotation scheme was obtained by conversion from ISDT (Italian Stanford Dependency Treebank), released for the dependency parsing shared task of Evalita-2014 (Bosco et al. 2014).
 
-ISDT is a resource annotated according to the Stanford dependencies scheme (de Marneffe et al. 2008, 2013a, 2013b, 2014), obtained through a semi-automatic conversion process starting from MIDT (the Merged Italian Dependency Treebank). MIDT in turn was obtained merging two existing Italian treebanks, differing both in corpus composition and adopted annotation schemes:
+# Introduction
 
-* TUT, the Turin University Treebank (Bosco et al. 2000)
-* ISST-TANL, first released as ISST-CoNLL for the CoNLL-2007 shared task (Montemagni, Simi 2007).
+ISDT is a resource annotated according to the Stanford dependencies scheme (de Marneffe et al. 2008, 2013a, 2013b, 2014), obtained through a semi-automatic conversion process starting from MIDT (the Merged Italian Dependency Treebank). MIDT, in turn, is the result of a previous effort in the direction of improving interoperability of data sets available for Italian by harmonizing and merging two existing dependency–based resources, differing both in corpus composition and adopted annotation schemes, namely:
 
-The details of the harmonization and conversion process leading to MIDT were discussed in (Bosco, Montemagni, Simi, 2012). The Stanford annotation scheme, obtained from an enriched version of MIDT,
-was adapted to the specificity of the Italian language. We refer to (Bosco, Montemagni, Simi, 2013 and 2014) for a discussion.
+* TUT, the Turin University Treebank (Bosco et al. 2000);
+* ISST-TANL, first released as ISST-CoNLL for the CoNLL-2007 shared task (Montemagni, Simi 2007), which was developed as a joint effort by the Istituto di Linguistica Computazionale (ILC–CNR) and the University of Pisa and originating from the Italian Syntactic–Semantic Treebank (ISST, Montemagni et al. 2003).
 
-## Main contributors
+The details of the harmonization and conversion process leading to MIDT are discussed in (Bosco, Montemagni, Simi, 2012). The Stanford annotation scheme, obtained from an enriched version of MIDT, was adapted to the specificity of the Italian language. We refer to (Bosco, Montemagni, Simi, 2013 and 2014) for a discussion.
+
+# Acknowledgments
+
+We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino. Thanks go to Chiara Alzetta and Giulia Venturi for the good work in defining the error detection methodology and the manual revision / correction of automatically identified errors in Version 2.1.
+
+
+# Main contributors
 
 * Cristina Bosco - Università di Torino, Dipartimento di Informatica
 * Alessandro Lenci - Università di Pisa, Dipartimento di Filologia, Letteratura, Linguistica
 * Simonetta Montemagni - Istituto di Linguistica Computazionale A. Zampolli, CNR, Pisa
 * Maria Simi - Università di Pisa, Dipartimento di Informatica
 
-## Corpus composition
+# Corpus composition
 
 <table>
 <tr style="background-color: #eee"><th>Original format</th><th>Source</th><th>Genre</th><th>Size in tokens</th><th>Size in sentences</th>
@@ -32,73 +38,74 @@ was adapted to the specificity of the Italian language. We refer to (Bosco, Mont
 <tr><td>UD2</td><td>New data</td><td>Various sentences</td><td>2,504</td><td>150</td></tr>
 </table>
 
-## Corpus splitting
+Sentences ids explicitly mark the source of the sentence. 
 
-After removing duplicate sentences, the Corpus has been randomly split as follows:
+# Corpus splitting
 
-* it-ud-train.conllu: 301138 tokens (11699 sentences)
-* it-ud-dev.conllu: 13123 tokens (489 sentences)
-* it-ud-test.conllu: 13186 tokens (489 sentences)
+The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly split as follows:
 
-## Changelog V1.1 May 15 2015
+* it-ud-train.conllu: 257616 tokens (13121 sentences)
+* it-ud-dev.conllu: 11133 tokens (564 sentences)
+* it-ud-test.conllu: 9680 tokens (482 sentences)
 
-Version 1.1 of the data. Changes from the previous version include.
+# Changelog
 
-* Added Italian section of ParTUT (71645 tokens)
-* Checked SYM
-* Checked X
-* Added more negation adverbs
-* Eliminated Gender=Com and Number=Com
-* Eliminated Negation=Neg
-* Added language specific feature PronType=Clit
-* Changed 'case' into 'mark' for 'xcomp'
-* Fixed xcomp/ccomp distinction
-* Checked dependencies marked 'dep', and resolved most of them
+* 2018-04-01 v2.2
+  * Additional corrections of 1340 arcs, specifically:
+    - 525 arcs retrieved with the methodology already used in the previous release, applied to the rest of the treebank;
+    - 815 non-projective arcs were also corrected.
+  * Added to the train set a new section of 2Parole, a newspaper of simplified Italian texts (283 sentences, 4985 tokens)
 
-## Changelog V1.2 November 1st 2015
+* 2017-11-01 v2.1
+  * Corrected 786 dependency errors distributed into 567 sentences:
+    * Auxiliary verbs erroneously treated as head of a dependency relation
+    * Bare past participles functioning as adjectival modifiers of nouns erroneously annotated as clausal modifiers
+    * Adjectives functioning as secondary predicates erroneously annotated as adjectival modifiers
+    * Coordinating conjunctions erroneously headed by the first conjunct
+    * Oblique nominal arguments erroneously annotated as nominal modifiers
+    * Nonfinite verbs functioning as nominals erroneously annotated as oblique nominals
+  * Consistency in the treatment of fixed multi-word expressions has been checked and improved.
 
-Version 1.2 of the data. Changes from the previous version include.
+* 2017-02-15 v2.0
+  * Changes to comply with V2.
+  * Splitting revised to comply with shared task.
 
-* Added dependencies expl:impers as specialization of expl for impersonal clitic pronouns
-* Fixed case in articulated preposition, previously lost during splitting
-* More fixes to xcomp/ccomp distinction
-* Harmonization of case marking for infinitive verbs introduced by articles
-* Harmonization of Light Verb constructions
-* Eliminated duplicated sentences and overlappings train/dev and train/test
-* Added short sentences to train
+* 2016-11-01 v1.4
+  * Complete revision of the treatment of clitic pronouns
+  * Added dependency subtype expl:pass, used in passive constructions
+  * Added a new collection of texts from 2Parole, a newspaper of simplified Italian texts (25995 tokens)
 
-## Changelog V1.3 May 1st 2016
+* 2016-05-01 v1.3
+  * Added feature value PronType=Ord for ordinal pronouns
+  * Added feature value PronType=Predet for predeterminers
+  * Added feature value NumType=Range
+  * Added feature value NumType=Gen
+  * Added sentence full text as comment
+  * Added SpaceAfter=No, needed for recovering original text
+  * Fixed errors found running content validation queries
 
-Version 1.3 of the data. Changes from the previous version include.
+* 2015-11-01 v1.2
+  * Added dependencies expl:impers as specialization of expl for impersonal clitic pronouns
+  * Fixed case in articulated preposition, previously lost during splitting
+  * More fixes to xcomp/ccomp distinction
+  * Harmonization of case marking for infinitive verbs introduced by articles
+  * Harmonization of Light Verb constructions
+  * Eliminated duplicated sentences and overlappings train/dev and train/test
+  * Added short sentences to train
 
-* Added feature value PronType=Ord for ordinal pronouns
-* Added feature value PronType=Predet for predeterminers
-* Added feature value NumType=Range
-* Added feature value NumType=Gen
-* Added sentence full text as comment
-* Added SpaceAfter=No, needed for recovering original text
-* Fixed errors found running content validation queries
+* 2015-05-15 v1.1
+  * Added Italian section of ParTUT (71645 tokens)
+  * Checked SYM
+  * Checked X
+  * Added more negation adverbs
+  * Eliminated Gender=Com and Number=Com
+  * Eliminated Negation=Neg
+  * Added language specific feature PronType=Clit
+  * Changed 'case' into 'mark' for 'xcomp'
+  * Fixed xcomp/ccomp distinction
+  * Checked dependencies marked 'dep', and resolved most of them
 
-## Changelog V1.4 Novembre 1st 2016
-
-Version 1.4 of the data. Changes from the previous version include.
-
-* Complete revision of the treatment of clitic pronouns
-* Added dependency subtype expl:pass, used in passive constructions
-* Added a new collection of texts from 2Parole, a newspaper of simplified Italian texts (25995 tokens)
-
-## Changelog V2.0 February 2017
-
-Version 2.0 of the data. Changes from the previous version include.
-
-* Changes to comply with V2.
-* Splitting revised to comply with shared task.
-
-## Acknowledgments
-
-We wish to thank all of the contributors to the original annotation efforts, as well as the supporting organizations, i.e. the Institute for Computational Linguistics "A. Zampolli", the University of Pisa, and the University of Torino.
-
-## References
+# References
 
 * Cristina Bosco, Vincenzo Lombardo, Leonardo Lesmo, Daniela Vassallo. 2000.
   [Building a treebank for italian: a data-driven annotation schema](http://www.di.unito.it/~bosco/publicat/lrec00.zip). In *Proceedings of LREC 2000*, Athens, Greece.
@@ -125,15 +132,24 @@ We wish to thank all of the contributors to the original annotation efforts, as 
   [Universal Stanford Dependencies: A cross-linguistic typology](http://nlp.stanford.edu/pubs/USD_LREC14_paper_camera_ready.pdf).
   In *Proceedings of LREC 2014*.
 
+* Simonetta Montemagni, Francesco Barsotti, Marco Battista, Nicoletta Calzolari, Ornella Corazzari, Alessandro Lenci, Antonio Zampolli, Francesca Fanciulli, Maria Massetani, Remo Raffaelli, Roberto Basili, Maria Teresa Pazienza, Dario Saracino, Fabio Zanzotto, Nadia Mana, Fabio Pianesi,
+and Rodolfo Delmonte. 2003. Building the Italian Syntactic-Semantic Treebank. In A. Abeillé (Ed.), Building and Using syntactically annotated corpora.
+Kluwer, Dordrecht.
+    
 * Simonetta Montemagni, Maria Simi. 2007. [The Italian dependency annotated corpus developed for the CoNLL–2007 shared task](http://medialab.di.unipi.it/isst/). Technical report, ILC–CNR.
 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.
 
-
-Documentation status: complete
-Data source: semi-automatic
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
+Includes text: yes
 Genre: legal news wiki
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Bosco, Cristina; Lenci, Alessandro; Montemagni, Simonetta; Simi, Maria
+Contributing: elsewhere
 Contact: simi@di.unipi.it

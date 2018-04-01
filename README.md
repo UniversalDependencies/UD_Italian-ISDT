@@ -38,7 +38,7 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 <tr><td>UD2</td><td>New data</td><td>Various sentences</td><td>2,504</td><td>150</td></tr>
 </table>
 
-Sentences ids explicitly mark the source of the sentence. 
+Sentences ids explicitly mark the source of the sentence.
 
 # Corpus splitting
 
@@ -51,6 +51,7 @@ The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly s
 # Changelog
 
 * 2018-04-01 v2.2
+  * Repository renamed from UD_Italian to UD_Italian-ISDT.
   * Additional corrections of 1340 arcs, specifically:
     - 525 arcs retrieved with the methodology already used in the previous release, applied to the rest of the treebank;
     - 815 non-projective arcs were also corrected.
@@ -135,7 +136,7 @@ The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly s
 * Simonetta Montemagni, Francesco Barsotti, Marco Battista, Nicoletta Calzolari, Ornella Corazzari, Alessandro Lenci, Antonio Zampolli, Francesca Fanciulli, Maria Massetani, Remo Raffaelli, Roberto Basili, Maria Teresa Pazienza, Dario Saracino, Fabio Zanzotto, Nadia Mana, Fabio Pianesi,
 and Rodolfo Delmonte. 2003. Building the Italian Syntactic-Semantic Treebank. In A. Abeillé (Ed.), Building and Using syntactically annotated corpora.
 Kluwer, Dordrecht.
-    
+
 * Simonetta Montemagni, Maria Simi. 2007. [The Italian dependency annotated corpus developed for the CoNLL–2007 shared task](http://medialab.di.unipi.it/isst/). Technical report, ILC–CNR.
 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.

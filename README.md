@@ -34,22 +34,28 @@ We wish to thank all of the contributors to the original annotation efforts, as 
 <tr><td>MIDT</td><td>Several QA competitions</td><td>Questions</td><td>20,680</td><td>2,228</td></tr>
 <tr><td>MIDT</td><td>Evalita 2014 Dependency parsing:test data set (partial)</td><td>News articles</td><td>7,618</td><td>304</td></tr>
 <tr><td>TUT-CONLL</td><td>Parallel TUT (Italian part)</td><td>Various genres</td><td>55,942</td><td>2,131</td></tr
-<tr><td>UD</td><td>Due Parole</td><td>Simplified Italian news</td><td>19,992</td><td>1,138</td></tr>
+<tr><td>UD</td><td>Due Parole</td><td>Simplified Italian news</td><td>24,977</td><td>1,421</td></tr>
 <tr><td>UD2</td><td>New data</td><td>Various sentences</td><td>2,504</td><td>150</td></tr>
-<tr><td></td><td></td><td>TOTAL</td><td><b>295,178</b></td><td><b>14,188</b></td></tr>
 </table>
 
-Sentences ids explicitly mark the source of the sentence. 
+Sentences ids explicitly mark the source of the sentence.
 
 # Corpus splitting
 
-The Corpus has been randomly split as follows:
+The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly split as follows:
 
-* it-ud-train.conllu: 252631 tokens (12838 sentences)
-* it-ud-dev.conllu: 11133 (564 sentences)
+* it-ud-train.conllu: 257616 tokens (13121 sentences)
+* it-ud-dev.conllu: 11133 tokens (564 sentences)
 * it-ud-test.conllu: 9680 tokens (482 sentences)
 
 # Changelog
+
+* 2018-04-01 v2.2
+  * Repository renamed from UD_Italian to UD_Italian-ISDT.
+  * Additional corrections of 1340 arcs, specifically:
+    - 525 arcs retrieved with the methodology already used in the previous release, applied to the rest of the treebank;
+    - 815 non-projective arcs were also corrected.
+  * Added to the train set a new section of 2Parole, a newspaper of simplified Italian texts (283 sentences, 4985 tokens)
 
 * 2017-11-01 v2.1
   * Corrected 786 dependency errors distributed into 567 sentences:
@@ -130,7 +136,7 @@ The Corpus has been randomly split as follows:
 * Simonetta Montemagni, Francesco Barsotti, Marco Battista, Nicoletta Calzolari, Ornella Corazzari, Alessandro Lenci, Antonio Zampolli, Francesca Fanciulli, Maria Massetani, Remo Raffaelli, Roberto Basili, Maria Teresa Pazienza, Dario Saracino, Fabio Zanzotto, Nadia Mana, Fabio Pianesi,
 and Rodolfo Delmonte. 2003. Building the Italian Syntactic-Semantic Treebank. In A. Abeillé (Ed.), Building and Using syntactically annotated corpora.
 Kluwer, Dordrecht.
-    
+
 * Simonetta Montemagni, Maria Simi. 2007. [The Italian dependency annotated corpus developed for the CoNLL–2007 shared task](http://medialab.di.unipi.it/isst/). Technical report, ILC–CNR.
 
 * Maria Simi, Cristina Bosco, Simonetta Montemagni. 2014. [Less is More? Towards a Reduced Inventory of Categories for Training a Parser for the Italian Stanford Dependencies](http://www.lrec-conf.org/proceedings/lrec2014/summaries/818.html). 2014. In *Proceedings of LREC 2014*, ELRA, pp. 83–90.

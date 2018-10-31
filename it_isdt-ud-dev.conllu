@@ -4227,7 +4227,7 @@
 41	,	,	PUNCT	FF	_	40	punct	40:punct	_
 42	ma	ma	CCONJ	CC	_	52	cc	52:cc	SpaceAfter=No
 43	,	,	PUNCT	FF	_	47	punct	47:punct	_
-44	per	per	ADP	E	_	47	orphan	_	_
+44	per	per	ADP	E	_	47	case	_	_
 45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	47:det	_
 46	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	47	det:poss	47:det:poss	_
 47	origini	origine	NOUN	S	Gender=Fem|Number=Plur	52	nmod	52:nmod	SpaceAfter=No

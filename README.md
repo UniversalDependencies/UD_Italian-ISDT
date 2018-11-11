@@ -50,6 +50,9 @@ The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly s
 
 # Changelog
 
+* 2018-11-01 v2.3
+  * added enhanced dependencies
+
 * 2018-04-01 v2.2
   * Repository renamed from UD_Italian to UD_Italian-ISDT.
   * Additional corrections of 1340 arcs, specifically:

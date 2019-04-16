@@ -268,7 +268,7 @@
 13	chiamava	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	5:advcl	_
 14	Congo	Congo	PROPN	SP	_	13	xcomp	13:xcomp	SpaceAfter=No
 15	)	)	PUNCT	FB	_	13	punct	13:punct	SpaceAfter=No
-16	,	,	PUNCT	FF	_	8	punct	8:punct	_
+16	,	,	PUNCT	FF	_	18	punct	18:punct	_
 17	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	18:aux:pass	_
 18	trucidati	trucidare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
 19	13	13	NUM	N	NumType=Card	20	nummod	20:nummod	_
@@ -333,7 +333,7 @@
 13	salvi	salvo	ADJ	A	Gender=Masc|Number=Plur	11	conj	10:xcomp|11:conj:e	_
 14	cinque	cinque	NUM	N	NumType=Card	15	nummod	15:nummod	_
 15	americani	americano	NOUN	S	Gender=Masc|Number=Plur	10	nsubj:pass	10:nsubj:pass|11:nsubj|13:nsubj|40:nsubj:pass	_
-16	-	-	PUNCT	FB	_	10	punct	10:punct	_
+16	-	-	PUNCT	FB	_	15	punct	15:punct	_
 17	due	due	NUM	N	NumType=Card	18	nummod	18:nummod	_
 18	donne	donna	NOUN	S	Gender=Fem|Number=Plur	15	appos	15:appos	SpaceAfter=No
 19	,	,	PUNCT	FF	_	21	punct	21:punct	_
@@ -840,7 +840,7 @@
 13	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	8	obl	8:obl:con	_
 14	avanti	avanti	ADV	B	_	13	advmod	13:advmod	_
 15	...	...	PUNCT	FF	_	4	punct	4:punct	SpaceAfter=No
-16	"	"	PUNCT	FB	_	15	punct	15:punct	SpaceAfter=No
+16	"	"	PUNCT	FB	_	4	punct	4:punct	SpaceAfter=No
 17	.	.	PUNCT	FS	_	4	punct	4:punct	_
 
 # sent_id = isst_tanl-645
@@ -1170,7 +1170,7 @@
 11	,	,	PUNCT	FF	_	10	punct	10:punct	_
 12	dove	dove	ADV	B	_	28	advmod	10:ref	_
 13	prima	prima	ADV	B	_	16	mark	16:mark	_
-14	ancora	ancora	ADV	B	_	13	advmod	13:advmod	_
+14	ancora	ancora	ADV	B	_	13	fixed	13:fixed	_
 15	di	di	ADP	E	_	13	fixed	13:fixed	_
 16-17	sottoporlo	_	_	_	_	_	_	_	_
 16	sottopor	sottoporre	VERB	V	VerbForm=Inf	28	advcl	28:advcl:prima_di	_
@@ -1934,7 +1934,7 @@
 19	(	(	PUNCT	FB	_	20	punct	20:punct	SpaceAfter=No
 20	ore	ora	NOUN	S	Gender=Fem|Number=Plur	18	obl	18:obl	_
 21	21	21	NUM	N	NumType=Card	20	nummod	20:nummod	SpaceAfter=No
-22	,	,	PUNCT	FF	_	19	punct	19:punct	_
+22	,	,	PUNCT	FF	_	20	punct	20:punct	_
 23	diretta	diretta	NOUN	S	Gender=Fem|Number=Sing	18	obl	18:obl	_
 24	Tv	Tv	PROPN	SP	_	23	nmod	23:nmod	_
 25	su	su	ADP	E	_	26	case	26:case	_
@@ -3227,7 +3227,7 @@
 34	sfumatura	sfumatura	NOUN	S	Gender=Fem|Number=Sing	32	obj	32:obj	_
 35	di	di	ADP	E	_	36	case	36:case	_
 36	colore	colore	NOUN	S	Gender=Masc|Number=Sing	34	nmod	34:nmod:di	SpaceAfter=No
-37	,	,	PUNCT	FF	_	22	punct	22:punct	_
+37	,	,	PUNCT	FF	_	32	punct	32:punct	_
 38	possibilità	possibilità	NOUN	S	Gender=Fem	16	appos	16:appos	_
 39	non	non	ADV	BN	PronType=Neg	40	advmod	40:advmod	_
 40	consentite	consentire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	38	acl	38:acl	_
@@ -3512,7 +3512,7 @@
 23	sotto	sotto	ADP	E	_	25	case	25:case	_
 24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	_
 25	doccia	doccia	NOUN	S	Gender=Fem|Number=Sing	12	obl	12:obl:sotto	SpaceAfter=No
-26	,	,	PUNCT	FF	_	20	punct	20:punct	_
+26	,	,	PUNCT	FF	_	25	punct	25:punct	_
 27	con	con	ADP	E	_	29	case	29:case	_
 28	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
 29	scrubbing	scrubbing	NOUN	S	Gender=Masc|Number=Sing	12	obl	12:obl:con	_
@@ -3628,8 +3628,8 @@
 1	Di	di	ADP	E	_	3	case	3:case	_
 2	certe	certo	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	3:det	_
 3	verità	verità	NOUN	S	Gender=Fem	13	obl	13:obl:di	SpaceAfter=No
-4	"	"	PUNCT	FB	_	7	punct	7:punct	SpaceAfter=No
-5	,	,	PUNCT	FF	_	4	punct	4:punct	_
+4	"	"	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	7:punct	_
 6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 7	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	12:parataxis	_
 8	Analysis	Analysis	PROPN	SP	_	7	nsubj	7:nsubj	SpaceAfter=No
@@ -4227,7 +4227,7 @@
 41	,	,	PUNCT	FF	_	40	punct	40:punct	_
 42	ma	ma	CCONJ	CC	_	52	cc	52:cc	SpaceAfter=No
 43	,	,	PUNCT	FF	_	47	punct	47:punct	_
-44	per	per	ADP	E	_	47	case	_	_
+44	per	per	ADP	E	_	47	case	47:case	_
 45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	47:det	_
 46	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	47	det:poss	47:det:poss	_
 47	origini	origine	NOUN	S	Gender=Fem|Number=Plur	52	nmod	52:nmod	SpaceAfter=No
@@ -5310,8 +5310,8 @@
 28	seguenti	seguente	ADJ	A	Number=Plur	26	conj	24:amod|26:conj:e	SpaceAfter=No
 29	)	)	PUNCT	FB	_	26	punct	26:punct	SpaceAfter=No
 30	,	,	PUNCT	FF	_	2	punct	2:punct	_
-31	anche	anche	ADV	B	_	32	advmod	32:advmod	_
-32	se	se	SCONJ	CS	_	42	mark	42:mark	_
+31	anche	anche	ADV	B	_	42	mark	42:mark	_
+32	se	se	SCONJ	CS	_	31	fixed	31:fixed	_
 33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	34:det	SpaceAfter=No
 34	adozione	adozione	NOUN	S	Gender=Fem|Number=Sing	42	nsubj:pass	42:nsubj:pass	SpaceAfter=No
 35	,	,	PUNCT	FF	_	37	punct	37:punct	_
@@ -5321,7 +5321,7 @@
 39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	40:det	SpaceAfter=No
 40	affiliazione	affiliazione	NOUN	S	Gender=Fem|Number=Sing	34	conj	34:conj:o|42:nsubj:pass	_
 41	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux:pass	42:aux:pass	_
-42	seguiti	seguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	2:advcl:se	_
+42	seguiti	seguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	2:advcl:anche_se	_
 43	dopo	dopo	ADV	B	_	49	mark	49:mark	_
 44	che	che	SCONJ	CS	_	43	fixed	43:fixed	_
 45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	46:det	_
@@ -6305,11 +6305,11 @@
 
 # sent_id = tut-1889
 # text = Fino a quando non entri in funzione la Corte costituzionale, la decisione delle controversie indicate nell'articolo 134 ha luogo nelle forme e nei limiti delle norme preesistenti all'entrata in vigore della Costituzione.
-1	Fino	fino	ADV	B	_	3	case	3:case	_
+1	Fino	fino	ADV	B	_	5	mark	5:mark	_
 2	a	a	ADP	E	_	1	fixed	1:fixed	_
-3	quando	quando	SCONJ	CS	_	5	mark	5:mark	_
+3	quando	quando	SCONJ	CS	_	1	fixed	1:fixed	_
 4	non	non	ADV	BN	PronType=Neg	5	advmod	5:advmod	_
-5	entri	entrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:quando	_
+5	entri	entrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:fino_quando	_
 6	in	in	ADP	E	_	7	case	7:case	_
 7	funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	5	obl	5:obl:in	_
 8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
@@ -7132,8 +7132,8 @@
 53	di	di	ADP	E	_	54	case	54:case	_
 54	Brindisi	Brindisi	PROPN	SP	_	52	nmod	52:nmod:di	_
 55	con	con	ADP	E	_	59	case	59:case	_
-56	a	a	ADP	E	_	55	fixed	55:fixed	_
-57	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	56	fixed	56:fixed	_
+56	a	a	ADP	E	_	57	case	57:case	_
+57	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	59	obl	59:obl	_
 58	degli	di	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	59	det	59:det	_
 59	elicotteri	elicottero	NOUN	S	Gender=Masc|Number=Plur	50	obl	50:obl:con_a_bordo	_
 60	(	(	PUNCT	FB	_	62	punct	62:punct	SpaceAfter=No
@@ -7429,13 +7429,13 @@
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
 3	regge	reggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-4	fino	fino	ADV	B	_	6	case	6:case	_
+4	fino	fino	ADV	B	_	10	mark	10:mark	_
 5	a	a	ADP	E	_	4	fixed	4:fixed	_
-6	quando	quando	SCONJ	CS	_	10	mark	10:mark	_
+6	quando	quando	SCONJ	CS	_	4	fixed	4:fixed	_
 7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	molto	molto	ADV	B	_	9	advmod	9:advmod	_
 9	più	più	ADV	B	_	10	advmod	10:advmod	_
-10	consistenti	consistente	ADJ	A	Number=Plur	3	advcl	3:advcl:quando	_
+10	consistenti	consistente	ADJ	A	Number=Plur	3	advcl	3:advcl:fino_quando	_
 11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	12:det	_
 12	versamenti	versamento	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	10:nsubj|20:obj	_
 13	(	(	PUNCT	FB	_	20	punct	20:punct	SpaceAfter=No
@@ -7675,7 +7675,7 @@
 25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
 26	25,84	25,84	NUM	N	NumType=Card	27	nummod	27:nummod	SpaceAfter=No
 27	%	%	SYM	SYM	_	24	obj	24:obj	SpaceAfter=No
-28	.	.	PUNCT	FS	_	4	punct	4:punct	_
+28	.	.	PUNCT	FS	_	16	punct	16:punct	_
 
 # sent_id = tut-2812
 # text = Dal Bahrein, il giovane brasiliano torna a casa con alcune convinzioni che pesano:
@@ -8930,7 +8930,7 @@
 33-34	dal	_	_	_	_	_	_	_	_
 33	da	da	ADP	E	_	35	case	35:case	_
 34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	_
-35	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	32	orphan	_	SpaceAfter=No
+35	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	32	orphan	32:orphan	SpaceAfter=No
 36	.	.	PUNCT	FS	_	7	punct	7:punct	_
 
 # sent_id = tut-3817
@@ -11117,8 +11117,8 @@
 8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	10:det:poss	_
 9	pregevole	pregevole	ADJ	A	Number=Sing	10	amod	10:amod	_
 10	relazione	relazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	6:obj	_
-11	in	in	ADP	E	_	12	case	12:case	_
-12	quanto	quanto	ADV	B	_	32	mark	32:mark	_
+11	in	in	ADP	E	_	32	mark	32:mark	_
+12	quanto	quanto	ADV	B	_	11	fixed	11:fixed	_
 13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
 14	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	32	nsubj:pass	32:nsubj:pass	_
 15-16	del	_	_	_	_	_	_	_	_
@@ -11141,7 +11141,7 @@
 29	non	non	ADV	BN	PronType=Neg	32	advmod	32:advmod	_
 30	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	32:aux:pass	_
 31	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	32	aux:pass	32:aux:pass	_
-32	svolti	svolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	6:advcl:quanto	_
+32	svolti	svolgere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	6:advcl:in_quanto	_
 33	con	con	ADP	E	_	35	case	35:case	_
 34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	35:det	_
 35	dovuta	dovere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	obl	32:obl:con	_
@@ -11261,7 +11261,7 @@
 24	ridotta	ridurre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	21:ccomp	_
 25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	_
 26	burocrazia	burocrazia	NOUN	S	Gender=Fem|Number=Sing	24	nsubj:pass	24:nsubj:pass|29:nsubj	SpaceAfter=No
-27	,	,	PUNCT	FF	_	24	punct	24:punct	_
+27	,	,	PUNCT	FF	_	29	punct	29:punct	_
 28	che	che	PRON	PR	PronType=Rel	29	nsubj	26:ref	_
 29	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
 30	rallentare	rallentare	VERB	V	VerbForm=Inf	29	ccomp	29:ccomp	_
@@ -11493,8 +11493,8 @@
 28	di	di	ADP	E	_	29	case	29:case	_
 29	Internet	Internet	PROPN	SP	_	27	nmod	27:nmod:di	_
 30	e	e	CCONJ	CC	_	35	cc	35:cc	_
-31	/	/	PUNCT	FF	_	30	fixed	30:fixed	_
-32	o	o	CCONJ	CC	_	30	fixed	30:fixed	_
+31	/	/	PUNCT	FF	_	32	punct	32:punct	_
+32	o	o	CCONJ	CC	_	30	conj	30:conj	_
 33-34	della	_	_	_	_	_	_	_	_
 33	di	di	ADP	E	_	35	case	35:case	_
 34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	35:det	_
@@ -11652,7 +11652,7 @@
 3	venne	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	7:advcl:quando	_
 4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	5:det	SpaceAfter=No
 5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
-6	,	,	PUNCT	FF	_	15	punct	15:punct	_
+6	,	,	PUNCT	FF	_	7	punct	7:punct	_
 7	corse	correre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
 8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
 8	in	in	ADP	E	_	10	case	10:case	_
@@ -11688,9 +11688,9 @@
 17	modo	modo	NOUN	S	Gender=Masc|Number=Sing	11	obl	11:obl:in	_
 18	indulgente	indulgente	ADJ	A	Number=Sing	17	amod	17:amod	_
 19	-	-	PUNCT	FF	_	11	punct	11:punct	_
-20	anche	anche	ADV	B	_	21	advmod	21:advmod	_
-21	se	se	SCONJ	CS	_	22	mark	22:mark	_
-22	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:se	_
+20	anche	anche	ADV	B	_	22	mark	22:mark	_
+21	se	se	SCONJ	CS	_	20	fixed	20:fixed	_
+22	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:anche_se	_
 23-24	al	_	_	_	_	_	_	_	_
 23	a	a	ADP	E	_	25	case	25:case	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	25:det	_
@@ -12696,9 +12696,9 @@
 30	ancor	ancora	ADV	B	_	31	advmod	31:advmod	_
 31	meno	meno	ADV	B	_	32	advmod	32:advmod	_
 32	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	23	conj	21:nsubj|23:conj:e	_
-33	hi	hi	NOUN	S	Gender=Masc|Number=Plur	32	compound	32:compound	SpaceAfter=No
+33	hi	hi	NOUN	S	Gender=Masc|Number=Plur	32	nmod	32:nmod	SpaceAfter=No
 34	-	-	PUNCT	FF	_	33	punct	33:punct	SpaceAfter=No
-35	tech	tech	NOUN	S	_	34	fixed	34:fixed	_
+35	tech	tech	NOUN	S	_	33	compound	33:compound	_
 36	di	di	ADP	E	_	37	case	37:case	_
 37	oggi	oggi	ADV	B	_	32	advmod	32:advmod	SpaceAfter=No
 38	.	.	PUNCT	FS	_	21	punct	21:punct	_

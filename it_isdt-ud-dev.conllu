@@ -2762,7 +2762,7 @@
 7	insieme	insieme	ADV	B	_	10	case	10:case	_
 8	ad	a	ADP	E	_	7	fixed	7:fixed	_
 9	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	10:det	_
-10	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	obl	3:obl:insieme_ad	SpaceAfter=No
+10	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	obl	3:obl:insieme_a	SpaceAfter=No
 11	"	"	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
 12	,	,	PUNCT	FF	_	3	punct	3:punct	_
 13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	14:expl	_
@@ -4197,11 +4197,11 @@
 14	azionari	azionario	ADJ	A	Gender=Masc|Number=Plur	13	amod	13:amod	SpaceAfter=No
 15	,	,	PUNCT	FF	_	20	punct	20:punct	_
 16	come	come	CCONJ	CC	_	20	cc	20:cc	_
-17	pure	pure	ADV	B	_	16	fixed	16:fixed	_
+17	pure	pure	ADV	B	_	20	advmod	20:advmod	_
 18-19	nel	_	_	_	_	_	_	_	_
 18	in	in	ADP	E	_	20	case	20:case	_
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
-20	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	7	conj	7:conj:come_pure	_
+20	traffico	traffico	NOUN	S	Gender=Masc|Number=Sing	7	conj	7:conj:come	_
 21-22	dei	_	_	_	_	_	_	_	_
 21	di	di	ADP	E	_	23	case	23:case	_
 22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	23:det	_
@@ -5114,7 +5114,7 @@
 13	incontro	incontro	ADV	B	_	16	case	16:case	_
 14	ad	a	ADP	E	_	13	fixed	13:fixed	_
 15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	SpaceAfter=No
-16	esigenza	esigenza	NOUN	S	Gender=Fem|Number=Sing	12	obl	12:obl:incontro_ad	_
+16	esigenza	esigenza	NOUN	S	Gender=Fem|Number=Sing	12	obl	12:obl:incontro_a	_
 17	economica	economico	ADJ	A	Gender=Fem|Number=Sing	16	amod	16:amod	_
 18	assai	assai	ADV	B	_	19	advmod	19:advmod	_
 19	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	16:acl	_
@@ -6309,7 +6309,7 @@
 2	a	a	ADP	E	_	1	fixed	1:fixed	_
 3	quando	quando	SCONJ	CS	_	1	fixed	1:fixed	_
 4	non	non	ADV	BN	PronType=Neg	5	advmod	5:advmod	_
-5	entri	entrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:fino_quando	_
+5	entri	entrare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:fino_a_quando	_
 6	in	in	ADP	E	_	7	case	7:case	_
 7	funzione	funzione	NOUN	S	Gender=Fem|Number=Sing	5	obl	5:obl:in	_
 8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
@@ -7133,9 +7133,9 @@
 54	Brindisi	Brindisi	PROPN	SP	_	52	nmod	52:nmod:di	_
 55	con	con	ADP	E	_	59	case	59:case	_
 56	a	a	ADP	E	_	57	case	57:case	_
-57	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	59	obl	59:obl	_
+57	bordo	bordo	NOUN	S	Gender=Masc|Number=Sing	59	obl	59:obl:a	_
 58	degli	di	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	59	det	59:det	_
-59	elicotteri	elicottero	NOUN	S	Gender=Masc|Number=Plur	50	obl	50:obl:con_a_bordo	_
+59	elicotteri	elicottero	NOUN	S	Gender=Masc|Number=Plur	50	obl	50:obl:con	_
 60	(	(	PUNCT	FB	_	62	punct	62:punct	SpaceAfter=No
 61	non	non	ADV	BN	PronType=Neg	62	advmod	62:advmod	_
 62	meno	meno	PRON	PI	PronType=Ind	59	nmod	59:nmod	_
@@ -7144,7 +7144,7 @@
 65	)	)	PUNCT	FB	_	62	punct	62:punct	_
 66	e	e	CCONJ	CC	_	68	cc	68:cc	_
 67	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	68	det	68:det	_
-68	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	59	conj	50:obl:con_a_bordo|59:conj:e	_
+68	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	59	conj	50:obl:con|59:conj:e	_
 69-70	del	_	_	_	_	_	_	_	_
 69	di	di	ADP	E	_	71	case	71:case	_
 70	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	71:det	_
@@ -7435,7 +7435,7 @@
 7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 8	molto	molto	ADV	B	_	9	advmod	9:advmod	_
 9	più	più	ADV	B	_	10	advmod	10:advmod	_
-10	consistenti	consistente	ADJ	A	Number=Plur	3	advcl	3:advcl:fino_quando	_
+10	consistenti	consistente	ADJ	A	Number=Plur	3	advcl	3:advcl:fino_a_quando	_
 11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	12:det	_
 12	versamenti	versamento	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	10:nsubj|20:obj	_
 13	(	(	PUNCT	FB	_	20	punct	20:punct	SpaceAfter=No
@@ -12105,7 +12105,7 @@
 9	in	in	ADP	E	_	10	case	10:case	_
 10	Bellott	Bellott	PROPN	SP	_	6	obl	6:obl:in	_
 11	v.	versus	ADP	E	_	12	case	12:case	_
-12	Mountjoy	Mountjoy	PROPN	SP	_	10	nmod	10:nmod:versus	SpaceAfter=No
+12	Mountjoy	Mountjoy	PROPN	SP	_	10	nmod	10:nmod	SpaceAfter=No
 13	,	,	PUNCT	FF	_	10	punct	10:punct	_
 14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
 15	processo	processo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	10:nmod|17:nsubj	_
@@ -13424,7 +13424,7 @@
 10	ad	a	ADP	E	_	9	fixed	9:fixed	_
 11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	13:det	_
 12	altro	altro	ADJ	A	Gender=Masc|Number=Sing	13	amod	13:amod	_
-13	regno	regno	NOUN	S	Gender=Masc|Number=Sing	5	obl	5:obl:che_ad	_
+13	regno	regno	NOUN	S	Gender=Masc|Number=Sing	5	obl	5:obl:che_a	_
 14-15	della	_	_	_	_	_	_	_	_
 14	di	di	ADP	E	_	16	case	16:case	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_

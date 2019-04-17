@@ -2902,7 +2902,7 @@
 14	Brosse	Brosse	PROPN	SP	_	11	nmod	11:nmod	_
 15	pour	pour	ADP	E	_	17	case	17:case	_
 16	le	le	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	_
-17	sein	sein	NOUN	S	Gender=Masc|Number=Sing	14	nmod	14:nmod:pour	SpaceAfter=No
+17	sein	sein	NOUN	S	Gender=Masc|Number=Sing	14	nmod	14:nmod	SpaceAfter=No
 18	"	"	PUNCT	FB	_	14	punct	14:punct	_
 19	di	di	ADP	E	_	20	case	20:case	_
 20	Jeanne	Jeanne	PROPN	SP	_	14	nmod	14:nmod:di	_
@@ -3018,13 +3018,13 @@
 
 # sent_id = isst_tanl-3618
 # text = Adesso, comunque, che finalmente sembra essersi decisa a parlare, è scoppiato il finimondo.
-1	Adesso	adesso	ADV	B	_	7	mark	7:mark	SpaceAfter=No
+1	Adesso	adesso	ADV	B	_	7	advmod	7:advmod	SpaceAfter=No
 2	,	,	PUNCT	FF	_	3	punct	3:punct	_
 3	comunque	comunque	ADV	B	_	7	advmod	7:advmod	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	3:punct	_
 5	che	che	SCONJ	CS	_	7	mark	7:mark	_
 6	finalmente	finalmente	ADV	B	_	7	advmod	7:advmod	_
-7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:adesso	_
+7	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:che	_
 8-9	essersi	_	_	_	_	_	_	_	_
 8	esser	essere	AUX	VA	VerbForm=Inf	10	aux	10:aux	_
 9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	10:expl	_
@@ -8220,9 +8220,9 @@
 15	Global	global	ADJ	A	_	16	amod	16:amod	_
 16	Monitoring	monitoring	NOUN	S	Number=Sing	0	root	0:root	_
 17	for	for	ADP	E	_	18	case	18:case	_
-18	Security	security	NOUN	S	Number=Sing	16	nmod	16:nmod:for	_
+18	Security	security	NOUN	S	Number=Sing	16	nmod	16:nmod	_
 19	and	and	CCONJ	CC	_	20	cc	20:cc	_
-20	Sustenaibility	sustenaibility	NOUN	S	Number=Sing	18	conj	16:nmod:for|18:conj:and	_
+20	Sustenaibility	sustenaibility	NOUN	S	Number=Sing	18	conj	16:nmod|18:conj	_
 21	(	(	PUNCT	FB	_	22	punct	22:punct	SpaceAfter=No
 22	GMOSS	GMOSS	PROPN	SP	_	16	appos	16:appos	SpaceAfter=No
 23	)	)	PUNCT	FB	_	22	punct	22:punct	SpaceAfter=No
@@ -8231,7 +8231,7 @@
 26	System	system	NOUN	S	_	16	conj	16:conj:e	_
 27	for	for	ADP	E	_	29	case	29:case	_
 28	Fire	fire	NOUN	S	Number=Sing	29	nmod	29:nmod	_
-29	Detection	detection	NOUN	S	Number=Sing	26	nmod	26:nmod:for	_
+29	Detection	detection	NOUN	S	Number=Sing	26	nmod	26:nmod	_
 30	(	(	PUNCT	FB	_	31	punct	31:punct	SpaceAfter=No
 31	SFIDE	sfida	NOUN	S	Gender=Fem|Number=Plur	26	appos	26:appos	SpaceAfter=No
 32	)	)	PUNCT	FB	_	31	punct	31:punct	SpaceAfter=No
@@ -12241,7 +12241,7 @@
 16	che	che	SCONJ	CS	_	14	fixed	14:fixed	_
 17	non	non	ADV	BN	PronType=Neg	19	advmod	19:advmod	_
 18	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	19:aux:pass	_
-19	adempiuti	adempiere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	5:advcl:fino_che	_
+19	adempiuti	adempiere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	5:advcl:fino_a_che	_
 20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	22:det	_
 21	pertinenti	pertinente	ADJ	A	Number=Plur	22	amod	22:amod	_
 22	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	19	nsubj:pass	19:nsubj:pass	SpaceAfter=No

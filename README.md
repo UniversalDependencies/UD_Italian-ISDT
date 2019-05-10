@@ -50,6 +50,9 @@ The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly s
 
 # Changelog
 
+* 2019-05-1 v2.4
+  * validated with stricter validation script
+
 * 2018-11-01 v2.3
   * added enhanced dependencies
 

@@ -566,7 +566,7 @@
 10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	7	nmod	7:nmod:di	_
 11	tra	tra	ADP	E	_	13	case	13:case	_
 12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	_
-13	locali	locale	NOUN	S	Gender=Masc|Number=Plur	7	obl	7:obl:tra	SpaceAfter=No
+13	locali	locale	NOUN	S	Gender=Masc|Number=Plur	1	obl	1:obl:tra	SpaceAfter=No
 14	;	;	PUNCT	FC	_	7	punct	7:punct	_
 
 # sent_id = isst_tanl-475

@@ -29,7 +29,7 @@
     <tag name="PROPN">14771</tag><!-- Italia, Shakespeare, Balzac, Roma, Europa, San, Stati, Uniti, Marco, Unione -->
     <tag name="PUNCT">33883</tag><!-- ,, ., ", ?, ), (, :, -, ;, [ -->
     <tag name="SCONJ">3042</tag><!-- che, se, quando, perché, come, mentre, qualora, dopo, purché, finché -->
-    <tag name="SYM">102</tag><!-- %, &, +, -, 800-196.196, h​t​t​p​:​/​/​e​u​r​o​p​a​.​e​u​.​i​n​t​/​c​o​m​m​/​s​e​c​r​e​t​a​r​i​a​t​@​g​e​n​e​r​a​l​/​s​g​b​/​s​t​a​t​e​@​a​i​d​s, h​t​t​p​:​/​/​w​w​w​.​l​i​n​k​i​e​s​t​a​.​i​t​/​L​o​c​a​t​e​l​l​i​-​l​o​m​b​a​r​d​i​a​-​N​i​c​o​l​i​-​r​e​g​i​o​n​e, www.amnesty.it, w​w​w​.​c​e​n​t​r​o​d​o​n​m​i​l​a​n​i​.​o​r​g, www.dueparole.it -->
+    <tag name="SYM">102</tag><!-- %, &, +, -, 800-196.196, http://europa.eu.int/comm/secretariat@general/sgb/state@aids, http://www.linkiesta.it/Locatelli-lombardia-Nicoli-regione, www.amnesty.it, www.centrodonmilani.org, www.dueparole.it -->
     <tag name="VERB">25248</tag><!-- avere, fare, essere, vedere, trovare, dire, chiamare, andare, dare, tenere -->
     <tag name="X">291</tag><!-- a, b, de, Illusions, perdues, c, f, home, the, Bombo -->
   </tags>

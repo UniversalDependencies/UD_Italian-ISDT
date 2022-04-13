@@ -863,7 +863,7 @@
 # text = "Lui le regalò un porcellino salvadanaio".
 1	"	"	PUNCT	FB	_	4	punct	4:punct	SpaceAfter=No
 2	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
-3	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	4	iobj	4:iobj	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	4:iobj	_
 4	regalò	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
 6	porcellino	porcellino	NOUN	S	Gender=Masc|Number=Sing	4	obj	4:obj	_
@@ -1371,7 +1371,7 @@
 12	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	13:det:poss	_
 13	vita	vita	NOUN	S	Gender=Fem|Number=Sing	10	obj	10:obj	SpaceAfter=No
 14	,	,	PUNCT	FF	_	8	punct	8:punct	_
-15	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	_
+15	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	_
 16	perderà	perdere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 17	"	"	PUNCT	FB	_	16	punct	16:punct	SpaceAfter=No
 18	.	.	PUNCT	FS	_	16	punct	16:punct	_
@@ -1613,7 +1613,7 @@
 
 # sent_id = isst_tanl-1911
 # text = Le è simpatica Nicole Kidman?
-1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	3	iobj	3:iobj	_
+1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	3:iobj	_
 2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
 3	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	0	root	0:root	_
 4	Nicole	Nicole	PROPN	SP	_	3	nsubj	3:nsubj	_
@@ -2953,7 +2953,7 @@
 26	"	"	PUNCT	FB	_	27	punct	27:punct	SpaceAfter=No
 27-28	accoglierla	_	_	_	_	_	_	_	SpaceAfter=No
 27	accoglier	accogliere	VERB	V	VerbForm=Inf	24	advcl	24:advcl:a	_
-28	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	27:obj	_
+28	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	27:obj	_
 29	"	"	PUNCT	FB	_	27	punct	27:punct	SpaceAfter=No
 30	.	.	PUNCT	FS	_	6	punct	6:punct	_
 
@@ -7352,7 +7352,7 @@
 10	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux	11:aux	_
 11-13	vedersela	_	_	_	_	_	_	_	_
 11	veder	vedere	VERB	V	VerbForm=Inf	0	root	0:root	_
-12	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	11:expl	_
+12	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	11:expl	_
 13	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj	_
 14	con	con	ADP	E	_	16	case	16:case	_
 15	«	«	PUNCT	FB	_	16	punct	16:punct	SpaceAfter=No
@@ -9646,7 +9646,7 @@
 1	In	in	ADP	E	_	3	case	3:case	_
 2	che	che	DET	DQ	PronType=Int	3	det	3:det	_
 3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	obl	6:obl:in	_
-4	le	lo	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
 5	Hawaii	Hawaii	PROPN	SP	_	6	nsubj	6:nsubj|8:nsubj	_
 6	divennero	divenire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
@@ -10596,7 +10596,7 @@
 # sent_id = 2_Europarl-79
 # text = Secondo me, questa seconda ipotesi significherebbe rinunciare alle nostre responsabilità di parlamento, oltre a introdurre una tesi originale, un metodo finora sconosciuto che consiste nel distribuire per iscritto ai gruppi politici il discorso programmatico della commissione una settimana prima - e non il giorno prima, come era stato concordato.
 1	Secondo	secondo	ADP	E	_	2	case	2:case	_
-2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obl	7:obl:secondo	SpaceAfter=No
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	7:obl:secondo	SpaceAfter=No
 3	,	,	PUNCT	FF	_	2	punct	2:punct	_
 4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	6:det	_
 5	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	6	amod	6:amod	_

@@ -334,7 +334,7 @@
 37	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	42:nsubj|44:nsubj	_
 38	non	non	ADV	BN	PronType=Neg	42	advmod	42:advmod	_
 39	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	42	expl	42:expl	_
-40	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	42	obj	42:obj	SpaceAfter=No
+40	l'	la	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	42	obj	42:obj	SpaceAfter=No
 41	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	42:aux	_
 42	sentita	sentire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	conj	23:conj:ma	_
 43	di	di	ADP	E	_	44	mark	44:mark	_

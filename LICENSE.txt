@@ -1,14 +1,14 @@
-User agreement for the resource IUDT
+User agreement for the resource ISDT
 ------------------------------------
 
-The IUDT Treebank (Italian Universal Dependency Treebank) is a
+The ISDT Treebank (Italian Universal Dependency Treebank) is a
 collection of linguistically annotated Italian documents, developed
-with the partial support of a Google gift. IUDT originates from ISDT, a
+with the partial support of a Google gift. ISDT originates from ISDT, a
 conversion and harmonization effort of existing Italian treebanks,
 partially supported by the the Ministero dell'Istruzione, Università e
 Ricerca (Project PRIN 2008).
 
-IUDT is released by the authors under the Creative Commons
+ISDT is released by the authors under the Creative Commons
 Attribution-NonCommercial-ShareAlike 3.0 Unported licence.
 
 These data are released for research purposes only.  The following

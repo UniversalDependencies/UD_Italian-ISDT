@@ -10,7 +10,7 @@
     <dev><sentences>564</sentences><tokens>11133</tokens><words>11908</words><fused>775</fused></dev>
     <test><sentences>482</sentences><tokens>9680</tokens><words>10417</words><fused>736</fused></test>
   </size>
-  <lemmas unique="18779" /><!-- il, di, ,, ., essere, a, in, e, uno, che, da, avere, per, ", si -->
+  <lemmas unique="18778" /><!-- il, di, ,, ., essere, a, in, e, uno, che, da, avere, per, ", si -->
   <forms unique="27542" /><!-- di, ,, il, ., la, a, in, e, i, l', le, che, è, da, per -->
   <fusions unique="810" /><!-- del, della, dei, al, nel, dell', delle, alla, dal, all', nella, degli, dalla, ai, alle -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -34,7 +34,7 @@
     <tag name="X">292</tag><!-- a, b, de, Illusions, perdues, c, f, home, the, Bombo -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="40">
+  <feats unique="41">
     <feat name="Clitic" value="Yes" upos="PRON">4674</feat><!-- si, ci, lo, ne, c', mi, la, li, gli, le -->
     <feat name="Definite" value="Def" upos="DET,PRON">38095</feat><!-- il, la, i, l', le, gli, lo, l’, the, les -->
     <feat name="Definite" value="Ind" upos="DET">4621</feat><!-- un, una, un', uno, un’, A, dei, Une, delle, l' -->
@@ -71,6 +71,7 @@
     <feat name="Tense" value="Imp" upos="AUX,VERB">1805</feat><!-- era, erano, aveva, avevano, fosse, avesse, chiamava, poteva, faceva, fossero -->
     <feat name="Tense" value="Past" upos="AUX,NOUN,VERB">10258</feat><!-- stato, stata, fu, fatto, stati, visto, venne, vinto, avuto, state -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">17199</feat><!-- è, ha, sono, hanno, può, possono, deve, sia, viene, trova -->
+    <feat name="Typo" value="Yes" upos="ADJ">1</feat><!-- 1 -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">20788</feat><!-- è, ha, sono, hanno, può, era, possono, deve, sia, fu -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">721</feat><!-- considerando, essendo, facendo, portando, cercando, lasciando, seguendo, tenendo, dando, parlando -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">6328</feat><!-- essere, fare, far, aver, vedere, avere, dire, dare, pagare, andare -->
@@ -88,11 +89,11 @@
     <dep name="aux:pass">2234</dep>
     <dep name="case">41809</dep>
     <dep name="cc">8158</dep>
-    <dep name="ccomp">1455</dep>
+    <dep name="ccomp">1456</dep>
     <dep name="compound">758</dep>
     <dep name="conj">10121</dep>
     <dep name="cop">3432</dep>
-    <dep name="csubj">314</dep>
+    <dep name="csubj">313</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">14</dep>
     <dep name="det">46347</dep>
@@ -110,12 +111,12 @@
     <dep name="goeswith">1</dep>
     <dep name="iobj">694</dep>
     <dep name="mark">6290</dep>
-    <dep name="nmod">23940</dep>
-    <dep name="nsubj">12822</dep>
+    <dep name="nmod">23941</dep>
+    <dep name="nsubj">12817</dep>
     <dep name="nsubj:pass">2309</dep>
     <dep name="nummod">3559</dep>
     <dep name="obj">10239</dep>
-    <dep name="obl">17222</dep>
+    <dep name="obl">17226</dep>
     <dep name="obl:agent">1138</dep>
     <dep name="orphan">40</dep>
     <dep name="parataxis">420</dep>

@@ -1592,8 +1592,8 @@
 # text = gusto un po' facile e appeal sicuro.
 1	gusto	gusto	NOUN	S	Gender=Masc|Number=Sing	0	root	0:root	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	3:det	_
-3	po'	poco	ADV	B	_	1	advmod	1:advmod	_
-4	facile	facile	ADJ	A	Number=Sing	3	amod	3:amod	_
+3	po'	poco	ADV	B	_	4	advmod	4:advmod	_
+4	facile	facile	ADJ	A	Number=Sing	1	amod	1:amod	_
 5	e	e	CCONJ	CC	_	6	cc	6:cc	_
 6	appeal	appeal	NOUN	S	_	1	conj	1:conj:e	_
 7	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	6	amod	6:amod	SpaceAfter=No
@@ -2098,7 +2098,7 @@
 4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	sempre	sempre	ADV	B	_	4	advmod	4:advmod	_
 6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
-7	po'	poco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nmod	8:nmod	_
+7	po'	poco	ADV	B	_	4	advmod	4:advmod	_
 8	male	male	NOUN	S	Gender=Masc|Number=Sing	4	obj	4:obj	SpaceAfter=No
 9	,	,	PUNCT	FF	_	19	punct	19:punct	_
 10	ma	ma	CCONJ	CC	_	19	cc	19:cc	_
@@ -4276,7 +4276,7 @@
 12	di	di	ADP	E	_	13	case	13:case	_
 13	proprietà	proprietà	NOUN	S	Gender=Fem	11	nmod	11:nmod:di	_
 14	[	[	PUNCT	FB	_	15	punct	15:punct	SpaceAfter=No
-15	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	_
+15	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	_
 16	1100	1100	NUM	N	NumType=Card	15	obj	15:obj	SpaceAfter=No
 17	]	]	PUNCT	FB	_	15	punct	15:punct	SpaceAfter=No
 18	.	.	PUNCT	FS	_	3	punct	3:punct	_
@@ -13206,11 +13206,11 @@
 5	set	set	NOUN	S	Gender=Masc	2	obj	2:obj	_
 6	di	di	ADP	E	_	8	case	8:case	_
 7	6	6	NUM	N	NumType=Card	8	nummod	8:nummod	_
-8	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	5:nmod:di|19:nsubj:pass	_
+8	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	5:nmod:di|12:nsubj|19:nsubj:pass	_
 9	micologiche	micologico	ADJ	A	Gender=Fem|Number=Plur	8	amod	8:amod	SpaceAfter=No
 10	,	,	PUNCT	FF	_	8	punct	8:punct	_
-11	che	che	PRON	PR	PronType=Rel	12	nsubj	12:nsubj	_
-12	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	8:parataxis	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	8:ref	_
+12	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
 14	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	12	obj	12:obj	SpaceAfter=No
 15	,	,	PUNCT	FF	_	12	punct	12:punct	_

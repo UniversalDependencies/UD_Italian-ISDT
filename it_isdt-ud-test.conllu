@@ -3564,7 +3564,7 @@
 # text = stillicidio [v. 908]).
 1	stillicidio	stillicidio	NOUN	S	Gender=Masc|Number=Sing	0	root	0:root	_
 2	[	[	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
-3	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	1:advcl	_
+3	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	_
 4	908	908	NUM	N	NumType=Card	3	obj	3:obj	SpaceAfter=No
 5	]	]	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
 6	)	)	PUNCT	FB	_	1	punct	1:punct	SpaceAfter=No
@@ -3995,7 +3995,7 @@
 27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	_
 28	specificatore	specificatore	NOUN	S	Gender=Masc|Number=Sing	25	nmod	25:nmod:di	_
 29	[	[	PUNCT	FB	_	30	punct	30:punct	SpaceAfter=No
-30	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl	_
+30	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis	11:parataxis	_
 31	940	940	NUM	N	NumType=Card	30	obj	30:obj	SpaceAfter=No
 32	]	]	PUNCT	FB	_	30	punct	30:punct	SpaceAfter=No
 33	.	.	PUNCT	FS	_	11	punct	11:punct	_
@@ -4066,7 +4066,7 @@
 12	come	come	ADP	E	_	13	case	13:case	_
 13	locazione	locazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	11:obl:come	_
 14	[	[	PUNCT	FB	_	15	punct	15:punct	SpaceAfter=No
-15	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl	_
+15	v.	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	parataxis	13:parataxis	_
 16	1571	1571	NUM	N	NumType=Card	15	obj	15:obj	SpaceAfter=No
 17	]	]	PUNCT	FB	_	15	punct	15:punct	SpaceAfter=No
 18	,	,	PUNCT	FF	_	6	punct	6:punct	_

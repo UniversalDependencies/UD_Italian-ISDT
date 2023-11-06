@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Italian-ISDT:
-commit 276e0f07ad1bb59f38ba1ea164fab968422b55d4
-Merge: 5e50309 a7f9181
+commit a3823ffd58c4b0d31eb962449b548ae0715112f9
+Merge: 66573c3 450d8bc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 298337 of 298337 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.396447440068.

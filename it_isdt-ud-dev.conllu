@@ -512,7 +512,7 @@
 3	mai	mai	ADV	B	_	5	advmod	5:advmod	_
 4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	5:aux:pass	_
 5	accertato	accertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
-6	chi	chi	PRON	PQ	PronType=Int	5	nsubj:pass	5:nsubj:pass	_
+6	chi	chi	PRON	PQ	PronType=Int	5	nsubj	5:nsubj	_
 7	volle	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
 9	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	10:det:poss	_
@@ -1609,7 +1609,7 @@
 6	"	"	PUNCT	FB	_	4	punct	4:punct	_
 7	poco	poco	ADV	B	_	8	advmod	8:advmod	_
 8	più	più	ADV	B	_	4	advmod	4:advmod	_
-9	che	che	SCONJ	CS	_	8	fixed	8:fixed	_
+9	che	che	ADP	E	_	8	fixed	8:fixed	_
 10	quarantenne	quarantenne	ADJ	A	Number=Sing	8	amod	8:amod	SpaceAfter=No
 11	,	,	PUNCT	FF	_	4	punct	4:punct	_
 12	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -7983,9 +7983,9 @@
 13	quale	quale	PRON	PR	Number=Sing|PronType=Rel	15	nsubj	8:ref	_
 14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	8:acl:relcl	_
-16	uscire	uscire	VERB	V	VerbForm=Inf	15	ccomp	15:ccomp	_
+16	uscire	uscire	VERB	V	VerbForm=Inf	15	xcomp	15:ccomp	_
 17	due	due	NUM	N	NumType=Card	18	nummod	18:nummod	_
-18	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	16:nsubj	_
+18	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	15	obj	15:obj	_
 19-20	dal	_	_	_	_	_	_	_	_
 19	da	da	ADP	E	_	21	case	21:case	_
 20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
@@ -8858,7 +8858,7 @@
 
 # sent_id = tut-3787
 # text = Oltre ai tessuti, la stoppa del lino viene utilizzata per la creazione di corda e spago e per la produzione della carta.
-1	Oltre	oltre	ADP	E	_	4	case	4:case	_
+1	Oltre	oltre	ADV	B	_	4	case	4:case	_
 2-3	ai	_	_	_	_	_	_	_	_
 2	a	a	ADP	E	_	1	fixed	1:fixed	_
 3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	_
@@ -11936,7 +11936,7 @@
 19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
 20	peso	peso	NOUN	S	Gender=Masc|Number=Sing	18	obj	18:obj	_
 21	attuale	attuale	ADJ	A	Number=Sing	20	amod	20:amod	_
-22	fino	fino	ADP	E	_	26	case	26:case	_
+22	fino	fino	ADV	B	_	26	case	26:case	_
 23-24	al	_	_	_	_	_	_	_	_
 23	a	a	ADP	E	_	22	fixed	22:fixed	_
 24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	26:det	_
@@ -12926,7 +12926,7 @@
 25	di	di	ADP	E	_	26	case	26:case	_
 26	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	24	nmod	24:nmod:di	_
 27	femminile	femminile	ADJ	A	Number=Sing	26	amod	26:amod	_
-28	fino	fino	ADP	E	_	32	case	32:case	_
+28	fino	fino	ADV	B	_	32	case	32:case	_
 29-30	al	_	_	_	_	_	_	_	_
 29	a	a	ADP	E	_	28	fixed	28:fixed	_
 30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	_
@@ -13247,7 +13247,7 @@
 # sent_id = 10_new-8
 # text = Regge fino a 30.000 volte la propria massa.
 1	Regge	reggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-2	fino	fino	ADP	E	_	5	case	5:case	_
+2	fino	fino	ADV	B	_	5	case	5:case	_
 3	a	a	ADP	E	_	2	fixed	2:fixed	_
 4	30.000	30.000	NUM	N	NumType=Card	5	nummod	5:nummod	_
 5	volte	volta	NOUN	S	Gender=Fem|Number=Plur	1	obl	1:obl:fino_a	_
@@ -13325,7 +13325,7 @@
 9	americano	americano	NOUN	S	Gender=Masc|Number=Sing	1	conj	1:conj:e	_
 10	patriottico	patriottico	ADJ	A	Gender=Masc|Number=Sing	9	amod	9:amod	_
 11	proprio	proprio	ADV	B	_	14	advmod	14:advmod	_
-12	grazie	grazie	ADP	E	_	14	case	14:case	_
+12	grazie	grazie	NOUN	S	_	14	case	14:case	_
 13	a	a	ADP	E	_	12	fixed	12:fixed	_
 14	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	9	nmod	9:nmod:grazie_a	SpaceAfter=No
 15	.	.	PUNCT	FS	_	1	punct	1:punct	_
@@ -13917,7 +13917,7 @@
 10	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	8	nmod	8:nmod:di	_
 11	di	di	ADP	E	_	12	case	12:case	_
 12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	nmod	10:nmod:di	_
-13	prima	prima	ADP	E	_	17	case	17:case	_
+13	prima	prima	ADV	B	_	17	case	17:case	_
 14-15	delle	_	_	_	_	_	_	_	_
 14	di	di	ADP	E	_	13	fixed	13:fixed	_
 15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	17:det	_
@@ -13970,7 +13970,7 @@
 
 # sent_id = 10_new-52
 # text = Quindi i funghi ed il micelio sequestrano la Co2 sotto forma di ossalati di calcio.
-1	Quindi	quindi	CCONJ	CC	_	7	cc	7:cc	_
+1	Quindi	quindi	ADV	B	_	7	advmod	7:advmod	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	_
 3	funghi	fungo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	7:nsubj	_
 4	ed	e	CCONJ	CC	_	6	cc	6:cc	_
@@ -14211,7 +14211,7 @@
 
 # sent_id = 10_new-67
 # text = Quindi l'idea che altrove, su altri pianeti, esistano funghi, penso sia una conclusione evidente.
-1	Quindi	quindi	CCONJ	CC	_	14	cc	14:cc	_
+1	Quindi	quindi	ADV	B	_	14	advmod	14:advmod	_
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	3:det	SpaceAfter=No
 3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	17:nsubj	_
 4	che	che	SCONJ	CS	_	11	mark	11:mark	_

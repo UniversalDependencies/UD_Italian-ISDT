@@ -50,6 +50,9 @@ The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly s
 
 # Changelog
 
+* 2024-10-27 v2.15
+  * fixed dependencies of determiners
+  
 * 2024-5-1 v2.14
   * started to fix multiwords
   

@@ -10,17 +10,17 @@
     <dev><sentences>564</sentences><tokens>11132</tokens><words>11907</words><fused>775</fused></dev>
     <test><sentences>482</sentences><tokens>9680</tokens><words>10417</words><fused>736</fused></test>
   </size>
-  <lemmas unique="18776" /><!-- il, di, ,, ., essere, a, in, e, uno, che, da, avere, per, ", si -->
+  <lemmas unique="18775" /><!-- il, di, ,, ., essere, a, in, e, uno, che, da, avere, per, ", si -->
   <forms unique="27541" /><!-- di, ,, il, ., la, a, in, e, i, l', le, che, è, da, per -->
   <fusions unique="810" /><!-- del, della, dei, al, nel, dell', delle, alla, dal, all', nella, degli, dalla, ai, alle -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">19777</tag><!-- primo, altro, nuovo, italiano, stesso, grande, pubblico, ultimo, maggiore, europeo -->
+    <tag name="ADJ">19779</tag><!-- primo, altro, nuovo, italiano, stesso, grande, pubblico, ultimo, maggiore, europeo -->
     <tag name="ADP">45230</tag><!-- di, a, in, da, per, con, su, come, tra, dopo -->
     <tag name="ADV">11510</tag><!-- non, più, anche, dove, come, quando, solo, prima, sempre, ancora -->
     <tag name="AUX">11704</tag><!-- essere, avere, potere, dovere, venire, volere, stare, andare, fare, sapere -->
     <tag name="CCONJ">8141</tag><!-- e, o, ma, sia, cioè, né, oppure, ovvero, che, nonché -->
-    <tag name="DET">48644</tag><!-- il, uno, suo, questo, quale, tutto, ogni, loro, che, alcuno -->
+    <tag name="DET">48642</tag><!-- il, uno, suo, questo, quale, tutto, ogni, loro, che, alcuno -->
     <tag name="INTJ">65</tag><!-- sì, no, ah, grazie, ahimè, oh, vabbè, Ebbene, Ouch, ahò -->
     <tag name="NOUN">59428</tag><!-- anno, diritto, parte, articolo, fondo, presidente, legge, stato, paese, opera -->
     <tag name="NUM">5188</tag><!-- due, 1, 2, tre, 3, cinque, 4, mila, quattro, 5 -->
@@ -57,14 +57,14 @@
     <feat name="Person" value="3" upos="AUX,PRON,VERB">22853</feat><!-- è, si, ha, sono, hanno, può, era, lo, possono, deve -->
     <feat name="Polarity" value="Neg" upos="INTJ">15</feat><!-- no -->
     <feat name="Polarity" value="Pos" upos="INTJ">18</feat><!-- sì -->
-    <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">1863</feat><!-- sua, suo, loro, suoi, sue, proprio, nostra, mio, nostro, propria -->
+    <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">1862</feat><!-- sua, suo, loro, suoi, sue, proprio, nostra, mio, nostro, mia -->
     <feat name="PronType" value="Art" upos="DET">42713</feat><!-- il, la, i, l', le, un, gli, una, lo, un' -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">1912</feat><!-- questo, questa, quello, questi, quella, queste, ciò, tale, quelle, quelli -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1911</feat><!-- questo, questa, quello, questi, quella, queste, ciò, tale, quelle, quelli -->
     <feat name="PronType" value="Exc" upos="DET">5</feat><!-- che -->
     <feat name="PronType" value="Ind" upos="DET,PRON">2622</feat><!-- ogni, alcuni, uno, tutto, molti, qualche, altri, tutti, molte, altro -->
     <feat name="PronType" value="Int" upos="DET,PRON">1844</feat><!-- quale, chi, che, qual, quanti, cosa, quanto, quante, cos', quali -->
     <feat name="PronType" value="Neg" upos="ADV">1971</feat><!-- non, neppure, nemmeno, no, neanche, mica, nè, perniente -->
-    <feat name="PronType" value="Prs" upos="ADJ,DET,PRON">7263</feat><!-- si, sua, ci, suo, loro, lo, ne, c', mi, suoi -->
+    <feat name="PronType" value="Prs" upos="ADJ,DET,PRON">7262</feat><!-- si, sua, ci, suo, loro, lo, ne, c', mi, suoi -->
     <feat name="PronType" value="Rel" upos="DET,PRON,SCONJ">3176</feat><!-- che, cui, chi, quale, quanto, quali, chiunque, dove, quanti, quando -->
     <feat name="PronType" value="Tot" upos="DET">411</feat><!-- tutti, tutte, tutto, tutta, entrambi, entrambe, ambedue, quanti, tutt' -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">642</feat><!-- sarà, saranno, potrà, dovrà, potranno, dovranno, verrà, avrà, vedrà, farà -->
@@ -83,7 +83,7 @@
     <dep name="acl:relcl">3173</dep>
     <dep name="advcl">3715</dep>
     <dep name="advmod">10468</dep>
-    <dep name="amod">16686</dep>
+    <dep name="amod">16688</dep>
     <dep name="appos">916</dep>
     <dep name="aux">6036</dep>
     <dep name="aux:pass">2234</dep>
@@ -96,8 +96,8 @@
     <dep name="csubj">314</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">14</dep>
-    <dep name="det">46347</dep>
-    <dep name="det:poss">1870</dep>
+    <dep name="det">46346</dep>
+    <dep name="det:poss">1869</dep>
     <dep name="det:predet">411</dep>
     <dep name="discourse">62</dep>
     <dep name="dislocated">32</dep>

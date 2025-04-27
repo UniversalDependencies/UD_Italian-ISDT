@@ -1608,7 +1608,7 @@
 5	toscano	toscano	ADJ	A	Gender=Masc|Number=Sing	4	amod	4:amod	SpaceAfter=No
 6	"	"	PUNCT	FB	_	4	punct	4:punct	_
 7	poco	poco	ADV	B	_	8	advmod	8:advmod	_
-8	più	più	ADV	B	_	4	advmod	4:advmod	_
+8	più	più	ADV	B	ExtPos=ADV	4	advmod	4:advmod	_
 9	che	che	ADP	E	_	8	fixed	8:fixed	_
 10	quarantenne	quarantenne	ADJ	A	Number=Sing	8	amod	8:amod	SpaceAfter=No
 11	,	,	PUNCT	FF	_	4	punct	4:punct	_
@@ -13619,12 +13619,12 @@
 # text = Notate come man mano che il micelio cresce, conquista il terreno e poi forma la rete.
 1	Notate	notare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	come	come	ADP	E	_	10	mark	10:mark	_
-3	man	mano	NOUN	S	Gender=Fem|Number=Sing	10	obl	10:obl	_
+3	man	mano	NOUN	S	ExtPos=SCONJ|Gender=Fem|Number=Sing	8	mark	8:mark	_
 4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	fixed	3:fixed	_
 5	che	che	SCONJ	CS	_	3	fixed	3:fixed	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	micelio	micelio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	_
-8	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	3:acl	SpaceAfter=No
+8	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	SpaceAfter=No
 9	,	,	PUNCT	FF	_	8	punct	8:punct	_
 10	conquista	conquistare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_

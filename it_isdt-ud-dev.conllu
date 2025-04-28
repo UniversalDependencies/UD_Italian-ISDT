@@ -578,7 +578,7 @@
 7	manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 8	da	da	ADP	E	_	9	case	9:case	_
 9	Martha	Martha	PROPN	SP	_	7	obl	7:obl:da	SpaceAfter=No
-10	's	's	PART	PART	_	9	case	9:case	_
+10	's	's	PART	PART	_	9	nmod	9:nmod	_
 11	Vineyard	Vineyard	PROPN	SP	_	9	flat:name	9:flat:name	SpaceAfter=No
 12	,	,	PUNCT	FF	_	9	punct	9:punct	_
 13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	14:det	SpaceAfter=No
@@ -1169,11 +1169,11 @@
 10	Bogotà	Bogotà	PROPN	SP	_	8	obl	8:obl:a	SpaceAfter=No
 11	,	,	PUNCT	FF	_	10	punct	10:punct	_
 12	dove	dove	ADV	B	_	28	advmod	10:ref	_
-13	prima	prima	ADV	B	ExtPos=ADP	16	mark	16:mark	_
+13	prima	prima	ADV	B	ExtPos=ADV	28	advmod	28:advmod	_
 14	ancora	ancora	ADV	B	_	13	fixed	13:fixed	_
-15	di	di	ADP	E	_	13	fixed	13:fixed	_
+15	di	di	ADP	E	_	16	mark	16:mark	_
 16-17	sottoporlo	_	_	_	_	_	_	_	_
-16	sottopor	sottoporre	VERB	V	VerbForm=Inf	28	advcl	28:advcl:prima_di	_
+16	sottopor	sottoporre	VERB	V	VerbForm=Inf	13	advcl	13:advcl:di	_
 17	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	_
 18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
 18	a	a	ADP	E	_	20	case	20:case	_
@@ -4230,7 +4230,7 @@
 44	per	per	ADP	E	_	47	case	47:case	_
 45	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	47:det	_
 46	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	47	det:poss	47:det:poss	_
-47	origini	origine	NOUN	S	Gender=Fem|Number=Plur	52	nmod	52:nmod	SpaceAfter=No
+47	origini	origine	NOUN	S	Gender=Fem|Number=Plur	52	nmod	52:nmod:per	SpaceAfter=No
 48	,	,	PUNCT	FF	_	47	punct	47:punct	_
 49	di	di	ADP	E	_	52	case	52:case	_
 50	assai	assai	ADV	B	_	51	advmod	51:advmod	_
@@ -13619,12 +13619,12 @@
 # text = Notate come man mano che il micelio cresce, conquista il terreno e poi forma la rete.
 1	Notate	notare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	come	come	ADP	E	_	10	mark	10:mark	_
-3	man	mano	NOUN	S	ExtPos=SCONJ|Gender=Fem|Number=Sing	8	mark	8:mark	_
+3	man	mano	NOUN	S	ExtPos=ADV|Gender=Fem|Number=Sing	10	obl	10:obl	_
 4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	3	fixed	3:fixed	_
-5	che	che	SCONJ	CS	_	3	fixed	3:fixed	_
+5	che	che	SCONJ	CS	_	8	mark	8:mark	_
 6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	_
 7	micelio	micelio	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	_
-8	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	10:advcl	SpaceAfter=No
+8	cresce	crescere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:che	SpaceAfter=No
 9	,	,	PUNCT	FF	_	8	punct	8:punct	_
 10	conquista	conquistare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
 11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	12:det	_

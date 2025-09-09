@@ -163,6 +163,7 @@ Kluwer, Dordrecht.
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: legal news wiki
 Lemmas: converted from manual
 UPOS: converted from manual

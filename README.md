@@ -50,6 +50,9 @@ The Corpus (14,167 sentences; 278,429 tokens; 298,344 words) has been randomly s
 
 # Changelog
 
+* 2025-10-21 v2.17
+  * Corrected warnings and errors signalled by the new validator
+ 
 * 2025-05-27 v2.16
   * added feature ExtPos to fixed expressions
   
@@ -163,6 +166,7 @@ Kluwer, Dordrecht.
 Data available since: UD v1.0
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: legal news wiki
 Lemmas: converted from manual
 UPOS: converted from manual
